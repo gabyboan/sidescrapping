@@ -1,0 +1,3905 @@
+{
+  "productos": {
+    "12319-434NU4": {
+      "centavos": 110000000,
+      "secuencia": 0
+    },
+    "12319-A72D8H": {
+      "centavos": 116475000,
+      "secuencia": 0
+    },
+    "15369-2RAK5T": {
+      "centavos": 3149950,
+      "secuencia": 0
+    },
+    "15369-8ATV9V": {
+      "centavos": 22500000,
+      "secuencia": 0
+    },
+    "15369-CCV2PB": {
+      "centavos": 43699950,
+      "secuencia": 0
+    },
+    "15369-GUVMM7": {
+      "centavos": 3899950,
+      "secuencia": 0
+    },
+    "15369-MPMW3Z": {
+      "centavos": 33000000,
+      "secuencia": 0
+    },
+    "15369-NK88XZ": {
+      "centavos": 7900000,
+      "secuencia": 0
+    },
+    "15369-P8H7XJ": {
+      "centavos": 14299950,
+      "secuencia": 0
+    },
+    "15369-PEQW6G": {
+      "centavos": 25450000,
+      "secuencia": 0
+    },
+    "15369-ZZQDTB": {
+      "centavos": 3119950,
+      "secuencia": 0
+    },
+    "19856-3N4PX9": {
+      "centavos": 7395000,
+      "secuencia": 0
+    },
+    "19856-3XJS7K": {
+      "centavos": 4260000,
+      "secuencia": 0
+    },
+    "19856-47FGGP": {
+      "centavos": 41040000,
+      "secuencia": 0
+    },
+    "19856-8CKBEW": {
+      "centavos": 11195000,
+      "secuencia": 0
+    },
+    "19856-8JTRSR": {
+      "centavos": 6160000,
+      "secuencia": 0
+    },
+    "19856-ARHFMF": {
+      "centavos": 5920000,
+      "secuencia": 0
+    },
+    "19856-CNSY6C": {
+      "centavos": 27540000,
+      "secuencia": 0
+    },
+    "19856-CY5GDK": {
+      "centavos": 5110000,
+      "secuencia": 0
+    },
+    "19856-DV35DT": {
+      "centavos": 27785000,
+      "secuencia": 0
+    },
+    "19856-FTDRGU": {
+      "centavos": 32530000,
+      "secuencia": 0
+    },
+    "19856-H4S68W": {
+      "centavos": 6230000,
+      "secuencia": 0
+    },
+    "19856-KDZH3P": {
+      "centavos": 7395000,
+      "secuencia": 0
+    },
+    "19856-KKNUEM": {
+      "centavos": 10800000,
+      "secuencia": 0
+    },
+    "19856-KMDSMD": {
+      "centavos": 22225000,
+      "secuencia": 0
+    },
+    "19856-N6QJUE": {
+      "centavos": 4155000,
+      "secuencia": 0
+    },
+    "19856-PMZHCD": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "19856-RUYNJV": {
+      "centavos": 5715000,
+      "secuencia": 0
+    },
+    "19856-S2KK5Y": {
+      "centavos": 4920000,
+      "secuencia": 0
+    },
+    "19856-SCK4QT": {
+      "centavos": 3060000,
+      "secuencia": 0
+    },
+    "19856-SW7F2H": {
+      "centavos": 5720000,
+      "secuencia": 0
+    },
+    "19856-TDCU3Z": {
+      "centavos": 4465000,
+      "secuencia": 0
+    },
+    "19856-TGW6G7": {
+      "centavos": 4990000,
+      "secuencia": 0
+    },
+    "19856-UAJGEM": {
+      "centavos": 8220000,
+      "secuencia": 0
+    },
+    "19856-VVXDSF": {
+      "centavos": 9065000,
+      "secuencia": 0
+    },
+    "19856-ZKZXYK": {
+      "centavos": 27000000,
+      "secuencia": 0
+    },
+    "20539-2C5T4Z": {
+      "centavos": 310000000,
+      "secuencia": 0
+    },
+    "20539-38T5T8": {
+      "centavos": 49900000,
+      "secuencia": 0
+    },
+    "20539-CCD676": {
+      "centavos": 69900000,
+      "secuencia": 0
+    },
+    "20539-GDMM5J": {
+      "centavos": 449000000,
+      "secuencia": 0
+    },
+    "20539-WKKWPV": {
+      "centavos": 24900000,
+      "secuencia": 0
+    },
+    "20629-4ZW9WW": {
+      "centavos": 23960000,
+      "secuencia": 0
+    },
+    "20629-8XCAZG": {
+      "centavos": 239600000,
+      "secuencia": 0
+    },
+    "20629-9ANDMP": {
+      "centavos": 11990000,
+      "secuencia": 0
+    },
+    "20629-9CF5XC": {
+      "centavos": 13190000,
+      "secuencia": 0
+    },
+    "20629-SS5MYM": {
+      "centavos": 18030000,
+      "secuencia": 0
+    },
+    "20629-UWPFDG": {
+      "centavos": 15610000,
+      "secuencia": 0
+    },
+    "20629-YN2KG6": {
+      "centavos": 10790000,
+      "secuencia": 0
+    },
+    "20753-2RHQMY": {
+      "centavos": 1130000,
+      "secuencia": 0
+    },
+    "20753-4NUFHR": {
+      "centavos": 1020000,
+      "secuencia": 0
+    },
+    "20753-6AEDYF": {
+      "centavos": 980000,
+      "secuencia": 0
+    },
+    "20753-6DHSNT": {
+      "centavos": 1110000,
+      "secuencia": 0
+    },
+    "20753-6YF95U": {
+      "centavos": 4660000,
+      "secuencia": 0
+    },
+    "20753-7HE7H5": {
+      "centavos": 3850000,
+      "secuencia": 0
+    },
+    "20753-8H7VF6": {
+      "centavos": 380000,
+      "secuencia": 0
+    },
+    "20753-B4MKY4": {
+      "centavos": 1100000,
+      "secuencia": 0
+    },
+    "20753-BB4B3R": {
+      "centavos": 590000,
+      "secuencia": 0
+    },
+    "20753-MVR55J": {
+      "centavos": 1330000,
+      "secuencia": 0
+    },
+    "20753-PBXWQU": {
+      "centavos": 2980000,
+      "secuencia": 0
+    },
+    "20753-QRGA9X": {
+      "centavos": 1480000,
+      "secuencia": 0
+    },
+    "20753-YRFAKP": {
+      "centavos": 1100000,
+      "secuencia": 0
+    },
+    "20865-2BBCSE": {
+      "centavos": 100365500,
+      "secuencia": 0
+    },
+    "20865-9CVJMA": {
+      "centavos": 100365500,
+      "secuencia": 0
+    },
+    "20865-DNAAHH": {
+      "centavos": 104505500,
+      "secuencia": 0
+    },
+    "20865-JGAE3N": {
+      "centavos": 100365500,
+      "secuencia": 0
+    },
+    "21207-48J8G9": {
+      "centavos": 45900000,
+      "secuencia": 0
+    },
+    "21207-4UY8EY": {
+      "centavos": 42640000,
+      "secuencia": 0
+    },
+    "21207-7QSAQE": {
+      "centavos": 25970000,
+      "secuencia": 0
+    },
+    "21207-A583FT": {
+      "centavos": 21950000,
+      "secuencia": 0
+    },
+    "21207-B754Q8": {
+      "centavos": 52200000,
+      "secuencia": 0
+    },
+    "21207-BYNZQZ": {
+      "centavos": 88300000,
+      "secuencia": 0
+    },
+    "21207-C9UQD3": {
+      "centavos": 60820000,
+      "secuencia": 0
+    },
+    "21207-CTD9K4": {
+      "centavos": 36460000,
+      "secuencia": 0
+    },
+    "21207-EZT57N": {
+      "centavos": 95000000,
+      "secuencia": 0
+    },
+    "21207-F47K7R": {
+      "centavos": 177570000,
+      "secuencia": 0
+    },
+    "21207-FBAXRM": {
+      "centavos": 61260000,
+      "secuencia": 0
+    },
+    "21207-FFK94U": {
+      "centavos": 10000000,
+      "secuencia": 0
+    },
+    "21207-FZ3H2M": {
+      "centavos": 21000000,
+      "secuencia": 0
+    },
+    "21207-JFN8JB": {
+      "centavos": 29500000,
+      "secuencia": 0
+    },
+    "21207-K9R4T8": {
+      "centavos": 12500000,
+      "secuencia": 0
+    },
+    "21207-MGE56Z": {
+      "centavos": 17350000,
+      "secuencia": 0
+    },
+    "21207-QPAMKM": {
+      "centavos": 20350000,
+      "secuencia": 0
+    },
+    "21207-RQNUSA": {
+      "centavos": 38800000,
+      "secuencia": 0
+    },
+    "21207-TRPCEX": {
+      "centavos": 66820000,
+      "secuencia": 0
+    },
+    "21207-UFAYAE": {
+      "centavos": 55600000,
+      "secuencia": 0
+    },
+    "21207-VX5TX3": {
+      "centavos": 25320000,
+      "secuencia": 0
+    },
+    "21207-Y6HD75": {
+      "centavos": 19140000,
+      "secuencia": 0
+    },
+    "21207-ZJN5EY": {
+      "centavos": 24300000,
+      "secuencia": 0
+    },
+    "21207-ZZFBWT": {
+      "centavos": 33470000,
+      "secuencia": 0
+    },
+    "21217-22ZZTJ": {
+      "centavos": 4600000,
+      "secuencia": 0
+    },
+    "21217-6FJG5X": {
+      "centavos": 8800000,
+      "secuencia": 0
+    },
+    "21217-6TSCYB": {
+      "centavos": 20500000,
+      "secuencia": 0
+    },
+    "21217-A77UE2": {
+      "centavos": 6900000,
+      "secuencia": 0
+    },
+    "21217-CZ2GUD": {
+      "centavos": 26700000,
+      "secuencia": 0
+    },
+    "21217-NN5HPG": {
+      "centavos": 11200000,
+      "secuencia": 0
+    },
+    "21217-Q2C4ZZ": {
+      "centavos": 5300000,
+      "secuencia": 0
+    },
+    "21217-RDWQ9E": {
+      "centavos": 23000000,
+      "secuencia": 0
+    },
+    "21217-TRQX83": {
+      "centavos": 10500000,
+      "secuencia": 0
+    },
+    "21217-UB7U62": {
+      "centavos": 7600000,
+      "secuencia": 0
+    },
+    "21217-VEKKME": {
+      "centavos": 29500000,
+      "secuencia": 0
+    },
+    "21217-X69CM2": {
+      "centavos": 8700000,
+      "secuencia": 0
+    },
+    "21218-253PJW": {
+      "centavos": 89999900,
+      "secuencia": 0
+    },
+    "21218-3AUUD9": {
+      "centavos": 50999900,
+      "secuencia": 0
+    },
+    "21218-3X5GYF": {
+      "centavos": 82489900,
+      "secuencia": 0
+    },
+    "21218-45VGDZ": {
+      "centavos": 145212000,
+      "secuencia": 0
+    },
+    "21218-4G9ZTK": {
+      "centavos": 53089900,
+      "secuencia": 0
+    },
+    "21218-4GYXSF": {
+      "centavos": 74887100,
+      "secuencia": 0
+    },
+    "21218-5ABY63": {
+      "centavos": 90446900,
+      "secuencia": 0
+    },
+    "21218-62Z96T": {
+      "centavos": 231239900,
+      "secuencia": 0
+    },
+    "21218-6C3FFU": {
+      "centavos": 90125900,
+      "secuencia": 0
+    },
+    "21218-6DEJMT": {
+      "centavos": 96318900,
+      "secuencia": 0
+    },
+    "21218-6F8MX4": {
+      "centavos": 33477900,
+      "secuencia": 0
+    },
+    "21218-6VC9XY": {
+      "centavos": 80709900,
+      "secuencia": 0
+    },
+    "21218-7Z9GSD": {
+      "centavos": 104693500,
+      "secuencia": 0
+    },
+    "21218-89B8GQ": {
+      "centavos": 92329900,
+      "secuencia": 0
+    },
+    "21218-AM2WAB": {
+      "centavos": 66109900,
+      "secuencia": 0
+    },
+    "21218-ARYJGX": {
+      "centavos": 21291900,
+      "secuencia": 0
+    },
+    "21218-BAP926": {
+      "centavos": 94000000,
+      "secuencia": 0
+    },
+    "21218-DJ4A5U": {
+      "centavos": 225679900,
+      "secuencia": 0
+    },
+    "21218-DTFT9Q": {
+      "centavos": 54347900,
+      "secuencia": 0
+    },
+    "21218-EET5SF": {
+      "centavos": 38149900,
+      "secuencia": 0
+    },
+    "21218-FQA5VJ": {
+      "centavos": 90789900,
+      "secuencia": 0
+    },
+    "21218-FUEVP9": {
+      "centavos": 50013900,
+      "secuencia": 0
+    },
+    "21218-G8W2WK": {
+      "centavos": 31058800,
+      "secuencia": 0
+    },
+    "21218-GKKXGV": {
+      "centavos": 65349900,
+      "secuencia": 0
+    },
+    "21218-J37X9N": {
+      "centavos": 31058800,
+      "secuencia": 0
+    },
+    "21218-JA33V9": {
+      "centavos": 77798900,
+      "secuencia": 0
+    },
+    "21218-K6AB7H": {
+      "centavos": 23439900,
+      "secuencia": 0
+    },
+    "21218-MRJA8T": {
+      "centavos": 115009900,
+      "secuencia": 0
+    },
+    "21218-MTCVC4": {
+      "centavos": 113199900,
+      "secuencia": 0
+    },
+    "21218-MYJ7PA": {
+      "centavos": 77863900,
+      "secuencia": 0
+    },
+    "21218-N3V9S9": {
+      "centavos": 28225700,
+      "secuencia": 0
+    },
+    "21218-NKYK4S": {
+      "centavos": 89129900,
+      "secuencia": 0
+    },
+    "21218-NNZ6EC": {
+      "centavos": 96297900,
+      "secuencia": 0
+    },
+    "21218-R233G2": {
+      "centavos": 82460900,
+      "secuencia": 0
+    },
+    "21218-REMGHJ": {
+      "centavos": 74959900,
+      "secuencia": 0
+    },
+    "21218-TEJP2S": {
+      "centavos": 88283900,
+      "secuencia": 0
+    },
+    "21218-TV32F4": {
+      "centavos": 21647000,
+      "secuencia": 0
+    },
+    "21218-WG6XGY": {
+      "centavos": 67229900,
+      "secuencia": 0
+    },
+    "21218-WWCUDF": {
+      "centavos": 70511800,
+      "secuencia": 0
+    },
+    "21218-WXFNAJ": {
+      "centavos": 115461899,
+      "secuencia": 0
+    },
+    "21218-X7H6SX": {
+      "centavos": 328259900,
+      "secuencia": 0
+    },
+    "21218-XCQ4JC": {
+      "centavos": 127622900,
+      "secuencia": 0
+    },
+    "21218-Z4HE2F": {
+      "centavos": 106879900,
+      "secuencia": 0
+    },
+    "21218-ZHB8R4": {
+      "centavos": 63999900,
+      "secuencia": 0
+    },
+    "21218-ZV2VDB": {
+      "centavos": 81059900,
+      "secuencia": 0
+    },
+    "21219-3N6MEU": {
+      "centavos": 75900000,
+      "secuencia": 0
+    },
+    "21219-4ZVVRY": {
+      "centavos": 36750000,
+      "secuencia": 0
+    },
+    "21219-7SQ5EK": {
+      "centavos": 43000000,
+      "secuencia": 0
+    },
+    "21219-CAYZ8M": {
+      "centavos": 46400000,
+      "secuencia": 0
+    },
+    "21219-EFH8SW": {
+      "centavos": 57800000,
+      "secuencia": 0
+    },
+    "21219-JGYHQ7": {
+      "centavos": 85976000,
+      "secuencia": 0
+    },
+    "21219-K4JC4B": {
+      "centavos": 40760000,
+      "secuencia": 0
+    },
+    "21219-KFZ6Y3": {
+      "centavos": 103000000,
+      "secuencia": 0
+    },
+    "21219-MS5THT": {
+      "centavos": 40500000,
+      "secuencia": 0
+    },
+    "21219-NHW79U": {
+      "centavos": 41600000,
+      "secuencia": 0
+    },
+    "21219-R4X373": {
+      "centavos": 40760000,
+      "secuencia": 0
+    },
+    "21219-V2TB2N": {
+      "centavos": 71500000,
+      "secuencia": 0
+    },
+    "21219-Y5AA6R": {
+      "centavos": 38500000,
+      "secuencia": 0
+    },
+    "21227-3DE4QU": {
+      "centavos": 39500000,
+      "secuencia": 0
+    },
+    "21227-44HBFD": {
+      "centavos": 39000000,
+      "secuencia": 0
+    },
+    "21227-5XQ7T6": {
+      "centavos": 38000000,
+      "secuencia": 0
+    },
+    "21227-8D6REC": {
+      "centavos": 47500000,
+      "secuencia": 0
+    },
+    "21227-C79UHS": {
+      "centavos": 38000000,
+      "secuencia": 0
+    },
+    "21227-CZSVVP": {
+      "centavos": 49000000,
+      "secuencia": 0
+    },
+    "21227-FNSYP9": {
+      "centavos": 37000000,
+      "secuencia": 0
+    },
+    "21227-JN47F9": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "21227-MDC6RR": {
+      "centavos": 54000000,
+      "secuencia": 0
+    },
+    "21227-MMSD8D": {
+      "centavos": 40500000,
+      "secuencia": 0
+    },
+    "21227-N6JR4C": {
+      "centavos": 43000000,
+      "secuencia": 0
+    },
+    "21227-NJ95SJ": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "21227-QKY9GB": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "21227-RTHH6A": {
+      "centavos": 37000000,
+      "secuencia": 0
+    },
+    "21227-WGWT4K": {
+      "centavos": 51000000,
+      "secuencia": 0
+    },
+    "21227-WQAPMP": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "21227-WSG582": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "21227-X4RVGT": {
+      "centavos": 39000000,
+      "secuencia": 0
+    },
+    "21227-ZFEJR8": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "21273-V76CRF": {
+      "centavos": 25500000,
+      "secuencia": 0
+    },
+    "21335-9PFAAD": {
+      "centavos": 19500000,
+      "secuencia": 0
+    },
+    "21440-6QG6MM": {
+      "centavos": 9700000,
+      "secuencia": 0
+    },
+    "21440-BFBE9B": {
+      "centavos": 9900000,
+      "secuencia": 0
+    },
+    "21440-C5VZD4": {
+      "centavos": 29800000,
+      "secuencia": 0
+    },
+    "21440-K3TUYS": {
+      "centavos": 54900000,
+      "secuencia": 0
+    },
+    "21440-P3DD6A": {
+      "centavos": 46900000,
+      "secuencia": 0
+    },
+    "21440-PR53FD": {
+      "centavos": 9800000,
+      "secuencia": 0
+    },
+    "21440-ZF82X3": {
+      "centavos": 159300000,
+      "secuencia": 0
+    },
+    "21440-ZFPZ5S": {
+      "centavos": 49300000,
+      "secuencia": 0
+    },
+    "21448-2K93PE": {
+      "centavos": 29900000,
+      "secuencia": 0
+    },
+    "21448-3MJ7RR": {
+      "centavos": 38100000,
+      "secuencia": 0
+    },
+    "21448-E5JZYH": {
+      "centavos": 24500000,
+      "secuencia": 0
+    },
+    "21448-R6KY4V": {
+      "centavos": 66000000,
+      "secuencia": 0
+    },
+    "21448-VU2ZKX": {
+      "centavos": 39900000,
+      "secuencia": 0
+    },
+    "21448-Y5939B": {
+      "centavos": 50000000,
+      "secuencia": 0
+    },
+    "21448-YNGUDJ": {
+      "centavos": 49900000,
+      "secuencia": 0
+    },
+    "21492-4Q4HT8": {
+      "centavos": 7500000,
+      "secuencia": 0
+    },
+    "21492-7J6ESP": {
+      "centavos": 18500000,
+      "secuencia": 0
+    },
+    "21492-8CP8QQ": {
+      "centavos": 18500000,
+      "secuencia": 0
+    },
+    "21492-E38C5F": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "21492-HJJD54": {
+      "centavos": 18500000,
+      "secuencia": 0
+    },
+    "21492-KAYQRP": {
+      "centavos": 15300000,
+      "secuencia": 0
+    },
+    "21492-KJ5372": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "21492-SY7E7X": {
+      "centavos": 18500000,
+      "secuencia": 0
+    },
+    "21492-WKPX3F": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "21492-ZRNMVW": {
+      "centavos": 14000000,
+      "secuencia": 0
+    },
+    "22024-4E9ED4": {
+      "centavos": 1980000,
+      "secuencia": 0
+    },
+    "22024-8MCZJS": {
+      "centavos": 2420000,
+      "secuencia": 0
+    },
+    "22024-BGXU7Y": {
+      "centavos": 500000,
+      "secuencia": 0
+    },
+    "22024-CV6AA2": {
+      "centavos": 575000,
+      "secuencia": 0
+    },
+    "22024-E9G2CC": {
+      "centavos": 660000,
+      "secuencia": 0
+    },
+    "22024-HHUWU7": {
+      "centavos": 2145000,
+      "secuencia": 0
+    },
+    "22024-KVFFTG": {
+      "centavos": 550000,
+      "secuencia": 0
+    },
+    "22024-PKTWFX": {
+      "centavos": 1265000,
+      "secuencia": 0
+    },
+    "22024-S9SPMN": {
+      "centavos": 1350000,
+      "secuencia": 0
+    },
+    "22024-U5H5Q6": {
+      "centavos": 600000,
+      "secuencia": 0
+    },
+    "22024-ZP94JW": {
+      "centavos": 1100000,
+      "secuencia": 0
+    },
+    "22037-5YC4A7": {
+      "centavos": 1870000,
+      "secuencia": 0
+    },
+    "22037-66WNYG": {
+      "centavos": 1760000,
+      "secuencia": 0
+    },
+    "22037-9JK37H": {
+      "centavos": 950000,
+      "secuencia": 0
+    },
+    "22037-BETR57": {
+      "centavos": 2690000,
+      "secuencia": 0
+    },
+    "22037-EMXMZX": {
+      "centavos": 1410000,
+      "secuencia": 0
+    },
+    "22037-FFAT8K": {
+      "centavos": 1320000,
+      "secuencia": 0
+    },
+    "22037-GDJRBF": {
+      "centavos": 1630000,
+      "secuencia": 0
+    },
+    "22037-GR8HPZ": {
+      "centavos": 2200000,
+      "secuencia": 0
+    },
+    "22037-J3TDKW": {
+      "centavos": 630000,
+      "secuencia": 0
+    },
+    "22037-JR2S4S": {
+      "centavos": 1630000,
+      "secuencia": 0
+    },
+    "22037-PMFPH8": {
+      "centavos": 1880000,
+      "secuencia": 0
+    },
+    "22037-PZYBZD": {
+      "centavos": 2520000,
+      "secuencia": 0
+    },
+    "22037-S7UZ2G": {
+      "centavos": 900000,
+      "secuencia": 0
+    },
+    "22037-T7YDUV": {
+      "centavos": 2340000,
+      "secuencia": 0
+    },
+    "22037-UNDV29": {
+      "centavos": 520000,
+      "secuencia": 0
+    },
+    "22124-35T7UP": {
+      "centavos": 49900000,
+      "secuencia": 0
+    },
+    "22124-39YK6K": {
+      "centavos": 26927500,
+      "secuencia": 0
+    },
+    "22124-3NS44C": {
+      "centavos": 11500000,
+      "secuencia": 0
+    },
+    "22124-AXKARK": {
+      "centavos": 10900000,
+      "secuencia": 0
+    },
+    "22124-BGG7H4": {
+      "centavos": 110000000,
+      "secuencia": 0
+    },
+    "22124-DT5MMP": {
+      "centavos": 82900000,
+      "secuencia": 0
+    },
+    "22124-E7Z44X": {
+      "centavos": 21900000,
+      "secuencia": 0
+    },
+    "22124-FQ2JGK": {
+      "centavos": 28950000,
+      "secuencia": 0
+    },
+    "22124-JTGFCF": {
+      "centavos": 9900000,
+      "secuencia": 0
+    },
+    "22124-JZ4EPN": {
+      "centavos": 33379000,
+      "secuencia": 0
+    },
+    "22124-KRJ3QT": {
+      "centavos": 38900000,
+      "secuencia": 0
+    },
+    "22124-NPFY9D": {
+      "centavos": 33500000,
+      "secuencia": 0
+    },
+    "22124-VJ79N6": {
+      "centavos": 35900000,
+      "secuencia": 0
+    },
+    "22124-X6S5S3": {
+      "centavos": 63900000,
+      "secuencia": 0
+    },
+    "22130-95KRJW": {
+      "centavos": 102270000,
+      "secuencia": 0
+    },
+    "22130-AAJZVF": {
+      "centavos": 103760000,
+      "secuencia": 0
+    },
+    "22130-ACW4VJ": {
+      "centavos": 134940000,
+      "secuencia": 0
+    },
+    "22130-C48KSJ": {
+      "centavos": 118220000,
+      "secuencia": 0
+    },
+    "22130-F5BJ6K": {
+      "centavos": 83970000,
+      "secuencia": 0
+    },
+    "22130-H2X5Q5": {
+      "centavos": 47370000,
+      "secuencia": 0
+    },
+    "22130-J7H3U7": {
+      "centavos": 120990000,
+      "secuencia": 0
+    },
+    "22130-KMFD85": {
+      "centavos": 71660000,
+      "secuencia": 0
+    },
+    "22130-R59NH2": {
+      "centavos": 140160000,
+      "secuencia": 0
+    },
+    "22130-YVRHA3": {
+      "centavos": 104690000,
+      "secuencia": 0
+    },
+    "22135-A4PMCG": {
+      "centavos": 10690000,
+      "secuencia": 0
+    },
+    "22135-ABMXMN": {
+      "centavos": 3750000,
+      "secuencia": 0
+    },
+    "22135-AXSYMR": {
+      "centavos": 6880000,
+      "secuencia": 0
+    },
+    "22135-CGBSA8": {
+      "centavos": 5500000,
+      "secuencia": 0
+    },
+    "22135-F3BNFF": {
+      "centavos": 7650000,
+      "secuencia": 0
+    },
+    "22135-HMXFXD": {
+      "centavos": 10620000,
+      "secuencia": 0
+    },
+    "22135-JKGNM2": {
+      "centavos": 2300000,
+      "secuencia": 0
+    },
+    "22135-M8U9EN": {
+      "centavos": 2300000,
+      "secuencia": 0
+    },
+    "22135-PY48PV": {
+      "centavos": 6020000,
+      "secuencia": 0
+    },
+    "22135-TN792G": {
+      "centavos": 12000000,
+      "secuencia": 0
+    },
+    "22135-U633CC": {
+      "centavos": 6320000,
+      "secuencia": 0
+    },
+    "22137-2CEPB8": {
+      "centavos": 315000000,
+      "secuencia": 0
+    },
+    "22137-9UH72X": {
+      "centavos": 20000000,
+      "secuencia": 0
+    },
+    "22137-BRU8BV": {
+      "centavos": 10000000,
+      "secuencia": 0
+    },
+    "22137-CVUTQG": {
+      "centavos": 47000000,
+      "secuencia": 0
+    },
+    "22137-NJUQPR": {
+      "centavos": 360000000,
+      "secuencia": 0
+    },
+    "22137-WJVF8Y": {
+      "centavos": 13500000,
+      "secuencia": 0
+    },
+    "22142-22P6J4": {
+      "centavos": 65870000,
+      "secuencia": 0
+    },
+    "22142-DHTDPG": {
+      "centavos": 17000000,
+      "secuencia": 0
+    },
+    "22142-ERYR7B": {
+      "centavos": 17005000,
+      "secuencia": 0
+    },
+    "22142-FC9NW2": {
+      "centavos": 67000000,
+      "secuencia": 0
+    },
+    "22142-FSTJKM": {
+      "centavos": 29040000,
+      "secuencia": 0
+    },
+    "22142-K378T7": {
+      "centavos": 14000000,
+      "secuencia": 0
+    },
+    "22142-S6YY3P": {
+      "centavos": 53800000,
+      "secuencia": 0
+    },
+    "22142-TTACZ4": {
+      "centavos": 14400000,
+      "secuencia": 0
+    },
+    "22142-Y6N8SE": {
+      "centavos": 210000000,
+      "secuencia": 0
+    },
+    "22142-YJSBSX": {
+      "centavos": 13690000,
+      "secuencia": 0
+    },
+    "22154-4KXMMY": {
+      "centavos": 6600000,
+      "secuencia": 0
+    },
+    "22154-8AK2B4": {
+      "centavos": 3960000,
+      "secuencia": 0
+    },
+    "22154-DDKYPP": {
+      "centavos": 13500000,
+      "secuencia": 0
+    },
+    "22154-DEJ64W": {
+      "centavos": 12000000,
+      "secuencia": 0
+    },
+    "22154-EERRZA": {
+      "centavos": 8550000,
+      "secuencia": 0
+    },
+    "22154-HERYXC": {
+      "centavos": 5650000,
+      "secuencia": 0
+    },
+    "22154-HNEWD4": {
+      "centavos": 18400000,
+      "secuencia": 0
+    },
+    "22154-PR9HZU": {
+      "centavos": 9500000,
+      "secuencia": 0
+    },
+    "22154-W5ZXCC": {
+      "centavos": 6800000,
+      "secuencia": 0
+    },
+    "22154-ZCCQRK": {
+      "centavos": 4990000,
+      "secuencia": 0
+    },
+    "22162-2BHQDV": {
+      "centavos": 129900000,
+      "secuencia": 0
+    },
+    "22162-2CXKH3": {
+      "centavos": 8500000,
+      "secuencia": 0
+    },
+    "22162-2U26XP": {
+      "centavos": 20800000,
+      "secuencia": 0
+    },
+    "22162-6XFYNK": {
+      "centavos": 6200000,
+      "secuencia": 0
+    },
+    "22162-9BX9TF": {
+      "centavos": 14900000,
+      "secuencia": 0
+    },
+    "22162-CNWPKD": {
+      "centavos": 20300000,
+      "secuencia": 0
+    },
+    "22162-FP8PKJ": {
+      "centavos": 5500000,
+      "secuencia": 0
+    },
+    "22162-JZ3ZSM": {
+      "centavos": 21900000,
+      "secuencia": 0
+    },
+    "22162-KJQ97Y": {
+      "centavos": 26500000,
+      "secuencia": 0
+    },
+    "22162-ND2YCT": {
+      "centavos": 38500000,
+      "secuencia": 0
+    },
+    "22162-RZRYYG": {
+      "centavos": 89000000,
+      "secuencia": 0
+    },
+    "22162-TWZVBY": {
+      "centavos": 5290000,
+      "secuencia": 0
+    },
+    "22162-VEBBNY": {
+      "centavos": 5290000,
+      "secuencia": 0
+    },
+    "22162-XPGU5Q": {
+      "centavos": 9900000,
+      "secuencia": 0
+    },
+    "22162-Y2B9RG": {
+      "centavos": 21000000,
+      "secuencia": 0
+    },
+    "22165-A7MWZF": {
+      "centavos": 1970000,
+      "secuencia": 0
+    },
+    "22165-KU7X93": {
+      "centavos": 2887500,
+      "secuencia": 0
+    },
+    "22183-2U9Z96": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "22183-3HQSPH": {
+      "centavos": 17000000,
+      "secuencia": 0
+    },
+    "22183-45AUE5": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "22183-48DDXJ": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22183-4MJ6F3": {
+      "centavos": 19500000,
+      "secuencia": 0
+    },
+    "22183-4UNQ47": {
+      "centavos": 15000000,
+      "secuencia": 0
+    },
+    "22183-A2Z65Y": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22183-CF5TSM": {
+      "centavos": 15000000,
+      "secuencia": 0
+    },
+    "22183-CXBA6V": {
+      "centavos": 15000000,
+      "secuencia": 0
+    },
+    "22183-GWUAP3": {
+      "centavos": 15500000,
+      "secuencia": 0
+    },
+    "22183-K53RBU": {
+      "centavos": 15000000,
+      "secuencia": 0
+    },
+    "22183-PCFMZX": {
+      "centavos": 19500000,
+      "secuencia": 0
+    },
+    "22183-QFAKJV": {
+      "centavos": 15000000,
+      "secuencia": 0
+    },
+    "22183-WAJCEG": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22183-XS354V": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22194-4XH5VV": {
+      "centavos": 73040000,
+      "secuencia": 0
+    },
+    "22194-6MSNUM": {
+      "centavos": 20500000,
+      "secuencia": 0
+    },
+    "22194-7M7VCQ": {
+      "centavos": 30790000,
+      "secuencia": 0
+    },
+    "22194-EEFH7B": {
+      "centavos": 49060000,
+      "secuencia": 0
+    },
+    "22194-NT9UJA": {
+      "centavos": 59600000,
+      "secuencia": 0
+    },
+    "22194-SVN6P6": {
+      "centavos": 37399000,
+      "secuencia": 0
+    },
+    "22194-TPMRFS": {
+      "centavos": 57520000,
+      "secuencia": 0
+    },
+    "22200-2QF2N3": {
+      "centavos": 9800000,
+      "secuencia": 0
+    },
+    "22200-4HGQMG": {
+      "centavos": 38400000,
+      "secuencia": 0
+    },
+    "22200-53UCKF": {
+      "centavos": 14500000,
+      "secuencia": 0
+    },
+    "22200-5Z5822": {
+      "centavos": 13500000,
+      "secuencia": 0
+    },
+    "22200-6UHYFJ": {
+      "centavos": 11200000,
+      "secuencia": 0
+    },
+    "22200-B6VFVT": {
+      "centavos": 13900000,
+      "secuencia": 0
+    },
+    "22200-HQZH9B": {
+      "centavos": 16500000,
+      "secuencia": 0
+    },
+    "22200-JTSPHQ": {
+      "centavos": 14500000,
+      "secuencia": 0
+    },
+    "22200-N6CSMG": {
+      "centavos": 12600000,
+      "secuencia": 0
+    },
+    "22200-NBFBRK": {
+      "centavos": 11500000,
+      "secuencia": 0
+    },
+    "22200-PYH86T": {
+      "centavos": 14200000,
+      "secuencia": 0
+    },
+    "22200-RR25EG": {
+      "centavos": 14800000,
+      "secuencia": 0
+    },
+    "22200-WSZ5MK": {
+      "centavos": 40900000,
+      "secuencia": 0
+    },
+    "22200-WZTSQ3": {
+      "centavos": 28400000,
+      "secuencia": 0
+    },
+    "22200-Y2UGKZ": {
+      "centavos": 39500000,
+      "secuencia": 0
+    },
+    "22208-3YAHZE": {
+      "centavos": 627900000,
+      "secuencia": 0
+    },
+    "22208-5KXEYY": {
+      "centavos": 767600000,
+      "secuencia": 0
+    },
+    "22208-5X2NB9": {
+      "centavos": 780600000,
+      "secuencia": 0
+    },
+    "22208-BYMUW4": {
+      "centavos": 640300000,
+      "secuencia": 0
+    },
+    "22208-D84CPF": {
+      "centavos": 942400000,
+      "secuencia": 0
+    },
+    "22208-ETYQH7": {
+      "centavos": 2090000,
+      "secuencia": 0
+    },
+    "22208-GME7GY": {
+      "centavos": 23100000,
+      "secuencia": 0
+    },
+    "22208-MYAGRE": {
+      "centavos": 2090000,
+      "secuencia": 0
+    },
+    "22208-PQUSSP": {
+      "centavos": 9180000,
+      "secuencia": 0
+    },
+    "22208-XPFUEY": {
+      "centavos": 29700000,
+      "secuencia": 0
+    },
+    "22218-3TSKYA": {
+      "centavos": 44900000,
+      "secuencia": 0
+    },
+    "22218-3VT8PT": {
+      "centavos": 14900000,
+      "secuencia": 0
+    },
+    "22218-47XFDB": {
+      "centavos": 24900000,
+      "secuencia": 0
+    },
+    "22218-9GVVBK": {
+      "centavos": 19500000,
+      "secuencia": 0
+    },
+    "22218-ESU4SH": {
+      "centavos": 54900000,
+      "secuencia": 0
+    },
+    "22218-HY59QG": {
+      "centavos": 17900000,
+      "secuencia": 0
+    },
+    "22218-NPSTF4": {
+      "centavos": 27900000,
+      "secuencia": 0
+    },
+    "22218-PEMWZ4": {
+      "centavos": 94900000,
+      "secuencia": 0
+    },
+    "22218-S63H2X": {
+      "centavos": 7900000,
+      "secuencia": 0
+    },
+    "22218-TFXAW7": {
+      "centavos": 42500000,
+      "secuencia": 0
+    },
+    "22218-TRMJJ6": {
+      "centavos": 44900000,
+      "secuencia": 0
+    },
+    "22218-UKNTTS": {
+      "centavos": 35900000,
+      "secuencia": 0
+    },
+    "22218-X6JUZG": {
+      "centavos": 34900000,
+      "secuencia": 0
+    },
+    "22218-YKZMP2": {
+      "centavos": 16900000,
+      "secuencia": 0
+    },
+    "22237-3TWRX6": {
+      "centavos": 34990000,
+      "secuencia": 0
+    },
+    "22237-65YBCN": {
+      "centavos": 45500000,
+      "secuencia": 0
+    },
+    "22237-95KQE3": {
+      "centavos": 27990000,
+      "secuencia": 0
+    },
+    "22237-A7CEAZ": {
+      "centavos": 12750000,
+      "secuencia": 0
+    },
+    "22237-ANADCC": {
+      "centavos": 6250000,
+      "secuencia": 0
+    },
+    "22237-KNYBE2": {
+      "centavos": 6250000,
+      "secuencia": 0
+    },
+    "22237-MKE9QA": {
+      "centavos": 30990000,
+      "secuencia": 0
+    },
+    "22237-NP9SP3": {
+      "centavos": 37290000,
+      "secuencia": 0
+    },
+    "22237-R6R9F7": {
+      "centavos": 12590000,
+      "secuencia": 0
+    },
+    "22237-VFWYTQ": {
+      "centavos": 54990000,
+      "secuencia": 0
+    },
+    "22237-Z385Y6": {
+      "centavos": 35990000,
+      "secuencia": 0
+    },
+    "22241-2SZKKT": {
+      "centavos": 189000000,
+      "secuencia": 0
+    },
+    "22241-4DHVJA": {
+      "centavos": 189000000,
+      "secuencia": 0
+    },
+    "22241-9TF4C4": {
+      "centavos": 179000000,
+      "secuencia": 0
+    },
+    "22241-BMJYMF": {
+      "centavos": 48130000,
+      "secuencia": 0
+    },
+    "22241-DAUTC4": {
+      "centavos": 24990000,
+      "secuencia": 0
+    },
+    "22241-SVVVB8": {
+      "centavos": 199000000,
+      "secuencia": 0
+    },
+    "22241-WE9WUG": {
+      "centavos": 189000000,
+      "secuencia": 0
+    },
+    "22241-YG9WEW": {
+      "centavos": 85777000,
+      "secuencia": 0
+    },
+    "22245-5AE8QB": {
+      "centavos": 4030000,
+      "secuencia": 0
+    },
+    "22245-6JHJAG": {
+      "centavos": 27800000,
+      "secuencia": 0
+    },
+    "22245-9JURK5": {
+      "centavos": 33000000,
+      "secuencia": 0
+    },
+    "22245-HZHY37": {
+      "centavos": 9800000,
+      "secuencia": 0
+    },
+    "22245-T78JSY": {
+      "centavos": 6900000,
+      "secuencia": 0
+    },
+    "22245-VZX977": {
+      "centavos": 6670000,
+      "secuencia": 0
+    },
+    "22245-WH2USE": {
+      "centavos": 45500000,
+      "secuencia": 0
+    },
+    "22245-X2YU2E": {
+      "centavos": 12500000,
+      "secuencia": 0
+    },
+    "22252-2UXQNT": {
+      "centavos": 12012000,
+      "secuencia": 0
+    },
+    "22252-3B2ZMK": {
+      "centavos": 19500000,
+      "secuencia": 0
+    },
+    "22252-833V8S": {
+      "centavos": 14950000,
+      "secuencia": 0
+    },
+    "22252-9QXYTR": {
+      "centavos": 12790000,
+      "secuencia": 0
+    },
+    "22252-BTX9HW": {
+      "centavos": 10348000,
+      "secuencia": 0
+    },
+    "22252-EBQGTZ": {
+      "centavos": 14053000,
+      "secuencia": 0
+    },
+    "22252-G5SBN2": {
+      "centavos": 12636000,
+      "secuencia": 0
+    },
+    "22252-M8NF3N": {
+      "centavos": 22100000,
+      "secuencia": 0
+    },
+    "22252-NP3DYH": {
+      "centavos": 21788000,
+      "secuencia": 0
+    },
+    "22252-QY5668": {
+      "centavos": 11180000,
+      "secuencia": 0
+    },
+    "22252-SGWUGC": {
+      "centavos": 15808000,
+      "secuencia": 0
+    },
+    "22252-U9GJUR": {
+      "centavos": 25844000,
+      "secuencia": 0
+    },
+    "22252-V5RTJW": {
+      "centavos": 8736000,
+      "secuencia": 0
+    },
+    "22252-W2HP8M": {
+      "centavos": 12400000,
+      "secuencia": 0
+    },
+    "22252-XXA2HS": {
+      "centavos": 10164000,
+      "secuencia": 0
+    },
+    "22252-ZPZNS7": {
+      "centavos": 14404000,
+      "secuencia": 0
+    },
+    "22266-5482EG": {
+      "centavos": 68000000,
+      "secuencia": 0
+    },
+    "22266-GA5ZYE": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22266-J84ZH9": {
+      "centavos": 98000000,
+      "secuencia": 0
+    },
+    "22266-KXTKSM": {
+      "centavos": 30000000,
+      "secuencia": 0
+    },
+    "22266-NW7CFY": {
+      "centavos": 25000000,
+      "secuencia": 0
+    },
+    "22266-P7F3B7": {
+      "centavos": 22000000,
+      "secuencia": 0
+    },
+    "22266-Q4DHZX": {
+      "centavos": 54000000,
+      "secuencia": 0
+    },
+    "22266-T8QMYV": {
+      "centavos": 20000000,
+      "secuencia": 0
+    },
+    "22266-U4MZFK": {
+      "centavos": 85000000,
+      "secuencia": 0
+    },
+    "22266-W96YC2": {
+      "centavos": 24000000,
+      "secuencia": 0
+    },
+    "22288-2TNEWG": {
+      "centavos": 6500000,
+      "secuencia": 0
+    },
+    "22290-8STJFT": {
+      "centavos": 5000000,
+      "secuencia": 0
+    },
+    "22290-ATM6R2": {
+      "centavos": 15600000,
+      "secuencia": 0
+    },
+    "22290-CT4U9G": {
+      "centavos": 8787000,
+      "secuencia": 0
+    },
+    "22290-E4HETS": {
+      "centavos": 16267000,
+      "secuencia": 0
+    },
+    "22290-GGS3HW": {
+      "centavos": 13660900,
+      "secuencia": 0
+    },
+    "22290-SF4EC3": {
+      "centavos": 7095000,
+      "secuencia": 0
+    },
+    "22290-SVKHUV": {
+      "centavos": 13792400,
+      "secuencia": 0
+    },
+    "22290-WWPUGA": {
+      "centavos": 7000000,
+      "secuencia": 0
+    },
+    "22290-XWHDTR": {
+      "centavos": 8787000,
+      "secuencia": 0
+    },
+    "22295-FT9NBA": {
+      "centavos": 99889000,
+      "secuencia": 0
+    },
+    "22295-H8Z7XW": {
+      "centavos": 176850000,
+      "secuencia": 0
+    },
+    "22295-UXARZA": {
+      "centavos": 5560000,
+      "secuencia": 0
+    },
+    "22298-28TJ6M": {
+      "centavos": 1300000,
+      "secuencia": 0
+    },
+    "22298-2PJT5F": {
+      "centavos": 3800000,
+      "secuencia": 0
+    },
+    "22298-2T5B24": {
+      "centavos": 5300000,
+      "secuencia": 0
+    },
+    "22298-4U75R3": {
+      "centavos": 4800000,
+      "secuencia": 0
+    },
+    "22298-6J2NM5": {
+      "centavos": 4300000,
+      "secuencia": 0
+    },
+    "22298-DD8HT9": {
+      "centavos": 4900000,
+      "secuencia": 0
+    },
+    "22298-DXTJDP": {
+      "centavos": 5000000,
+      "secuencia": 0
+    },
+    "22298-EDUN4K": {
+      "centavos": 2150000,
+      "secuencia": 0
+    },
+    "22298-FMKQGJ": {
+      "centavos": 2700000,
+      "secuencia": 0
+    },
+    "22298-KBRCJW": {
+      "centavos": 29300000,
+      "secuencia": 0
+    },
+    "22298-MAXWGR": {
+      "centavos": 3300000,
+      "secuencia": 0
+    },
+    "22298-NBJJE5": {
+      "centavos": 3800000,
+      "secuencia": 0
+    },
+    "22298-PFWC9F": {
+      "centavos": 5800000,
+      "secuencia": 0
+    },
+    "22298-QNDY8D": {
+      "centavos": 7800000,
+      "secuencia": 0
+    },
+    "22298-SP474W": {
+      "centavos": 21200000,
+      "secuencia": 0
+    },
+    "22298-XJJNRU": {
+      "centavos": 4000000,
+      "secuencia": 0
+    },
+    "22298-ZJ75XE": {
+      "centavos": 6300000,
+      "secuencia": 0
+    },
+    "22298-ZZ7T3P": {
+      "centavos": 5300000,
+      "secuencia": 0
+    },
+    "22313-5PYNYT": {
+      "centavos": 8640000,
+      "secuencia": 0
+    },
+    "22313-6GEBE8": {
+      "centavos": 6132000,
+      "secuencia": 0
+    },
+    "22313-F2UAEG": {
+      "centavos": 8760000,
+      "secuencia": 0
+    },
+    "22313-KESB2J": {
+      "centavos": 35100000,
+      "secuencia": 0
+    },
+    "22313-MBZSER": {
+      "centavos": 11700000,
+      "secuencia": 0
+    },
+    "22313-MNFFFA": {
+      "centavos": 16380000,
+      "secuencia": 0
+    },
+    "22313-MZTQR8": {
+      "centavos": 7440000,
+      "secuencia": 0
+    },
+    "22313-NTUA28": {
+      "centavos": 6480000,
+      "secuencia": 0
+    },
+    "22313-PU3MYD": {
+      "centavos": 23400000,
+      "secuencia": 0
+    },
+    "22313-R2AJG3": {
+      "centavos": 6048000,
+      "secuencia": 0
+    },
+    "22313-VP54KZ": {
+      "centavos": 4200000,
+      "secuencia": 0
+    },
+    "22313-ZVPAQX": {
+      "centavos": 6000000,
+      "secuencia": 0
+    },
+    "22352-33Q66E": {
+      "centavos": 177800000,
+      "secuencia": 0
+    },
+    "22352-4UU4QR": {
+      "centavos": 198900000,
+      "secuencia": 0
+    },
+    "22352-4YHUUF": {
+      "centavos": 38500000,
+      "secuencia": 0
+    },
+    "22352-AAHPAK": {
+      "centavos": 102930000,
+      "secuencia": 0
+    },
+    "22352-GPFTJU": {
+      "centavos": 128610000,
+      "secuencia": 0
+    },
+    "22352-NFCR2Y": {
+      "centavos": 105200000,
+      "secuencia": 0
+    },
+    "22352-Q887QV": {
+      "centavos": 58700000,
+      "secuencia": 0
+    },
+    "22363-8KW5KG": {
+      "centavos": 89000000,
+      "secuencia": 0
+    },
+    "22363-9VT23K": {
+      "centavos": 16420000,
+      "secuencia": 0
+    },
+    "22363-F23Q9M": {
+      "centavos": 29000000,
+      "secuencia": 0
+    },
+    "22363-SJGS33": {
+      "centavos": 157275000,
+      "secuencia": 0
+    },
+    "22373-64454C": {
+      "centavos": 155989500,
+      "secuencia": 0
+    },
+    "22373-JR8WQQ": {
+      "centavos": 33999900,
+      "secuencia": 0
+    },
+    "22373-KCDQBA": {
+      "centavos": 76024900,
+      "secuencia": 0
+    },
+    "22377-3P3SCV": {
+      "centavos": 2910000,
+      "secuencia": 0
+    },
+    "22377-ANZ4WE": {
+      "centavos": 52230000,
+      "secuencia": 0
+    },
+    "22377-BRHW7X": {
+      "centavos": 4800000,
+      "secuencia": 0
+    },
+    "22377-HZ4P82": {
+      "centavos": 32000000,
+      "secuencia": 0
+    },
+    "22377-JTFMXF": {
+      "centavos": 72206000,
+      "secuencia": 0
+    },
+    "22377-K4CK59": {
+      "centavos": 74200000,
+      "secuencia": 0
+    },
+    "22377-MPZ3UD": {
+      "centavos": 44800000,
+      "secuencia": 0
+    },
+    "22377-VG9KYJ": {
+      "centavos": 51200000,
+      "secuencia": 0
+    },
+    "22377-W7MKQ8": {
+      "centavos": 48000000,
+      "secuencia": 0
+    },
+    "22379-3UST3R": {
+      "centavos": 6250000,
+      "secuencia": 0
+    },
+    "22379-64S3TM": {
+      "centavos": 5000000,
+      "secuencia": 0
+    },
+    "22379-77MXC8": {
+      "centavos": 65000000,
+      "secuencia": 0
+    },
+    "22379-9D6A9R": {
+      "centavos": 3500000,
+      "secuencia": 0
+    },
+    "22379-B3U5PQ": {
+      "centavos": 25000000,
+      "secuencia": 0
+    },
+    "22379-NEMGGN": {
+      "centavos": 73000000,
+      "secuencia": 0
+    },
+    "22379-QKKCF7": {
+      "centavos": 5500000,
+      "secuencia": 0
+    },
+    "22379-QP6QVV": {
+      "centavos": 7700000,
+      "secuencia": 0
+    },
+    "22379-SUBZWW": {
+      "centavos": 12000000,
+      "secuencia": 0
+    },
+    "22379-WYXM7M": {
+      "centavos": 9000000,
+      "secuencia": 0
+    },
+    "22379-XJH746": {
+      "centavos": 65000000,
+      "secuencia": 0
+    },
+    "22420-28WHAD": {
+      "centavos": 3060000,
+      "secuencia": 0
+    },
+    "22420-CEUHNW": {
+      "centavos": 6440000,
+      "secuencia": 0
+    },
+    "22420-FAAV59": {
+      "centavos": 3170000,
+      "secuencia": 0
+    },
+    "22420-FJC8WQ": {
+      "centavos": 6780000,
+      "secuencia": 0
+    },
+    "22420-HARH54": {
+      "centavos": 9900000,
+      "secuencia": 0
+    },
+    "22420-KR538D": {
+      "centavos": 10800000,
+      "secuencia": 0
+    },
+    "22420-MH3XYN": {
+      "centavos": 3900000,
+      "secuencia": 0
+    },
+    "22420-SX37CN": {
+      "centavos": 7780000,
+      "secuencia": 0
+    },
+    "22420-VF9NDS": {
+      "centavos": 9470000,
+      "secuencia": 0
+    },
+    "22420-X47GRM": {
+      "centavos": 5440000,
+      "secuencia": 0
+    },
+    "22448-658XP3": {
+      "centavos": 32700000,
+      "secuencia": 0
+    },
+    "22448-8KYPER": {
+      "centavos": 21900000,
+      "secuencia": 0
+    },
+    "22448-8NX6RT": {
+      "centavos": 4950000,
+      "secuencia": 0
+    },
+    "22448-AVZK6U": {
+      "centavos": 74250000,
+      "secuencia": 0
+    },
+    "22448-D9QNE7": {
+      "centavos": 21900000,
+      "secuencia": 0
+    },
+    "22448-D9R2P5": {
+      "centavos": 6130000,
+      "secuencia": 0
+    },
+    "22448-E23Q4Q": {
+      "centavos": 13090000,
+      "secuencia": 0
+    },
+    "22448-E4TMKV": {
+      "centavos": 31000000,
+      "secuencia": 0
+    },
+    "22448-EQFY8M": {
+      "centavos": 63700000,
+      "secuencia": 0
+    },
+    "22448-H84YFC": {
+      "centavos": 43900000,
+      "secuencia": 0
+    },
+    "22448-HVAUH9": {
+      "centavos": 58900000,
+      "secuencia": 0
+    },
+    "22448-KC73F3": {
+      "centavos": 31900000,
+      "secuencia": 0
+    },
+    "22448-KHRDM6": {
+      "centavos": 9300000,
+      "secuencia": 0
+    },
+    "22448-MN3AE3": {
+      "centavos": 5900000,
+      "secuencia": 0
+    },
+    "22448-SKP6JC": {
+      "centavos": 7980000,
+      "secuencia": 0
+    },
+    "22458-2X5XF4": {
+      "centavos": 44999900,
+      "secuencia": 0
+    },
+    "22458-46JB3F": {
+      "centavos": 43999900,
+      "secuencia": 0
+    },
+    "22458-6G6YJE": {
+      "centavos": 57749900,
+      "secuencia": 0
+    },
+    "22458-6GSTDA": {
+      "centavos": 49800000,
+      "secuencia": 0
+    },
+    "22458-96G7K6": {
+      "centavos": 174719900,
+      "secuencia": 0
+    },
+    "22458-JHK6HG": {
+      "centavos": 155999900,
+      "secuencia": 0
+    },
+    "22458-JNBZFC": {
+      "centavos": 69899900,
+      "secuencia": 0
+    },
+    "22458-UA75QS": {
+      "centavos": 199999900,
+      "secuencia": 0
+    },
+    "22458-VJB7KA": {
+      "centavos": 159999900,
+      "secuencia": 0
+    },
+    "22458-XSVZM8": {
+      "centavos": 79999900,
+      "secuencia": 0
+    },
+    "22458-YNSQTN": {
+      "centavos": 27999900,
+      "secuencia": 0
+    },
+    "22458-YV6MWM": {
+      "centavos": 59999900,
+      "secuencia": 0
+    },
+    "22458-Z3R2A5": {
+      "centavos": 53999900,
+      "secuencia": 0
+    },
+    "22458-ZRPFAT": {
+      "centavos": 79999900,
+      "secuencia": 0
+    },
+    "22458-ZTG2AT": {
+      "centavos": 54999900,
+      "secuencia": 0
+    },
+    "22459-MS7GDJ": {
+      "centavos": 14000000,
+      "secuencia": 0
+    },
+    "22459-WF7874": {
+      "centavos": 12000000,
+      "secuencia": 0
+    },
+    "22459-YXMNKZ": {
+      "centavos": 415000000,
+      "secuencia": 0
+    },
+    "22459-Z2DKY8": {
+      "centavos": 8000000,
+      "secuencia": 0
+    },
+    "22485-2B88T9": {
+      "centavos": 12110950,
+      "secuencia": 0
+    },
+    "22485-2GQ6RY": {
+      "centavos": 26929950,
+      "secuencia": 0
+    },
+    "22485-3MPZXF": {
+      "centavos": 112839950,
+      "secuencia": 0
+    },
+    "22485-7Y3MMC": {
+      "centavos": 40279950,
+      "secuencia": 0
+    },
+    "22485-C3YEKY": {
+      "centavos": 53069950,
+      "secuencia": 0
+    },
+    "22485-CDSX27": {
+      "centavos": 11324950,
+      "secuencia": 0
+    },
+    "22485-D6JXPK": {
+      "centavos": 16007950,
+      "secuencia": 0
+    },
+    "22485-FVC5DX": {
+      "centavos": 36821900,
+      "secuencia": 0
+    },
+    "22485-J96H57": {
+      "centavos": 73844450,
+      "secuencia": 0
+    },
+    "22485-KXJVBP": {
+      "centavos": 36642950,
+      "secuencia": 0
+    },
+    "22485-NKV7KQ": {
+      "centavos": 63811450,
+      "secuencia": 0
+    },
+    "22485-Q8Z755": {
+      "centavos": 49444950,
+      "secuencia": 0
+    },
+    "22485-VAFTEJ": {
+      "centavos": 40819950,
+      "secuencia": 0
+    },
+    "22485-VK5VV5": {
+      "centavos": 78947300,
+      "secuencia": 0
+    },
+    "22485-XTUG5R": {
+      "centavos": 50079950,
+      "secuencia": 0
+    },
+    "22486-58UNMF": {
+      "centavos": 104999950,
+      "secuencia": 0
+    },
+    "22486-6HY69D": {
+      "centavos": 144209950,
+      "secuencia": 0
+    },
+    "22486-6P5WGR": {
+      "centavos": 214999950,
+      "secuencia": 0
+    },
+    "22486-8MSR8R": {
+      "centavos": 21449950,
+      "secuencia": 0
+    },
+    "22486-9EJEU5": {
+      "centavos": 212499950,
+      "secuencia": 0
+    },
+    "22486-CUQY33": {
+      "centavos": 59054950,
+      "secuencia": 0
+    },
+    "22486-CW2WXW": {
+      "centavos": 40449950,
+      "secuencia": 0
+    },
+    "22486-MN9JZT": {
+      "centavos": 47499950,
+      "secuencia": 0
+    },
+    "22486-NQPS6A": {
+      "centavos": 36999950,
+      "secuencia": 0
+    },
+    "22486-UKWRS8": {
+      "centavos": 127999950,
+      "secuencia": 0
+    },
+    "22486-V8HST7": {
+      "centavos": 18299950,
+      "secuencia": 0
+    },
+    "22487-4ZFSMJ": {
+      "centavos": 55450000,
+      "secuencia": 0
+    },
+    "22487-5N5BE6": {
+      "centavos": 42500000,
+      "secuencia": 0
+    },
+    "22487-62TNMN": {
+      "centavos": 9450000,
+      "secuencia": 0
+    },
+    "22487-6WKM3V": {
+      "centavos": 37495000,
+      "secuencia": 0
+    },
+    "22487-8KK4RW": {
+      "centavos": 4100000,
+      "secuencia": 0
+    },
+    "22487-CTG5CE": {
+      "centavos": 77500000,
+      "secuencia": 0
+    },
+    "22487-FVQEXK": {
+      "centavos": 82500000,
+      "secuencia": 0
+    },
+    "22487-J6KYC2": {
+      "centavos": 18995000,
+      "secuencia": 0
+    },
+    "22487-NP5HWG": {
+      "centavos": 164500000,
+      "secuencia": 0
+    },
+    "22487-QABC42": {
+      "centavos": 14995000,
+      "secuencia": 0
+    },
+    "22487-VC44JY": {
+      "centavos": 13995000,
+      "secuencia": 0
+    },
+    "22487-Y2R4DN": {
+      "centavos": 149500000,
+      "secuencia": 0
+    },
+    "22487-YB2EES": {
+      "centavos": 129950000,
+      "secuencia": 0
+    },
+    "22488-39NB6G": {
+      "centavos": 13770000,
+      "secuencia": 0
+    },
+    "22488-3NR3PH": {
+      "centavos": 3697500,
+      "secuencia": 0
+    },
+    "22488-4U35VZ": {
+      "centavos": 34859950,
+      "secuencia": 0
+    },
+    "22488-6J9EGR": {
+      "centavos": 29894950,
+      "secuencia": 0
+    },
+    "22488-8X5X2X": {
+      "centavos": 32751600,
+      "secuencia": 0
+    },
+    "22488-JXHG9Y": {
+      "centavos": 6275000,
+      "secuencia": 0
+    },
+    "22488-NT2F38": {
+      "centavos": 19499950,
+      "secuencia": 0
+    },
+    "22488-SRHZYW": {
+      "centavos": 32999950,
+      "secuencia": 0
+    },
+    "22488-X6FPYN": {
+      "centavos": 20999950,
+      "secuencia": 0
+    },
+    "22488-XJFDEZ": {
+      "centavos": 5290000,
+      "secuencia": 0
+    },
+    "22488-YPJXWV": {
+      "centavos": 37449950,
+      "secuencia": 0
+    },
+    "22489-368QFU": {
+      "centavos": 3500000,
+      "secuencia": 0
+    },
+    "22489-4S7VTY": {
+      "centavos": 36500000,
+      "secuencia": 0
+    },
+    "22489-JPRKGC": {
+      "centavos": 32500000,
+      "secuencia": 0
+    },
+    "22489-MT37N5": {
+      "centavos": 7500000,
+      "secuencia": 0
+    },
+    "22489-PERMWQ": {
+      "centavos": 19950000,
+      "secuencia": 0
+    },
+    "22489-QXF8FK": {
+      "centavos": 3750000,
+      "secuencia": 0
+    },
+    "22489-XAPEAA": {
+      "centavos": 9250000,
+      "secuencia": 0
+    },
+    "22490-43YK79": {
+      "centavos": 13450000,
+      "secuencia": 0
+    },
+    "22490-4F4F8Z": {
+      "centavos": 24950000,
+      "secuencia": 0
+    },
+    "22490-9PMXXQ": {
+      "centavos": 32500000,
+      "secuencia": 0
+    },
+    "22490-AY7D43": {
+      "centavos": 24950000,
+      "secuencia": 0
+    },
+    "22490-MDMQX6": {
+      "centavos": 29950000,
+      "secuencia": 0
+    },
+    "22490-MRTUAE": {
+      "centavos": 25500000,
+      "secuencia": 0
+    },
+    "22490-QGA4KY": {
+      "centavos": 39950000,
+      "secuencia": 0
+    },
+    "22490-QSVQ7D": {
+      "centavos": 14450000,
+      "secuencia": 0
+    },
+    "22490-VUNGCD": {
+      "centavos": 9950000,
+      "secuencia": 0
+    },
+    "22490-W8JVRV": {
+      "centavos": 11950000,
+      "secuencia": 0
+    },
+    "22492-GRGYUJ": {
+      "centavos": 27000000,
+      "secuencia": 0
+    },
+    "22492-PRR4V4": {
+      "centavos": 33000000,
+      "secuencia": 0
+    },
+    "22493-6KA8MS": {
+      "centavos": 39250000,
+      "secuencia": 0
+    },
+    "22493-7GTKJX": {
+      "centavos": 55700000,
+      "secuencia": 0
+    },
+    "22493-DWBDCD": {
+      "centavos": 34585000,
+      "secuencia": 0
+    },
+    "22493-WFE56U": {
+      "centavos": 29450000,
+      "secuencia": 0
+    },
+    "22494-HRJ3XG": {
+      "centavos": 157500000,
+      "secuencia": 0
+    },
+    "22495-R8JJNC": {
+      "centavos": 55432750,
+      "secuencia": 0
+    },
+    "22496-5HC84E": {
+      "centavos": 22650000,
+      "secuencia": 0
+    },
+    "22496-5K2BAQ": {
+      "centavos": 12705000,
+      "secuencia": 0
+    },
+    "22496-7NN2U2": {
+      "centavos": 12870000,
+      "secuencia": 0
+    },
+    "22496-8577HX": {
+      "centavos": 99900000,
+      "secuencia": 0
+    },
+    "22496-FV6SEF": {
+      "centavos": 13700000,
+      "secuencia": 0
+    },
+    "22496-QTD2BW": {
+      "centavos": 225000000,
+      "secuencia": 0
+    },
+    "22496-T4JY6Z": {
+      "centavos": 14850000,
+      "secuencia": 0
+    },
+    "22496-UGRF4M": {
+      "centavos": 22000000,
+      "secuencia": 0
+    },
+    "22496-UUQ935": {
+      "centavos": 11550000,
+      "secuencia": 0
+    },
+    "22496-VN4ANP": {
+      "centavos": 134460000,
+      "secuencia": 0
+    },
+    "22499-2RVSRD": {
+      "centavos": 8450000,
+      "secuencia": 0
+    },
+    "22499-5Z69FB": {
+      "centavos": 12950000,
+      "secuencia": 0
+    },
+    "22499-6KHG6H": {
+      "centavos": 8950000,
+      "secuencia": 0
+    },
+    "22499-KHZP72": {
+      "centavos": 24500000,
+      "secuencia": 0
+    },
+    "22499-KUYKYB": {
+      "centavos": 16250000,
+      "secuencia": 0
+    },
+    "22499-RGG76S": {
+      "centavos": 17950000,
+      "secuencia": 0
+    },
+    "22499-SJTCYQ": {
+      "centavos": 8950000,
+      "secuencia": 0
+    },
+    "22500-C9YUP9": {
+      "centavos": 16082500,
+      "secuencia": 0
+    },
+    "22500-CS7H6Q": {
+      "centavos": 10597750,
+      "secuencia": 0
+    },
+    "22500-Z4XRNY": {
+      "centavos": 13458750,
+      "secuencia": 0
+    },
+    "22500-ZABZXD": {
+      "centavos": 13183125,
+      "secuencia": 0
+    },
+    "22504-AT2SDD": {
+      "centavos": 20000000,
+      "secuencia": 0
+    },
+    "22504-C924UY": {
+      "centavos": 19000000,
+      "secuencia": 0
+    },
+    "22504-EC6KJM": {
+      "centavos": 21000000,
+      "secuencia": 0
+    },
+    "22504-NAFHDU": {
+      "centavos": 19000000,
+      "secuencia": 0
+    },
+    "22504-QPZPBQ": {
+      "centavos": 30000000,
+      "secuencia": 0
+    },
+    "22504-ZQ65PC": {
+      "centavos": 14000000,
+      "secuencia": 0
+    },
+    "22517-2UDS84": {
+      "centavos": 94410800,
+      "secuencia": 0
+    },
+    "22517-96APVX": {
+      "centavos": 132384000,
+      "secuencia": 0
+    },
+    "22520-3FA4V6": {
+      "centavos": 825000,
+      "secuencia": 0
+    },
+    "22520-7KVFFB": {
+      "centavos": 15700000,
+      "secuencia": 0
+    },
+    "22520-AAASKG": {
+      "centavos": 3320000,
+      "secuencia": 0
+    },
+    "22520-CF46DR": {
+      "centavos": 8200000,
+      "secuencia": 0
+    },
+    "22520-CREPDG": {
+      "centavos": 16450000,
+      "secuencia": 0
+    },
+    "22520-J8JESE": {
+      "centavos": 8300000,
+      "secuencia": 0
+    },
+    "22520-KUKZSF": {
+      "centavos": 10650000,
+      "secuencia": 0
+    },
+    "22520-MVF52S": {
+      "centavos": 1045000,
+      "secuencia": 0
+    },
+    "22520-S4NXJM": {
+      "centavos": 6100000,
+      "secuencia": 0
+    },
+    "22520-SDZGNG": {
+      "centavos": 1023000,
+      "secuencia": 0
+    },
+    "22520-TD95Y4": {
+      "centavos": 13030000,
+      "secuencia": 0
+    },
+    "22520-VUE2MZ": {
+      "centavos": 5810000,
+      "secuencia": 0
+    },
+    "22520-XNGFKT": {
+      "centavos": 924000,
+      "secuencia": 0
+    },
+    "22542-44MXJ6": {
+      "centavos": 24500000,
+      "secuencia": 0
+    },
+    "22542-4ARVB5": {
+      "centavos": 19500000,
+      "secuencia": 0
+    },
+    "22542-4XWFEP": {
+      "centavos": 69950000,
+      "secuencia": 0
+    },
+    "22542-4YFDXU": {
+      "centavos": 64950000,
+      "secuencia": 0
+    },
+    "22542-7A89RJ": {
+      "centavos": 27000000,
+      "secuencia": 0
+    },
+    "22542-7VGPXY": {
+      "centavos": 36500000,
+      "secuencia": 0
+    },
+    "22542-DM5XKR": {
+      "centavos": 65000000,
+      "secuencia": 0
+    },
+    "22542-RS4SZF": {
+      "centavos": 32000000,
+      "secuencia": 0
+    },
+    "22542-VKNDDZ": {
+      "centavos": 55000000,
+      "secuencia": 0
+    },
+    "22542-ZD74Y9": {
+      "centavos": 39500000,
+      "secuencia": 0
+    },
+    "22543-2FHXZ4": {
+      "centavos": 92500000,
+      "secuencia": 0
+    },
+    "22543-9VQ8NU": {
+      "centavos": 72500000,
+      "secuencia": 0
+    },
+    "22543-AGBXMM": {
+      "centavos": 245000000,
+      "secuencia": 0
+    },
+    "22543-CFKQYD": {
+      "centavos": 107000000,
+      "secuencia": 0
+    },
+    "22543-EXQ9CE": {
+      "centavos": 75000000,
+      "secuencia": 0
+    },
+    "22543-MTKWTB": {
+      "centavos": 108500000,
+      "secuencia": 0
+    },
+    "22543-MXBKM5": {
+      "centavos": 70250000,
+      "secuencia": 0
+    },
+    "22543-N9C776": {
+      "centavos": 62500000,
+      "secuencia": 0
+    },
+    "22543-SSTUJ4": {
+      "centavos": 98500000,
+      "secuencia": 0
+    },
+    "22543-TSQH9E": {
+      "centavos": 74500000,
+      "secuencia": 0
+    },
+    "22543-UA74RN": {
+      "centavos": 94500000,
+      "secuencia": 0
+    },
+    "22543-YGTPBB": {
+      "centavos": 54500000,
+      "secuencia": 0
+    },
+    "22544-4RCJY5": {
+      "centavos": 48515750,
+      "secuencia": 0
+    },
+    "22544-9PKEC7": {
+      "centavos": 25952550,
+      "secuencia": 0
+    },
+    "22544-9S8BRZ": {
+      "centavos": 31265750,
+      "secuencia": 0
+    },
+    "22544-A4SJDG": {
+      "centavos": 18326550,
+      "secuencia": 0
+    },
+    "22544-CDQNXD": {
+      "centavos": 23000000,
+      "secuencia": 0
+    },
+    "22544-F4HM7M": {
+      "centavos": 7360000,
+      "secuencia": 0
+    },
+    "22544-F9A3CV": {
+      "centavos": 13799950,
+      "secuencia": 0
+    },
+    "22544-JNEY63": {
+      "centavos": 13500000,
+      "secuencia": 0
+    },
+    "22544-KC3Y94": {
+      "centavos": 11105000,
+      "secuencia": 0
+    },
+    "22544-KR8JRA": {
+      "centavos": 6787800,
+      "secuencia": 0
+    },
+    "22544-KTCRYU": {
+      "centavos": 35755000,
+      "secuencia": 0
+    },
+    "22544-NWQCZ8": {
+      "centavos": 46248500,
+      "secuencia": 0
+    },
+    "22544-PQZ82P": {
+      "centavos": 57500000,
+      "secuencia": 0
+    },
+    "22544-Q29GWE": {
+      "centavos": 22255000,
+      "secuencia": 0
+    },
+    "22544-RQSKX9": {
+      "centavos": 10384450,
+      "secuencia": 0
+    },
+    "22544-UX9PJ7": {
+      "centavos": 13437700,
+      "secuencia": 0
+    },
+    "22544-UYNQ3V": {
+      "centavos": 17732950,
+      "secuencia": 0
+    },
+    "22544-XYQ2ZF": {
+      "centavos": 25315500,
+      "secuencia": 0
+    },
+    "22544-ZDZGNQ": {
+      "centavos": 13750000,
+      "secuencia": 0
+    },
+    "22547-53KNW5": {
+      "centavos": 9765900,
+      "secuencia": 0
+    },
+    "22547-6PGWEM": {
+      "centavos": 9579300,
+      "secuencia": 0
+    },
+    "22547-6RKP9Q": {
+      "centavos": 12192200,
+      "secuencia": 0
+    },
+    "22547-A2CZ53": {
+      "centavos": 6934000,
+      "secuencia": 0
+    },
+    "22547-FBKYKW": {
+      "centavos": 22867500,
+      "secuencia": 0
+    },
+    "22547-HA8QRS": {
+      "centavos": 24921500,
+      "secuencia": 0
+    },
+    "22547-HPHB64": {
+      "centavos": 8322600,
+      "secuencia": 0
+    },
+    "22547-KF4G7F": {
+      "centavos": 28137400,
+      "secuencia": 0
+    },
+    "22547-MT934W": {
+      "centavos": 2442200,
+      "secuencia": 0
+    },
+    "22547-UQ7GS8": {
+      "centavos": 1919000,
+      "secuencia": 0
+    },
+    "22547-VRQ6GE": {
+      "centavos": 2394000,
+      "secuencia": 0
+    },
+    "22547-WC82AA": {
+      "centavos": 4994600,
+      "secuencia": 0
+    },
+    "22547-WNCZ28": {
+      "centavos": 3290600,
+      "secuencia": 0
+    },
+    "22547-X78YFN": {
+      "centavos": 6934000,
+      "secuencia": 0
+    },
+    "22547-XDERD9": {
+      "centavos": 8871800,
+      "secuencia": 0
+    },
+    "22550-8NN5VZ": {
+      "centavos": 4500000,
+      "secuencia": 0
+    },
+    "22550-9MYJRS": {
+      "centavos": 5500000,
+      "secuencia": 0
+    },
+    "22550-DJAWDR": {
+      "centavos": 12000000,
+      "secuencia": 0
+    },
+    "22550-MCP62F": {
+      "centavos": 4000000,
+      "secuencia": 0
+    },
+    "22550-P7X7NZ": {
+      "centavos": 26500000,
+      "secuencia": 0
+    },
+    "22550-R7EY57": {
+      "centavos": 4800000,
+      "secuencia": 0
+    },
+    "22550-TS24DM": {
+      "centavos": 7000000,
+      "secuencia": 0
+    },
+    "22550-X3TSE6": {
+      "centavos": 5500000,
+      "secuencia": 0
+    },
+    "22550-XJYBQ5": {
+      "centavos": 3500000,
+      "secuencia": 0
+    },
+    "22565-52AA6R": {
+      "centavos": 64000000,
+      "secuencia": 0
+    },
+    "22565-5GTUH5": {
+      "centavos": 85000000,
+      "secuencia": 0
+    },
+    "22565-8DVMQW": {
+      "centavos": 74000000,
+      "secuencia": 0
+    },
+    "22565-CETM23": {
+      "centavos": 198000000,
+      "secuencia": 0
+    },
+    "22565-CMS47N": {
+      "centavos": 1200000000,
+      "secuencia": 0
+    },
+    "22565-FSZHV3": {
+      "centavos": 75000000,
+      "secuencia": 0
+    },
+    "22565-FWNUTD": {
+      "centavos": 7500000,
+      "secuencia": 0
+    },
+    "22565-KYCBN7": {
+      "centavos": 102000000,
+      "secuencia": 0
+    },
+    "22565-MJXW3E": {
+      "centavos": 43500000,
+      "secuencia": 0
+    },
+    "22565-N9GNZH": {
+      "centavos": 218000000,
+      "secuencia": 0
+    },
+    "22565-TCCMX9": {
+      "centavos": 57800000,
+      "secuencia": 0
+    },
+    "22565-TM5HCH": {
+      "centavos": 7500000,
+      "secuencia": 0
+    },
+    "22565-TXG9AF": {
+      "centavos": 535000000,
+      "secuencia": 0
+    },
+    "22565-VDTQ6D": {
+      "centavos": 340000000,
+      "secuencia": 0
+    },
+    "22579-2MM6ZK": {
+      "centavos": 1100000,
+      "secuencia": 0
+    },
+    "22579-3TGTHM": {
+      "centavos": 4350000,
+      "secuencia": 0
+    },
+    "22579-ADTMZJ": {
+      "centavos": 1550000,
+      "secuencia": 0
+    },
+    "22579-AVFWGU": {
+      "centavos": 3000000,
+      "secuencia": 0
+    },
+    "22579-EC32PU": {
+      "centavos": 6500000,
+      "secuencia": 0
+    },
+    "22579-RGCQ7S": {
+      "centavos": 2200000,
+      "secuencia": 0
+    },
+    "22597-YSHHX7": {
+      "centavos": 190000000,
+      "secuencia": 0
+    },
+    "22601-4FMEA2": {
+      "centavos": 10500000,
+      "secuencia": 0
+    },
+    "22601-8WK4WW": {
+      "centavos": 40400000,
+      "secuencia": 0
+    },
+    "22601-JDKW2D": {
+      "centavos": 19966600,
+      "secuencia": 0
+    },
+    "22601-M7MJ4Q": {
+      "centavos": 27400000,
+      "secuencia": 0
+    },
+    "22601-UZ7CTC": {
+      "centavos": 19260000,
+      "secuencia": 0
+    },
+    "22601-VTW6T6": {
+      "centavos": 7800000,
+      "secuencia": 0
+    },
+    "22601-XT7DY5": {
+      "centavos": 8100000,
+      "secuencia": 0
+    },
+    "22601-Y6Z3B5": {
+      "centavos": 5700000,
+      "secuencia": 0
+    },
+    "22605-CMUUNG": {
+      "centavos": 389800000,
+      "secuencia": 0
+    },
+    "22608-4T4AXP": {
+      "centavos": 1600000,
+      "secuencia": 0
+    },
+    "22608-5F37YT": {
+      "centavos": 14900000,
+      "secuencia": 0
+    },
+    "22608-68CEBT": {
+      "centavos": 9500000,
+      "secuencia": 0
+    },
+    "22608-DNNSP9": {
+      "centavos": 4200000,
+      "secuencia": 0
+    },
+    "22608-EUS3NQ": {
+      "centavos": 800000,
+      "secuencia": 0
+    },
+    "22608-H7BZ49": {
+      "centavos": 1100000,
+      "secuencia": 0
+    },
+    "22608-M8CPQY": {
+      "centavos": 9500000,
+      "secuencia": 0
+    },
+    "22608-T2R65Y": {
+      "centavos": 23300000,
+      "secuencia": 0
+    },
+    "22609-CDGKGQ": {
+      "centavos": 78000000,
+      "secuencia": 0
+    },
+    "22609-FC3HPC": {
+      "centavos": 70000000,
+      "secuencia": 0
+    },
+    "22609-HEATQC": {
+      "centavos": 42000000,
+      "secuencia": 0
+    },
+    "22609-JCPAHH": {
+      "centavos": 22000000,
+      "secuencia": 0
+    },
+    "22609-NP62EZ": {
+      "centavos": 14000000,
+      "secuencia": 0
+    },
+    "22609-SXAUDV": {
+      "centavos": 22000000,
+      "secuencia": 0
+    },
+    "22609-X66NWR": {
+      "centavos": 37000000,
+      "secuencia": 0
+    },
+    "22609-Y9ARF6": {
+      "centavos": 58000000,
+      "secuencia": 0
+    },
+    "22609-YX3AE6": {
+      "centavos": 48000000,
+      "secuencia": 0
+    },
+    "22609-ZEZB4Q": {
+      "centavos": 36000000,
+      "secuencia": 0
+    },
+    "22609-ZJ77RU": {
+      "centavos": 45000000,
+      "secuencia": 0
+    },
+    "22628-TPQPDQ": {
+      "centavos": 445000000,
+      "secuencia": 0
+    },
+    "22654-8HHF2C": {
+      "centavos": 17500000,
+      "secuencia": 0
+    },
+    "22654-8RR77R": {
+      "centavos": 12500000,
+      "secuencia": 0
+    },
+    "22654-9ESQJK": {
+      "centavos": 34500000,
+      "secuencia": 0
+    },
+    "22654-AF6BZX": {
+      "centavos": 22500000,
+      "secuencia": 0
+    },
+    "22654-DMRX3D": {
+      "centavos": 39500000,
+      "secuencia": 0
+    },
+    "22654-FQQP5Y": {
+      "centavos": 17000000,
+      "secuencia": 0
+    },
+    "22654-GGWHZB": {
+      "centavos": 24000000,
+      "secuencia": 0
+    },
+    "22654-KH5CP3": {
+      "centavos": 36000000,
+      "secuencia": 0
+    },
+    "22654-VNWCCV": {
+      "centavos": 14000000,
+      "secuencia": 0
+    },
+    "22656-U5YWDK": {
+      "centavos": 12450000,
+      "secuencia": 0
+    },
+    "22656-ZYZPUW": {
+      "centavos": 11000000,
+      "secuencia": 0
+    },
+    "22658-259SJS": {
+      "centavos": 34900000,
+      "secuencia": 0
+    },
+    "22658-9PBVJG": {
+      "centavos": 58550000,
+      "secuencia": 0
+    },
+    "22658-9Q3G7Z": {
+      "centavos": 22600000,
+      "secuencia": 0
+    },
+    "22658-C6FJAW": {
+      "centavos": 16950000,
+      "secuencia": 0
+    },
+    "22658-K7XHJM": {
+      "centavos": 9750000,
+      "secuencia": 0
+    },
+    "22658-QTCS8Q": {
+      "centavos": 28600000,
+      "secuencia": 0
+    },
+    "22658-SBYBPK": {
+      "centavos": 57450000,
+      "secuencia": 0
+    },
+    "22658-STP3X5": {
+      "centavos": 41625000,
+      "secuencia": 0
+    },
+    "22658-XCQ2QR": {
+      "centavos": 18550000,
+      "secuencia": 0
+    },
+    "22658-ZDZRWE": {
+      "centavos": 17450000,
+      "secuencia": 0
+    },
+    "22659-98Y393": {
+      "centavos": 35950000,
+      "secuencia": 0
+    },
+    "22659-ES75JG": {
+      "centavos": 23750000,
+      "secuencia": 0
+    },
+    "22659-GT97RQ": {
+      "centavos": 22450000,
+      "secuencia": 0
+    },
+    "22659-MPRBZP": {
+      "centavos": 19750000,
+      "secuencia": 0
+    },
+    "22659-MXGZXX": {
+      "centavos": 7250000,
+      "secuencia": 0
+    },
+    "22659-USQMEZ": {
+      "centavos": 27450000,
+      "secuencia": 0
+    },
+    "22659-XQNE37": {
+      "centavos": 8950000,
+      "secuencia": 0
+    },
+    "22675-4J78RE": {
+      "centavos": 12000000,
+      "secuencia": 0
+    },
+    "22675-QCE639": {
+      "centavos": 6000000,
+      "secuencia": 0
+    },
+    "22675-YDHHVD": {
+      "centavos": 7950000,
+      "secuencia": 0
+    },
+    "22683-5GFW5A": {
+      "centavos": 4382500,
+      "secuencia": 0
+    },
+    "22683-D8CCGJ": {
+      "centavos": 4250000,
+      "secuencia": 0
+    },
+    "22683-K9FWVZ": {
+      "centavos": 11160000,
+      "secuencia": 0
+    },
+    "22683-T7F843": {
+      "centavos": 7980000,
+      "secuencia": 0
+    },
+    "22702-6KF2D3": {
+      "centavos": 10443000,
+      "secuencia": 0
+    },
+    "22702-7G432U": {
+      "centavos": 8661000,
+      "secuencia": 0
+    },
+    "22702-AUE8P3": {
+      "centavos": 14721300,
+      "secuencia": 0
+    },
+    "22702-D58QDK": {
+      "centavos": 18632400,
+      "secuencia": 0
+    },
+    "22702-GPPHT5": {
+      "centavos": 25883900,
+      "secuencia": 0
+    },
+    "22702-JQCF58": {
+      "centavos": 10718100,
+      "secuencia": 0
+    },
+    "22702-KFPQ3R": {
+      "centavos": 11443600,
+      "secuencia": 0
+    },
+    "22702-KJ6Z83": {
+      "centavos": 8291500,
+      "secuencia": 0
+    },
+    "22702-M82QXB": {
+      "centavos": 14532600,
+      "secuencia": 0
+    },
+    "22702-RWQ4FQ": {
+      "centavos": 15687900,
+      "secuencia": 0
+    },
+    "22702-V4Z5GE": {
+      "centavos": 22796200,
+      "secuencia": 0
+    },
+    "22702-VXEW76": {
+      "centavos": 29146600,
+      "secuencia": 0
+    },
+    "22702-XFSVCH": {
+      "centavos": 13710900,
+      "secuencia": 0
+    },
+    "22702-ZSDSZP": {
+      "centavos": 8660000,
+      "secuencia": 0
+    },
+    "22712-AC3ASS": {
+      "centavos": 41000000,
+      "secuencia": 0
+    },
+    "22712-EKCJFJ": {
+      "centavos": 18500000,
+      "secuencia": 0
+    },
+    "22712-G9QMTB": {
+      "centavos": 27499950,
+      "secuencia": 0
+    },
+    "22712-H8N7MG": {
+      "centavos": 26500000,
+      "secuencia": 0
+    },
+    "22712-RG7VE5": {
+      "centavos": 120000000,
+      "secuencia": 0
+    },
+    "22712-STXGVE": {
+      "centavos": 8000000,
+      "secuencia": 0
+    },
+    "22712-T2FRJ3": {
+      "centavos": 29999950,
+      "secuencia": 0
+    },
+    "22712-XMZ2NC": {
+      "centavos": 15000000,
+      "secuencia": 0
+    },
+    "22722-2QJANH": {
+      "centavos": 179900000,
+      "secuencia": 0
+    },
+    "22722-2Y358D": {
+      "centavos": 55000000,
+      "secuencia": 0
+    },
+    "22722-4TKCPN": {
+      "centavos": 45500000,
+      "secuencia": 0
+    },
+    "22722-5V57HD": {
+      "centavos": 56900000,
+      "secuencia": 0
+    },
+    "22722-HHHTHJ": {
+      "centavos": 99900000,
+      "secuencia": 0
+    },
+    "22722-PTJ3KG": {
+      "centavos": 57900000,
+      "secuencia": 0
+    },
+    "22722-Q2KE8E": {
+      "centavos": 64900000,
+      "secuencia": 0
+    },
+    "22722-SAFV28": {
+      "centavos": 26500000,
+      "secuencia": 0
+    },
+    "22722-UH8H3N": {
+      "centavos": 59000000,
+      "secuencia": 0
+    },
+    "22728-3Q7SAZ": {
+      "centavos": 43500000,
+      "secuencia": 0
+    },
+    "22728-5TWSYT": {
+      "centavos": 135000000,
+      "secuencia": 0
+    },
+    "22728-9VCKDP": {
+      "centavos": 36000000,
+      "secuencia": 0
+    },
+    "22728-B7UQ6V": {
+      "centavos": 89800000,
+      "secuencia": 0
+    },
+    "22728-M7J3XQ": {
+      "centavos": 72000000,
+      "secuencia": 0
+    },
+    "22728-PD5U8K": {
+      "centavos": 34000000,
+      "secuencia": 0
+    },
+    "22728-PHAFB2": {
+      "centavos": 38000000,
+      "secuencia": 0
+    },
+    "22728-SHJWX7": {
+      "centavos": 138000000,
+      "secuencia": 0
+    },
+    "22728-SPWNSA": {
+      "centavos": 58000000,
+      "secuencia": 0
+    },
+    "22728-SX6MAW": {
+      "centavos": 159500000,
+      "secuencia": 0
+    },
+    "22728-UF7UKN": {
+      "centavos": 34000000,
+      "secuencia": 0
+    },
+    "22728-VFW2JS": {
+      "centavos": 45000000,
+      "secuencia": 0
+    },
+    "22737-US82QE": {
+      "centavos": 223440000,
+      "secuencia": 0
+    },
+    "22738-CBKP7F": {
+      "centavos": 250600000,
+      "secuencia": 0
+    },
+    "22754-3NWR6B": {
+      "centavos": 60060000,
+      "secuencia": 0
+    },
+    "22754-EZSFYX": {
+      "centavos": 52712000,
+      "secuencia": 0
+    },
+    "22754-FKRSV2": {
+      "centavos": 68956800,
+      "secuencia": 0
+    },
+    "22754-GJEXWS": {
+      "centavos": 68160000,
+      "secuencia": 0
+    },
+    "22754-MMDMSV": {
+      "centavos": 67540000,
+      "secuencia": 0
+    },
+    "22754-T6V6RJ": {
+      "centavos": 76400000,
+      "secuencia": 0
+    },
+    "22754-UK7WM8": {
+      "centavos": 70282000,
+      "secuencia": 0
+    },
+    "22754-YWGHD3": {
+      "centavos": 73800000,
+      "secuencia": 0
+    },
+    "22759-8UX446": {
+      "centavos": 660000000,
+      "secuencia": 0
+    },
+    "22759-BD9Z3B": {
+      "centavos": 419000000,
+      "secuencia": 0
+    },
+    "22759-CW5WVD": {
+      "centavos": 145000000,
+      "secuencia": 0
+    },
+    "22759-RJWR58": {
+      "centavos": 450000000,
+      "secuencia": 0
+    },
+    "22759-SYZWHU": {
+      "centavos": 362000000,
+      "secuencia": 0
+    },
+    "22763-2KYJE7": {
+      "centavos": 7999900,
+      "secuencia": 0
+    },
+    "22763-9PXWKK": {
+      "centavos": 4199900,
+      "secuencia": 0
+    },
+    "22763-CBWTE7": {
+      "centavos": 4929900,
+      "secuencia": 0
+    },
+    "22763-E4KB5Y": {
+      "centavos": 8999900,
+      "secuencia": 0
+    },
+    "22763-FRY2Q7": {
+      "centavos": 6389900,
+      "secuencia": 0
+    },
+    "22763-JUGBKU": {
+      "centavos": 6999900,
+      "secuencia": 0
+    },
+    "22763-PEHCM2": {
+      "centavos": 4199900,
+      "secuencia": 0
+    },
+    "22763-WWDZKA": {
+      "centavos": 8809900,
+      "secuencia": 0
+    },
+    "22763-XZTW5V": {
+      "centavos": 15329900,
+      "secuencia": 0
+    },
+    "22763-ZYDVTD": {
+      "centavos": 7969900,
+      "secuencia": 0
+    },
+    "22787-Q5XNXS": {
+      "centavos": 188300000,
+      "secuencia": 0
+    },
+    "22788-282G8R": {
+      "centavos": 9845000,
+      "secuencia": 0
+    },
+    "22788-FFEZNW": {
+      "centavos": 11580000,
+      "secuencia": 0
+    },
+    "22788-HHTRNK": {
+      "centavos": 12640000,
+      "secuencia": 0
+    },
+    "22800-57JUSC": {
+      "centavos": 49200000,
+      "secuencia": 0
+    },
+    "22800-C6QVFQ": {
+      "centavos": 160000000,
+      "secuencia": 0
+    },
+    "22800-CJ6TJ6": {
+      "centavos": 44500000,
+      "secuencia": 0
+    },
+    "22800-PJ7UXM": {
+      "centavos": 15700000,
+      "secuencia": 0
+    },
+    "22800-QMMRGK": {
+      "centavos": 23330000,
+      "secuencia": 0
+    },
+    "22841-4R5MT9": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22841-RYPDKW": {
+      "centavos": 39900000,
+      "secuencia": 0
+    },
+    "22843-4865DK": {
+      "centavos": 9983300,
+      "secuencia": 0
+    },
+    "22843-6DRJ6W": {
+      "centavos": 2850000,
+      "secuencia": 0
+    },
+    "22843-6PP6XS": {
+      "centavos": 9630000,
+      "secuencia": 0
+    },
+    "22843-MPH9CZ": {
+      "centavos": 5250000,
+      "secuencia": 0
+    },
+    "22843-UTNV45": {
+      "centavos": 3900000,
+      "secuencia": 0
+    },
+    "22843-V74ZBQ": {
+      "centavos": 4050000,
+      "secuencia": 0
+    },
+    "22843-Y3MBZT": {
+      "centavos": 13700000,
+      "secuencia": 0
+    },
+    "22843-Y6DJV7": {
+      "centavos": 20200000,
+      "secuencia": 0
+    },
+    "22844-6KMG6B": {
+      "centavos": 53336200,
+      "secuencia": 0
+    },
+    "22844-CQN43G": {
+      "centavos": 47779200,
+      "secuencia": 0
+    },
+    "22844-RRRTVN": {
+      "centavos": 91095600,
+      "secuencia": 0
+    },
+    "22844-TAH2PF": {
+      "centavos": 50305200,
+      "secuencia": 0
+    },
+    "22844-UWG4WN": {
+      "centavos": 66913400,
+      "secuencia": 0
+    },
+    "22846-45JQF6": {
+      "centavos": 5750000,
+      "secuencia": 0
+    },
+    "22846-489YSU": {
+      "centavos": 2750000,
+      "secuencia": 0
+    },
+    "22846-JJCQMV": {
+      "centavos": 3750000,
+      "secuencia": 0
+    },
+    "22846-RJVFB5": {
+      "centavos": 16000000,
+      "secuencia": 0
+    },
+    "22846-U9AAMF": {
+      "centavos": 13500000,
+      "secuencia": 0
+    },
+    "22847-GBRM7D": {
+      "centavos": 64999950,
+      "secuencia": 0
+    },
+    "22847-VEUY6A": {
+      "centavos": 56499950,
+      "secuencia": 0
+    },
+    "22847-ZGKVER": {
+      "centavos": 86999950,
+      "secuencia": 0
+    },
+    "22848-3GXDA9": {
+      "centavos": 23450000,
+      "secuencia": 0
+    },
+    "22848-463KUX": {
+      "centavos": 4850000,
+      "secuencia": 0
+    },
+    "22848-5GQETA": {
+      "centavos": 24650000,
+      "secuencia": 0
+    },
+    "22848-68DCWU": {
+      "centavos": 57450000,
+      "secuencia": 0
+    },
+    "22848-83GDQ9": {
+      "centavos": 11450000,
+      "secuencia": 0
+    },
+    "22848-FRQTSE": {
+      "centavos": 14900000,
+      "secuencia": 0
+    },
+    "22848-M87HYS": {
+      "centavos": 27450000,
+      "secuencia": 0
+    },
+    "22849-2DQXX9": {
+      "centavos": 1825000,
+      "secuencia": 0
+    },
+    "22849-2NWNXW": {
+      "centavos": 1355000,
+      "secuencia": 0
+    },
+    "22849-3XQJHC": {
+      "centavos": 3905000,
+      "secuencia": 0
+    },
+    "22849-6HJY8Y": {
+      "centavos": 2030000,
+      "secuencia": 0
+    },
+    "22849-8DNVPQ": {
+      "centavos": 4350000,
+      "secuencia": 0
+    },
+    "22849-9RYJ49": {
+      "centavos": 1355000,
+      "secuencia": 0
+    },
+    "22849-BHWUVH": {
+      "centavos": 1255000,
+      "secuencia": 0
+    },
+    "22849-BPU6RR": {
+      "centavos": 1455000,
+      "secuencia": 0
+    },
+    "22849-BSHKEK": {
+      "centavos": 2920000,
+      "secuencia": 0
+    },
+    "22849-F3CH9U": {
+      "centavos": 3300000,
+      "secuencia": 0
+    },
+    "22849-K27KPP": {
+      "centavos": 1985000,
+      "secuencia": 0
+    },
+    "22849-TNCJEM": {
+      "centavos": 1395000,
+      "secuencia": 0
+    },
+    "22849-V8WMS5": {
+      "centavos": 1625000,
+      "secuencia": 0
+    },
+    "22849-WU788F": {
+      "centavos": 4690000,
+      "secuencia": 0
+    },
+    "22850-223FMU": {
+      "centavos": 72109600,
+      "secuencia": 0
+    },
+    "22850-5WDYBA": {
+      "centavos": 16448200,
+      "secuencia": 0
+    },
+    "22850-AC5Q7J": {
+      "centavos": 14844600,
+      "secuencia": 0
+    },
+    "22850-JDX78N": {
+      "centavos": 18586400,
+      "secuencia": 0
+    },
+    "22851-427YUP": {
+      "centavos": 29140350,
+      "secuencia": 0
+    },
+    "22851-6F79HB": {
+      "centavos": 16527450,
+      "secuencia": 0
+    },
+    "22851-B77TBV": {
+      "centavos": 10994050,
+      "secuencia": 0
+    },
+    "22851-GH9YYZ": {
+      "centavos": 30370950,
+      "secuencia": 0
+    },
+    "22851-PEZWZE": {
+      "centavos": 31263000,
+      "secuencia": 0
+    },
+    "22851-QMK28C": {
+      "centavos": 16826300,
+      "secuencia": 0
+    },
+    "22851-WH8MAH": {
+      "centavos": 23070500,
+      "secuencia": 0
+    },
+    "22851-YXGQ5D": {
+      "centavos": 35921700,
+      "secuencia": 0
+    },
+    "22852-2EE6H8": {
+      "centavos": 31180000,
+      "secuencia": 0
+    },
+    "22852-93C42G": {
+      "centavos": 35300000,
+      "secuencia": 0
+    },
+    "22852-BY33GX": {
+      "centavos": 28500000,
+      "secuencia": 0
+    },
+    "22852-SMXGFM": {
+      "centavos": 33325000,
+      "secuencia": 0
+    },
+    "22853-5FTVPX": {
+      "centavos": 6000000,
+      "secuencia": 0
+    },
+    "22853-5MSY87": {
+      "centavos": 4250000,
+      "secuencia": 0
+    },
+    "22853-ANHACP": {
+      "centavos": 1250000,
+      "secuencia": 0
+    },
+    "22853-REPQAM": {
+      "centavos": 3250000,
+      "secuencia": 0
+    },
+    "22853-VZYS8Q": {
+      "centavos": 2450000,
+      "secuencia": 0
+    },
+    "22853-WYEWZV": {
+      "centavos": 2750000,
+      "secuencia": 0
+    },
+    "22854-6BMQKW": {
+      "centavos": 83750000,
+      "secuencia": 0
+    },
+    "22854-7ER5CA": {
+      "centavos": 89450000,
+      "secuencia": 0
+    },
+    "22854-HQANPY": {
+      "centavos": 28750000,
+      "secuencia": 0
+    },
+    "22854-JTJTE9": {
+      "centavos": 25500000,
+      "secuencia": 0
+    },
+    "22854-QJESZN": {
+      "centavos": 98450000,
+      "secuencia": 0
+    },
+    "22854-SUAE9G": {
+      "centavos": 32450000,
+      "secuencia": 0
+    },
+    "22854-WVA73Y": {
+      "centavos": 35500000,
+      "secuencia": 0
+    },
+    "22854-YCJ8FT": {
+      "centavos": 13250000,
+      "secuencia": 0
+    },
+    "22856-26X9BE": {
+      "centavos": 26500000,
+      "secuencia": 0
+    },
+    "22856-33B6E9": {
+      "centavos": 36000000,
+      "secuencia": 0
+    },
+    "22856-42YZRY": {
+      "centavos": 46500000,
+      "secuencia": 0
+    },
+    "22856-566HRY": {
+      "centavos": 57500000,
+      "secuencia": 0
+    },
+    "22856-93Q3RS": {
+      "centavos": 43500000,
+      "secuencia": 0
+    },
+    "22856-RKB576": {
+      "centavos": 46000000,
+      "secuencia": 0
+    },
+    "22857-MWQ5JW": {
+      "centavos": 35000000,
+      "secuencia": 0
+    },
+    "22859-A2BRNT": {
+      "centavos": 28405000,
+      "secuencia": 0
+    },
+    "22859-Q32DJD": {
+      "centavos": 23015000,
+      "secuencia": 0
+    },
+    "22859-T9ZRGE": {
+      "centavos": 29175000,
+      "secuencia": 0
+    },
+    "22859-UQJYS2": {
+      "centavos": 22440000,
+      "secuencia": 0
+    },
+    "22859-WUZ7KM": {
+      "centavos": 15975000,
+      "secuencia": 0
+    },
+    "22861-SEQ5YT": {
+      "centavos": 311500000,
+      "secuencia": 0
+    }
+  },
+  "version": 1
+}

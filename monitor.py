@@ -108,9 +108,12 @@ def create_issue(api, token, products, *, test=False):
         title = f'Sidecompras: {len(products)} producto(s) nuevos'
         lines = ['Hola @gabyboan, se detectaron estos productos nuevos en Sidecompras:\n']
         for p in products:
-            price = p.get('precio_con_descuento') or p.get('precio') or 'No informado'
+            from historico import effective_price, _money
+            cents = effective_price(p)
+            price = _money(cents) if cents else 'No informado'
+            condition = ' (bonificación sujeta a condiciones)' if p.get('reintegro') else ''
             url = SITE + '/#/producto/' + quote(p['codigo'], safe='')
-            lines.append(f"- [{clean(p['titulo'])}]({url}) — {clean(p.get('comercio'))} — $ {clean(price)}")
+            lines.append(f"- [{clean(p['titulo'])}]({url}) — {clean(p.get('comercio'))} — {clean(price)}{condition}")
         lines.extend(['', 'Productos detectados desde el inicio del monitoreo.', '', marker([p['codigo'] for p in products])])
         body = '\n'.join(lines)
     result = get_json(api + '/issues', token=token,
@@ -128,15 +131,24 @@ def main():
     current = fetch_catalog()
     seen = load_state()
     fresh = [p for code, p in current.items() if code not in seen]
-    if not fresh:
+    if fresh:
+        already = previously_alerted(api, token)
+        unsent = [p for p in fresh if p['codigo'] not in already]
+        for i in range(0, len(unsent), 50):
+            create_issue(api, token, unsent[i:i + 50])
+        save_state(seen | current.keys())
+        print(f'Nuevos: {len(fresh)}; avisados en esta ejecución: {len(unsent)}.')
+    else:
         print(f'Sin novedades. Catálogo: {len(current)} productos.')
-        return
-    already = previously_alerted(api, token)
-    unsent = [p for p in fresh if p['codigo'] not in already]
-    for i in range(0, len(unsent), 50):
-        create_issue(api, token, unsent[i:i + 50])
-    save_state(seen | current.keys())
-    print(f'Nuevos: {len(fresh)}; avisados en esta ejecución: {len(unsent)}.')
+    # Un fallo de una fuente de precios no debe impedir la detección de novedades
+    # ni el guardado correcto de los otros controles.
+    for module_name in ('historico', 'ofertas'):
+        try:
+            module = __import__(module_name)
+            module.run(current, api, token)
+        except Exception as exc:
+            print(f'Error en {module_name}; se reintentará: {exc}', file=sys.stderr, flush=True)
+
 
 
 if __name__ == '__main__':
