@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f6f2">
+  <meta name="description" content="Explorá Sidecompras y una muestra de otras tiendas en un solo lugar.">
+  <title>Radar Side | Tu radar de compras</title>
+  <link rel="preconnect" href="https://sidecompras.com.ar">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Radar Side, inicio"><span class="brand-mark">✳</span><span>radar<span class="brand-accent">side</span><small>por Gabriel</small></span></a>
+    <nav aria-label="Navegación principal"><a class="active" href="#catalogo">Explorar catálogo</a><a href="https://github.com/gabyboan/sidescrapping" target="_blank" rel="noopener noreferrer">Cómo funciona <span aria-hidden="true">↗</span></a></nav>
+    <a class="store-link" href="https://sidecompras.com.ar/" target="_blank" rel="noopener noreferrer">Ir a Sidecompras <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> TU RADAR DE COMPRAS</div><h1 id="hero-title">Tus compras,<br><em>en un solo lugar.</em></h1><p>Explorá Sidecompras y una muestra de otras tiendas. Descubrí productos y promociones.</p><a class="hero-button" href="#catalogo">Explorar productos <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="radar-center">✳</div><div class="floating-tag tag-top"><span>✦</span> UNA MIRADA MÁS SIMPLE</div><div class="floating-tag tag-bottom"><span>◉</span> TU CATÁLOGO, ACTUALIZADO</div><span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span><span class="art-spark spark-three">✧</span></div>
+    </section>
+    <section class="metrics wrap" aria-label="Resumen del catálogo"><div><span class="metric-label">PRODUCTOS MOSTRADOS</span><strong id="totalMetric">—</strong><span>incluye muestras parciales</span></div><div><span class="metric-label">CON DESCUENTO PUBLICADO</span><strong id="discountMetric">—</strong><span>promociones de las tiendas</span></div><div><span class="metric-label">SIDECOMPRAS ACTUALIZADO</span><strong id="updatedMetric" class="metric-date">Cargando...</strong><span id="updatedDetail">Hora argentina</span></div></section>
+
+    <section class="catalog wrap" id="catalogo" aria-labelledby="catalog-title">
+      <div class="section-head"><div><div class="eyebrow dark">EXPLORÁ LOS CATÁLOGOS <span>✳</span></div><h2 id="catalog-title">Encontrá tu próximo hallazgo<span>.</span></h2><p>Sidecompras y muestras de otras tiendas, con sus precios publicados.</p></div><div class="catalog-note"><span>↗</span><div>PRECIOS QUE CAMBIAN<br><strong>Revisá las condiciones en la tienda</strong></div></div></div>
+      <div class="notice"><span aria-hidden="true">ⓘ</span><p>Algunas promociones se aplican como <strong>bonificación en el resumen</strong> y pueden requerir tarjeta o cuotas específicas. El precio y el stock pueden cambiar.</p></div>
+      <div class="coverage" id="sourceCoverage" aria-live="polite">Consultando disponibilidad de las fuentes...</div>
+      <div class="toolbar">
+        <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar productos</span><input id="search" type="search" placeholder="Buscá un producto, marca o comercio..." autocomplete="off"><kbd>/</kbd></label>
+        <div class="select-wrap"><label class="sr-only" for="origin">Tienda de origen</label><select id="origin"><option value="">Todas las tiendas</option></select></div>
+        <div class="select-wrap"><label class="sr-only" for="category">Categoría</label><select id="category"><option value="">Todas las categorías</option></select></div>
+        <div class="select-wrap"><label class="sr-only" for="merchant">Comercio</label><select id="merchant"><option value="">Todos los comercios</option></select></div>
+        <div class="select-wrap"><label class="sr-only" for="sort">Ordenar productos</label><select id="sort"><option value="catalog">Orden original</option><option value="low">Menor precio</option><option value="high">Mayor precio</option><option value="discount">Mayor descuento</option><option value="az">Nombre A–Z</option></select></div>
+      </div>
+      <div class="results-bar"><div class="tabs" role="group" aria-label="Tipo de productos"><button class="tab selected" type="button" data-filter="all" aria-pressed="true">Todos</button><button class="tab" type="button" data-filter="discount" aria-pressed="false">Con descuento <span>✦</span></button><button class="tab" type="button" data-filter="new" aria-pressed="false" title="Productos señalados como nuevos por Sidecompras">Novedades</button></div><p id="resultCount" aria-live="polite">Cargando catálogo...</p></div>
+      <div id="status" class="status" role="status">Estamos preparando tu catálogo...</div>
+      <div id="products" class="products"></div>
+      <div class="pagination" id="pagination" aria-label="Paginación"></div>
+      <div class="source-note">Los descuentos son los publicados por cada tienda; no son una comparación de precios con otros comercios. «Novedades» muestra productos marcados como nuevos por Sidecompras. <a href="https://github.com/gabyboan/sidescrapping/blob/main/OFERTAS.md" target="_blank" rel="noopener noreferrer">Ver comparaciones verificadas ↗</a></div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand" href="#inicio"><span class="brand-mark">✳</span><span>radar<span class="brand-accent">side</span></span></a><p>Una manera más simple de explorar productos.<br><span>Proyecto independiente · Datos públicos de las tiendas</span></p><a href="https://sidecompras.com.ar/" target="_blank" rel="noopener noreferrer">Visitar Sidecompras ↗</a></div></footer>
+</body>
+</html>

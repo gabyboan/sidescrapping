@@ -1,5 +1,13 @@
 # Avisos de Sidecompras
 
+## Página visual y cobertura
+
+El tablero público está en https://sidescrapping-gabriel.pages.dev/. El código está en `dashboard/`; se publica con `wrangler pages deploy dashboard --project-name sidescrapping-gabriel --branch main`. La página lee los datos públicos de este repositorio y no necesita una base de datos para estos conjuntos.
+
+`catalogo.json` se actualiza en cada ejecución del monitor de Sidecompras. Incluye el catálogo que la API pudo verificar como completo y conserva el precio vigente separado del precio anterior. Las notificaciones existentes se refieren a Sidecompras y a las comparaciones de cinco modelos descritas más abajo.
+
+`supermercados.json` se actualiza aproximadamente cada seis horas mediante el workflow de muestras. Contiene hasta 500 productos de Vea y de Más Online y hasta 120 de XTR, según la respuesta pública de cada sitio. Son muestras de las primeras páginas, no catálogos completos ni un seguimiento de novedades o alertas de esas tiendas. Su orden y disponibilidad pueden cambiar; los precios pueden depender de la ubicación, stock y condiciones comerciales. Si una tienda falla antes de entregar productos se conserva su muestra anterior, con la fecha y el error. Coto, FullH4rd, Compra Gamer y Mercado Libre todavía no tienen catálogo conectado.
+
 GitHub Actions revisa el catálogo público de Sidecompras cada hora, alrededor del minuto 17. Por cada grupo de productos nuevos crea una incidencia y la asigna a **@gabyboan**. Cada aviso incluye nombre, comercio, precio y enlace. GitHub puede retrasar ejecuciones programadas.
 
 La referencia inicial está guardada en `estado.json`; los productos existentes en ese momento no se avisan como nuevos. Se guardan todos los códigos vistos para evitar avisos duplicados, incluso si un producto desaparece y luego vuelve con el mismo código. También se vigilan bajas de precios y ofertas externas como se describe abajo. Si falla la consulta, no se actualiza el estado. Las incidencias incluyen un marcador para evitar repetir avisos si falla el guardado posterior.
