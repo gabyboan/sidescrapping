@@ -6,7 +6,9 @@ import json
 import os
 from pathlib import Path
 import re
+from statistics import median
 import unicodedata
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / 'comparaciones.json'
@@ -110,12 +112,46 @@ def observed(value):
         return None
 
 
+def compatible(first, second):
+    a, b = first.get('titulo'), second.get('titulo')
+    size = presentation(a)
+    return bool(size and size == presentation(b) and tokens(a) & tokens(b)
+                and qualifiers(a) == qualifiers(b))
+
+
+def usable_product(p):
+    try:
+        url = urlsplit(p.get('url', ''))
+        return (p.get('disponible') is True and type(p.get('precio_vigente_centavos')) is int
+                and p['precio_vigente_centavos'] > 0 and isinstance(p.get('codigo'), str)
+                and bool(p['codigo']) and url.scheme == 'https' and bool(url.netloc))
+    except (TypeError, ValueError):
+        return False
+
+
+def central_references(entries):
+    """Eliminar extremos evidentes antes de calcular el promedio.
+
+    Con solo dos referencias muy dispares conservamos la menor, porque no hay
+    evidencia suficiente para que la mayor eleve artificialmente la oferta.
+    Con tres o más se usa la mediana para descartar valores fuera de 0,5-2x.
+    """
+    entries = sorted(entries, key=lambda entry: entry[1]['precio_vigente_centavos'])
+    if len(entries) == 2 and entries[1][1]['precio_vigente_centavos'] > 2 * entries[0][1]['precio_vigente_centavos']:
+        return entries[:1]
+    if len(entries) >= 3:
+        middle = median(entry[1]['precio_vigente_centavos'] for entry in entries)
+        return [entry for entry in entries if middle / 2 <= entry[1]['precio_vigente_centavos'] <= middle * 2]
+    return entries
+
+
 def compare(data, now=None):
     now = now or datetime.now(TZ)
     groups = defaultdict(list)
     for store in data.get('tiendas', []):
         timestamp = observed(store.get('actualizado'))
-        if store.get('error') or not timestamp or not timedelta(0) <= now - timestamp <= timedelta(hours=48):
+        if (store.get('error') or not store.get('id') or not store.get('nombre')
+                or not timestamp or not timedelta(0) <= now - timestamp <= timedelta(hours=48)):
             continue
         for p in store.get('productos', []):
             ean = p.get('ean')
@@ -123,29 +159,40 @@ def compare(data, now=None):
                 groups[ean].append((store, p, timestamp))
     result = {}
     for ean, entries in groups.items():
-        # SKU duplicados o variantes del mismo EAN por tienda hacen ambigua la comparación.
-        if len(entries) != 2 or entries[0][0].get('id') == entries[1][0].get('id'):
-            continue
-        first, second = entries
-        p1, p2 = first[1], second[1]
-        if any(p.get('disponible') is not True or type(p.get('precio_vigente_centavos')) is not int
-               or p['precio_vigente_centavos'] <= 0 or not p.get('codigo') or not p.get('url') for p in (p1, p2)):
-            continue
-        presentation1, presentation2 = presentation(p1.get('titulo')), presentation(p2.get('titulo'))
-        if (not presentation1 or presentation1 != presentation2
-                or not tokens(p1.get('titulo')) & tokens(p2.get('titulo'))
-                or qualifiers(p1.get('titulo')) != qualifiers(p2.get('titulo'))):
-            continue
-        cheap, expensive = sorted(entries, key=lambda entry: entry[1]['precio_vigente_centavos'])
-        price, reference = cheap[1]['precio_vigente_centavos'], expensive[1]['precio_vigente_centavos']
-        if price * 100 > reference * 80:
-            continue
-        result[cheap[1]['codigo']] = {
-            'tipo': 'ean', 'ean': ean, 'precio_centavos': price,
-            'referencia_centavos': reference, 'referencia_tienda': expensive[0]['nombre'],
-            'referencia_url': expensive[1]['url'], 'ahorro_porcentaje': round((reference - price) * 100 / reference, 1),
-            'observado': min(cheap[2], expensive[2]).isoformat(),
-        }
+        # Si una tienda publica varias fichas con este EAN, no se puede decidir
+        # cuál es la variante correcta, pero las demás siguen siendo utilizables.
+        store_counts = defaultdict(int)
+        for store, _, _ in entries:
+            store_counts[store['id']] += 1
+        entries = [entry for entry in entries if store_counts[entry[0]['id']] == 1 and usable_product(entry[1])]
+        for candidate in entries:
+            price = candidate[1]['precio_vigente_centavos']
+            refs = [entry for entry in entries if entry is not candidate and compatible(candidate[1], entry[1])]
+            # Evitar agrupar referencias que coinciden con la candidata pero se
+            # contradicen entre sí (por ejemplo por variante mal catalogada).
+            if any(not compatible(a[1], b[1]) for i, a in enumerate(refs) for b in refs[i + 1:]):
+                continue
+            # Una referencia promedio no convierte en mejor oferta a una
+            # tienda que ya tiene otra más barata dentro del mismo grupo.
+            if any(price > entry[1]['precio_vigente_centavos'] for entry in refs):
+                continue
+            refs = central_references(refs)
+            if not refs:
+                continue
+            reference = (sum(entry[1]['precio_vigente_centavos'] for entry in refs) + len(refs) // 2) // len(refs)
+            if price >= reference:
+                continue
+            ref_rows = [{'tienda': store['nombre'], 'precio_centavos': p['precio_vigente_centavos'],
+                         'url': p['url'], 'observado': timestamp.isoformat()}
+                        for store, p, timestamp in refs]
+            result[candidate[1]['codigo']] = {
+                'tipo': 'ean', 'ean': ean, 'precio_centavos': price,
+                'referencia_centavos': reference, 'referencia_tienda': refs[0][0]['nombre'],
+                'referencia_url': refs[0][1]['url'], 'referencias': ref_rows,
+                'cantidad_referencias': len(ref_rows),
+                'ahorro_porcentaje': round((reference - price) * 100 / reference, 1),
+                'observado': min([candidate[2]] + [entry[2] for entry in refs]).isoformat(),
+            }
     return {'version': 1, 'actualizado': now.isoformat(), 'comparaciones': result}
 
 

@@ -59,7 +59,7 @@ class ComparisonTests(unittest.TestCase):
             data['tiendas'][1]['productos'][0]['titulo'] = second
             self.assertEqual(compare(data, NOW)['comparaciones'], {}, (first, second))
 
-    def test_excludes_unavailable_duplicate_and_small_difference(self):
+    def test_excludes_unavailable_and_duplicate_but_keeps_small_difference(self):
         data = sample()
         data['tiendas'][1]['productos'][0]['disponible'] = False
         self.assertEqual(compare(data, NOW)['comparaciones'], {})
@@ -68,7 +68,78 @@ class ComparisonTests(unittest.TestCase):
         self.assertEqual(compare(data, NOW)['comparaciones'], {})
         data = sample()
         data['tiendas'][1]['productos'][0]['precio_vigente_centavos'] = 24000
-        self.assertEqual(compare(data, NOW)['comparaciones'], {})
+        self.assertEqual(compare(data, NOW)['comparaciones']['uno']['ahorro_porcentaje'], 16.7)
+
+    def test_multiple_references_expose_prices_and_average(self):
+        data = sample()
+        third = copy.deepcopy(data['tiendas'][1])
+        third.update(id='tres', nombre='Tres')
+        third['productos'][0].update(codigo='tres', precio_vigente_centavos=40000,
+                                     url='https://tres.test/producto')
+        data['tiendas'].append(third)
+        item = compare(data, NOW)['comparaciones']['uno']
+        self.assertEqual(item['referencia_centavos'], 35000)
+        self.assertEqual(item['cantidad_referencias'], 2)
+        self.assertEqual([(r['tienda'], r['precio_centavos']) for r in item['referencias']],
+                         [('Dos', 30000), ('Tres', 40000)])
+        self.assertEqual(item['ahorro_porcentaje'], 42.9)
+
+    def test_only_lowest_price_or_tie_can_be_featured(self):
+        data = sample()
+        third = copy.deepcopy(data['tiendas'][1])
+        third.update(id='tres', nombre='Tres')
+        third['productos'][0].update(codigo='tres', precio_vigente_centavos=40000,
+                                     url='https://tres.test/producto')
+        data['tiendas'][1]['productos'][0]['precio_vigente_centavos'] = 29000
+        data['tiendas'].append(third)
+        result = compare(data, NOW)['comparaciones']
+        self.assertIn('uno', result)
+        # 29000 está por debajo del promedio 30000, pero otra tienda cobra 20000.
+        self.assertNotIn('dos', result)
+        data['tiendas'][1]['productos'][0]['precio_vigente_centavos'] = 20000
+        result = compare(data, NOW)['comparaciones']
+        self.assertIn('uno', result)
+        self.assertIn('dos', result)
+
+    def test_outlier_does_not_inflate_comparison(self):
+        data = sample()
+        for store_id, price in [('tres', 40000), ('cuatro', 900000)]:
+            store = copy.deepcopy(data['tiendas'][1])
+            store.update(id=store_id, nombre=store_id)
+            store['productos'][0].update(codigo=store_id, precio_vigente_centavos=price,
+                                         url=f'https://{store_id}.test/producto')
+            data['tiendas'].append(store)
+        item = compare(data, NOW)['comparaciones']['uno']
+        self.assertEqual(item['referencia_centavos'], 35000)
+        self.assertEqual(item['cantidad_referencias'], 2)
+        data['tiendas'].pop(2)
+        item = compare(data, NOW)['comparaciones']['uno']
+        self.assertEqual(item['referencia_centavos'], 30000)
+        self.assertEqual(item['cantidad_referencias'], 1)
+
+    def test_one_ambiguous_store_does_not_suppress_other_comparisons(self):
+        data = sample()
+        third = copy.deepcopy(data['tiendas'][1])
+        third.update(id='tres', nombre='Tres')
+        third['productos'][0].update(codigo='tres', precio_vigente_centavos=40000,
+                                     url='https://tres.test/producto')
+        third['productos'].append(copy.deepcopy(third['productos'][0]))
+        data['tiendas'].append(third)
+        item = compare(data, NOW)['comparaciones']['uno']
+        self.assertEqual(item['cantidad_referencias'], 1)
+        self.assertEqual(item['referencias'][0]['tienda'], 'Dos')
+        self.assertNotIn('tres', compare(data, NOW)['comparaciones'])
+
+    def test_three_store_variants_are_not_averaged(self):
+        data = sample()
+        third = copy.deepcopy(data['tiendas'][1])
+        third.update(id='tres', nombre='Tres')
+        third['productos'][0].update(codigo='tres', titulo='Gaseosa Pepsi con azucar 2 L',
+                                     url='https://tres.test/producto')
+        data['tiendas'].append(third)
+        item = compare(data, NOW)['comparaciones']['uno']
+        self.assertEqual(item['cantidad_referencias'], 1)
+        self.assertEqual(item['referencias'][0]['tienda'], 'Dos')
 
 
 if __name__ == '__main__':

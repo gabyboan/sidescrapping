@@ -2,53 +2,296 @@
   "actualizado": "2026-11-27T08:28:10-03:00",
   "comparaciones": {
     "22487-J6KYC2": {
-      "ahorro_porcentaje": 45.7,
+      "ahorro_porcentaje": 50.4,
+      "cantidad_referencias": 10,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T02:39-03:00",
+      "observado": "2026-11-27T01:28:36-03:00",
       "precio_centavos": 18995000,
-      "referencia_centavos": 34999900,
-      "referencia_tienda": "Rodo",
+      "referencia_centavos": 38269811,
+      "referencia_tienda": "Promedio de 10 tiendas",
       "referencia_url": "https://www.rodo.com.ar/celular-motorola-moto-g17-pbbj0012ar-4g-4-128gb-pantone-evening-blue.html",
+      "referencias": [
+        {
+          "observado": "2026-11-27T02:39:28-03:00",
+          "precio_centavos": 34999900,
+          "tienda": "Rodo",
+          "url": "https://www.rodo.com.ar/celular-motorola-moto-g17-pbbj0012ar-4g-4-128gb-pantone-evening-blue.html"
+        },
+        {
+          "observado": "2026-11-27T01:28:36-03:00",
+          "precio_centavos": 35699900,
+          "tienda": "Cordoba Digital",
+          "url": "https://www.cordobadigital.net/producto/motorola-moto-g17-128gb-4gb"
+        },
+        {
+          "observado": "2026-11-27T02:37:15-03:00",
+          "precio_centavos": 35999900,
+          "tienda": "Novogar",
+          "url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-moto-g17-4gb-128gb-67-azul"
+        },
+        {
+          "observado": "2026-11-27T02:38:15-03:00",
+          "precio_centavos": 35999910,
+          "tienda": "Pardo",
+          "url": "https://www.pardo.com.ar/celular-motorola-moto-g17-128gb-evening-blue/p"
+        },
+        {
+          "observado": "2026-11-27T02:41:42-03:00",
+          "precio_centavos": 39999000,
+          "tienda": "Yuhmak Hogar",
+          "url": "https://www.yuhmakhogar.com/celular-motorola-g17-4-128-gb-evening-blue-arandano-pbbj0012ar-dh2/p"
+        },
+        {
+          "observado": "2026-11-27T02:35:44-03:00",
+          "precio_centavos": 39999900,
+          "tienda": "Cetrogar",
+          "url": "https://www.cetrogar.com.ar/celular-motorola-g17-6-72-4gb-128gb-evening-blue-te3495/p"
+        },
+        {
+          "observado": "2026-11-27T02:37:20-03:00",
+          "precio_centavos": 39999900,
+          "tienda": "Naldo",
+          "url": "https://www.naldo.com.ar/moto-g17-azul-4-128gb-6-72--406972/p"
+        },
+        {
+          "observado": "2026-11-27T02:36:34-03:00",
+          "precio_centavos": 39999900,
+          "tienda": "Coppel",
+          "url": "https://www.coppel.com.ar/celular-motorola-g17-4gb-128gb-blue-734977/p"
+        },
+        {
+          "observado": "2026-11-27T02:38:36-03:00",
+          "precio_centavos": 39999900,
+          "tienda": "OnCity",
+          "url": "https://www.oncity.com/celular-motorola-moto-g17-4g-4-gb-128-gb-evening-blue-157386/p"
+        },
+        {
+          "observado": "2026-11-27T02:37:21-03:00",
+          "precio_centavos": 39999900,
+          "tienda": "Nuevas Hogar",
+          "url": "https://www.nuevashogar.com.ar/celular-motorola-moto-g17-4g-128gb-4gb-ram-evening-blue/p"
+        }
+      ],
       "tipo": "modelo"
     },
     "22487-QABC42": {
-      "ahorro_porcentaje": 48.1,
+      "ahorro_porcentaje": 56.4,
+      "cantidad_referencias": 7,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T03:51-03:00",
+      "observado": "2026-11-27T01:28:41-03:00",
       "precio_centavos": 14995000,
-      "referencia_centavos": 28888800,
-      "referencia_tienda": "Electro Misiones",
+      "referencia_centavos": 34389457,
+      "referencia_tienda": "Promedio de 7 tiendas",
       "referencia_url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/24811-celular_motorola_g15_4gb_ram_128gb_verde_con_cargador.html",
+      "referencias": [
+        {
+          "observado": "2026-11-27T03:51:48-03:00",
+          "precio_centavos": 28888800,
+          "tienda": "Electro Misiones",
+          "url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/24811-celular_motorola_g15_4gb_ram_128gb_verde_con_cargador.html"
+        },
+        {
+          "observado": "2026-11-27T02:34:41-03:00",
+          "precio_centavos": 30599900,
+          "tienda": "Castillo",
+          "url": "https://www.castillo.com.ar/celular-libre-motorola-moto-g15-4gb-128gb-sunrise-orange/p"
+        },
+        {
+          "observado": "2026-11-27T01:28:41-03:00",
+          "precio_centavos": 31599900,
+          "tienda": "Cordoba Digital",
+          "url": "https://www.cordobadigital.net/producto/motorola-moto-g15-128gb-4gb"
+        },
+        {
+          "observado": "2026-11-27T02:39:43-03:00",
+          "precio_centavos": 31999900,
+          "tienda": "Previsora del Paraná",
+          "url": "https://tienda.previsoradelparana.com/celular-moto-g15-verde-4gb-ram-128gb-rom---motorola-pb6d0034ar/p"
+        },
+        {
+          "observado": "2026-11-27T02:41:16-03:00",
+          "precio_centavos": 32537900,
+          "tienda": "Fravega",
+          "url": "https://www.fravega.com/p/celular-moto-g15-4gb-128gb-iguana-green-22159597/"
+        },
+        {
+          "observado": "2026-11-27T02:35:32-03:00",
+          "precio_centavos": 35199900,
+          "tienda": "D'Ricco",
+          "url": "https://www.dricco.com.ar/celular-motorola-g15-6-67--4-gb-128-gb-iguana-freen/p"
+        },
+        {
+          "observado": "2026-11-27T03:50:46-03:00",
+          "precio_centavos": 49899900,
+          "tienda": "Icasa Hogar",
+          "url": "https://www.icasahogar.com.ar/celulares/16682-celular-motorola-moto-g15-sunrise-orange-4gb-ram-128gb.html"
+        }
+      ],
       "tipo": "modelo"
     },
     "22487-YB2EES": {
-      "ahorro_porcentaje": 40.3,
+      "ahorro_porcentaje": 54.0,
+      "cantidad_referencias": 4,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28-03:00",
+      "observado": "2026-11-26T12:32:05-03:00",
       "precio_centavos": 129950000,
-      "referencia_centavos": 217499900,
-      "referencia_tienda": "Cordoba Digital",
+      "referencia_centavos": 282624900,
+      "referencia_tienda": "Promedio de 4 tiendas",
       "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-s26-ultra-5g-256gb-12gb",
+      "referencias": [
+        {
+          "observado": "2026-11-27T01:28:39-03:00",
+          "precio_centavos": 217499900,
+          "tienda": "Cordoba Digital",
+          "url": "https://www.cordobadigital.net/producto/samsung-galaxy-s26-ultra-5g-256gb-12gb"
+        },
+        {
+          "observado": "2026-11-26T21:47:52-03:00",
+          "precio_centavos": 279999900,
+          "tienda": "Riiing",
+          "url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-ultra-12gb-256gb/"
+        },
+        {
+          "observado": "2026-11-26T12:32:05-03:00",
+          "precio_centavos": 292999900,
+          "tienda": "Alegio",
+          "url": "https://www.alegio.com.ar/productos/samsung-galaxy-s26-ultra-s948-256gb-violet-gqjhr/"
+        },
+        {
+          "observado": "2026-11-27T02:38:36-03:00",
+          "precio_centavos": 339999900,
+          "tienda": "OnCity",
+          "url": "https://www.oncity.com/celular-samsung-galaxy-s26-ultra-5g-12-gb-256-gb-nfc-dual-sim-negro-157368/p"
+        }
+      ],
       "tipo": "modelo"
     },
     "22489-4S7VTY": {
-      "ahorro_porcentaje": 48.4,
+      "ahorro_porcentaje": 65.7,
+      "cantidad_referencias": 8,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28-03:00",
+      "observado": "2026-11-26T12:31:44-03:00",
       "precio_centavos": 36500000,
-      "referencia_centavos": 70699900,
-      "referencia_tienda": "Cordoba Digital",
+      "referencia_centavos": 106269600,
+      "referencia_tienda": "Promedio de 8 tiendas",
       "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-a36-5g-8gb-256gb",
+      "referencias": [
+        {
+          "observado": "2026-11-27T01:28:42-03:00",
+          "precio_centavos": 70699900,
+          "tienda": "Cordoba Digital",
+          "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a36-5g-8gb-256gb"
+        },
+        {
+          "observado": "2026-11-26T12:31:44-03:00",
+          "precio_centavos": 89999900,
+          "tienda": "Casa Mandrile",
+          "url": "https://www.casamandrile.com.ar/productos/celular-libre-samsung-a36-5g-8gb-256gb-awesome-white-mdyse/"
+        },
+        {
+          "observado": "2026-11-27T02:41:42-03:00",
+          "precio_centavos": 99999000,
+          "tienda": "Yuhmak Hogar",
+          "url": "https://www.yuhmakhogar.com/celular-samsung-a36-6-7-256gb-8gb-awesome-black-sm-a366ezkfaro-dh2/p"
+        },
+        {
+          "observado": "2026-11-27T03:51:53-03:00",
+          "precio_centavos": 111111000,
+          "tienda": "Electro Misiones",
+          "url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/25415-celular_samsung_galaxy_a36_5g_8gb_ram_256gb_negro.html"
+        },
+        {
+          "observado": "2026-11-27T02:39:11-03:00",
+          "precio_centavos": 111999900,
+          "tienda": "Oscar Barbieri",
+          "url": "https://www.oscarbarbieri.com/celular-samsung-a36-5g-lavander-octa-8gb-256gb-pantalla-6-8"
+        },
+        {
+          "observado": "2026-11-27T02:39:43-03:00",
+          "precio_centavos": 113639900,
+          "tienda": "Previsora del Paraná",
+          "url": "https://tienda.previsoradelparana.com/celular-galaxy-a36-awesome-black-5g-8gb-ram-256gb-rom---samsung-sm-a366ezkfaro/p"
+        },
+        {
+          "observado": "2026-11-27T02:38:15-03:00",
+          "precio_centavos": 114527300,
+          "tienda": "Pardo",
+          "url": "https://www.pardo.com.ar/celular-smartphone-samsung-galaxy-a36-5g-256gb-8gb-ram-pantalla-6-7-pulgadas-camara-50mp-112977/p"
+        },
+        {
+          "observado": "2026-11-27T02:40:58-03:00",
+          "precio_centavos": 138179900,
+          "tienda": "Provincia Compras",
+          "url": "https://www.provinciacompras.com.ar/celular-libre-a36-8-gb-ram-almacenamiento-256-gb-samsung-sm-a366ezafaro-5g-awesome-white-296548/p"
+        }
+      ],
       "tipo": "modelo"
     },
     "22489-PERMWQ": {
-      "ahorro_porcentaje": 45.8,
+      "ahorro_porcentaje": 55.0,
+      "cantidad_referencias": 9,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T02:41-03:00",
+      "observado": "2026-11-26T12:32:13-03:00",
       "precio_centavos": 19950000,
-      "referencia_centavos": 36799900,
-      "referencia_tienda": "Fravega",
-      "referencia_url": "https://www.fravega.com/p/celular-samsung-galaxy-a17-128-4gb-light-blue-990285197/",
+      "referencia_centavos": 44365456,
+      "referencia_tienda": "Promedio de 9 tiendas",
+      "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-a17-128gb-4gb",
+      "referencias": [
+        {
+          "observado": "2026-11-27T01:28:39-03:00",
+          "precio_centavos": 36899900,
+          "tienda": "Cordoba Digital",
+          "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a17-128gb-4gb"
+        },
+        {
+          "observado": "2026-11-27T03:53:54-03:00",
+          "precio_centavos": 39999900,
+          "tienda": "MGM Store",
+          "url": "https://www.mgmstore.com.ar/Samsung-Galaxy-A17-128GB-4GB"
+        },
+        {
+          "observado": "2026-11-26T12:32:13-03:00",
+          "precio_centavos": 42199900,
+          "tienda": "Alegio",
+          "url": "https://www.alegio.com.ar/productos/samsung-galaxy-a17-lte-a175-128gb-4gb-ram-gris-u1lsx/"
+        },
+        {
+          "observado": "2026-11-26T12:32:28-03:00",
+          "precio_centavos": 43609900,
+          "tienda": "LH Confort",
+          "url": "https://www.lhconfort.com.ar/productos/celular-libre-samsung-galaxy-a17-6-7-128-gb-ram-4-gb-gray-lh-q0n3b/"
+        },
+        {
+          "observado": "2026-11-27T02:34:19-03:00",
+          "precio_centavos": 44969900,
+          "tienda": "Casa Silvia",
+          "url": "https://www.casasilvia.com/celular-samsung-a17-4gb-128gb-0088141506/p"
+        },
+        {
+          "observado": "2026-11-27T01:29:35-03:00",
+          "precio_centavos": 47609900,
+          "tienda": "Selex Hogar",
+          "url": "https://selexhogar.com.ar/shop/celular-samsung-a17-celeste-128gb-4gb-sm-a175f7-ds/"
+        },
+        {
+          "observado": "2026-11-27T02:35:44-03:00",
+          "precio_centavos": 47999900,
+          "tienda": "Cetrogar",
+          "url": "https://www.cetrogar.com.ar/celular-samsung-galaxy-a17-6-7-4gb-128gb-black-te3454/p"
+        },
+        {
+          "observado": "2026-11-27T02:37:20-03:00",
+          "precio_centavos": 47999900,
+          "tienda": "Naldo",
+          "url": "https://www.naldo.com.ar/galaxy-a17-light-blue-4-128gb-6-7--407038/p"
+        },
+        {
+          "observado": "2026-11-27T02:36:34-03:00",
+          "precio_centavos": 47999900,
+          "tienda": "Coppel",
+          "url": "https://www.coppel.com.ar/celular-samsung-a17-4gb-128gb-gray-735401/p"
+        }
+      ],
       "tipo": "modelo"
     }
   },

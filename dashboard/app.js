@@ -3,6 +3,7 @@
 
   const SOURCE = 'https://raw.githubusercontent.com/gabyboan/sidescrapping/main/catalogo.json';
   const OTHER_SOURCE = 'https://raw.githubusercontent.com/gabyboan/sidescrapping/main/supermercados.json';
+  const MARKET_SOURCE = 'https://raw.githubusercontent.com/gabyboan/sidescrapping/main/mercado.json';
   const COMPARISON_SOURCES = ['comparaciones.json', 'comparaciones_side.json'].map(name => `https://raw.githubusercontent.com/gabyboan/sidescrapping/main/${name}`);
   const PAGE_SIZE = 24;
   // Plan 7: expire at midnight in Argentina after the published end date.
@@ -10,7 +11,7 @@
   const $ = id => document.getElementById(id);
   $('installmentPromo').hidden = !installmentPromoActive;
   const els = Object.fromEntries(['search','origin','category','merchant','sort','products','status','pagination','resultCount','totalMetric','discountMetric','updatedMetric','updatedDetail','sourceCoverage'].map(id => [id, $(id)]));
-  const state = {products: [], comparisons: {}, filter: 'all', page: 1};
+  const state = {products: [], comparisons: {}, filter: 'deal', page: 1};
   const number = new Intl.NumberFormat('es-AR');
   const money = cents => typeof cents === 'number' && Number.isFinite(cents) && cents > 0
     ? new Intl.NumberFormat('es-AR', {style:'currency', currency:'ARS', minimumFractionDigits: cents % 100 ? 2 : 0, maximumFractionDigits:2}).format(cents / 100)
@@ -27,18 +28,33 @@
   const discountAmount = p => Number(p.descuento) || Math.round((1 - Number(p.precio_vigente_centavos) / Number(p.precio_centavos)) * 100);
   function comparisonFor(p) {
     const comparison = state.comparisons[p.codigo];
-    if (!comparison || comparison.precio_centavos !== p.precio_vigente_centavos || !Number.isSafeInteger(comparison.referencia_centavos) || comparison.referencia_centavos <= 0 || !Number.isFinite(comparison.ahorro_porcentaje) || comparison.ahorro_porcentaje < 20) return null;
+    if (!comparison || !Number.isSafeInteger(p.precio_vigente_centavos) || p.precio_vigente_centavos <= 0 || comparison.precio_centavos !== p.precio_vigente_centavos) return null;
     const observed = Date.parse(comparison.observado);
     if (!Number.isFinite(observed) || Date.now() - observed < 0 || Date.now() - observed > 48 * 60 * 60 * 1000) return null;
-    try { if (new URL(comparison.referencia_url).protocol !== 'https:') return null; } catch { return null; }
-    if (comparison.tipo === 'ean' && !state.products.some(reference => reference.ean === comparison.ean && reference.url === comparison.referencia_url && reference.origen === comparison.referencia_tienda && reference.disponible === true && reference.precio_vigente_centavos === comparison.referencia_centavos)) return null;
-    return comparison;
+    const references = Array.isArray(comparison.referencias) ? comparison.referencias : [{tienda:comparison.referencia_tienda, precio_centavos:comparison.referencia_centavos, url:comparison.referencia_url, observado:comparison.observado}];
+    if (!references.length) return null;
+    const stores = new Set();
+    for (const reference of references) {
+      if (!reference || typeof reference.tienda !== 'string' || !reference.tienda.trim() || !Number.isSafeInteger(reference.precio_centavos) || reference.precio_centavos <= 0) return null;
+      const referenceAge = Date.now() - Date.parse(reference.observado);
+      if (!Number.isFinite(referenceAge) || referenceAge < 0 || referenceAge > 48 * 60 * 60 * 1000) return null;
+      try { if (new URL(reference.url).protocol !== 'https:') return null; } catch { return null; }
+      const storeKey = fold(reference.tienda.trim());
+      if (stores.has(storeKey)) return null;
+      stores.add(storeKey);
+      if (comparison.tipo === 'ean' && !state.products.some(item => item.ean === comparison.ean && item.url === reference.url && item.origen === reference.tienda && item.disponible === true && item.precio_vigente_centavos === reference.precio_centavos)) return null;
+    }
+    const average = Math.round(references.reduce((sum, reference) => sum + reference.precio_centavos, 0) / references.length);
+    const saving = (1 - p.precio_vigente_centavos / average) * 100;
+    if (!Number.isFinite(saving) || saving <= 0) return null;
+    return {...comparison, referencias:references, referencia_centavos:average, ahorro_porcentaje:saving};
   }
   function safePhoto(value) {
     try {
       const url = new URL(value, 'https://sidecompras.com.ar/');
       const host = url.hostname.toLowerCase();
-      const allowed = (host === 'sidecompras.com.ar' && url.pathname.startsWith('/fotos/')) || host === 'vtexassets.com' || host.endsWith('.vtexassets.com') || host === 'vteximg.com.br' || host.endsWith('.vteximg.com.br') || (host === 'acdn-us.mitiendanube.com' && url.pathname.startsWith('/stores/'));
+      const marketImages = ['www.mgmstore.com.ar', '6weoa5xmoylnh9pt.public.blob.vercel-storage.com', 'images.fravega.com', 'selexhogar.com.ar', 'riiing.com.ar', 'static.hendel.com', 'http2.mlstatic.com'];
+      const allowed = (host === 'sidecompras.com.ar' && url.pathname.startsWith('/fotos/')) || host === 'vtexassets.com' || host.endsWith('.vtexassets.com') || host === 'vteximg.com.br' || host.endsWith('.vteximg.com.br') || (host === 'acdn-us.mitiendanube.com' && url.pathname.startsWith('/stores/')) || marketImages.includes(host);
       return url.protocol === 'https:' && allowed ? url.href : '';
     } catch { return ''; }
   }
@@ -73,12 +89,19 @@
     const comparison = comparisonFor(p);
     if (comparison) {
       const deal = textNode('div', 'deal-evidence', '');
-      deal.append(textNode('strong', '', `${Math.floor(comparison.ahorro_porcentaje)}% menos que ${comparison.referencia_tienda}`));
-      const ref = textNode('a', '', `Referencia: ${money(comparison.referencia_centavos)} ↗`);
-      ref.href = comparison.referencia_url;
-      ref.target = '_blank'; ref.rel = 'noopener noreferrer';
+      const count = comparison.referencias.length;
+      const saving = new Intl.NumberFormat('es-AR', {maximumFractionDigits:1}).format(comparison.ahorro_porcentaje);
+      deal.append(textNode('strong', '', `${comparison.ahorro_porcentaje >= 40 ? 'Precio muy bajo · ' : ''}${saving}% menos ${count > 1 ? 'que el promedio' : `que ${comparison.referencias[0].tienda}`}`));
+      deal.append(textNode('span', 'reference-average', count > 1 ? `Promedio de ${count} tiendas: ${money(comparison.referencia_centavos)}` : `Precio de referencia: ${money(comparison.referencia_centavos)}`));
+      const details = textNode('details', 'reference-list', '');
+      details.append(textNode('summary', '', `Ver ${count === 1 ? 'referencia' : `${count} referencias`}`));
+      for (const reference of comparison.referencias) {
+        const ref = textNode('a', '', `${reference.tienda}: ${money(reference.precio_centavos)} ↗`);
+        ref.href = reference.url; ref.target = '_blank'; ref.rel = 'noopener noreferrer';
+        details.append(ref);
+      }
       const observed = new Intl.DateTimeFormat('es-AR', {timeZone:'America/Argentina/Buenos_Aires', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}).format(new Date(comparison.observado));
-      deal.append(ref, textNode('span', '', `Consultado: ${observed} hs`));
+      deal.append(details, textNode('span', '', `Lectura más antigua: ${observed} hs`));
       body.append(deal);
     }
     if (installmentPromoActive && p.origen === 'Sidecompras') {
@@ -158,6 +181,7 @@
       return !x ? 1 : !y ? -1 : sort === 'low' ? x - y : y - x;
     });
     if (sort === 'discount') filtered.sort((a,b) => (hasDiscount(b) ? discountAmount(b) : 0) - (hasDiscount(a) ? discountAmount(a) : 0));
+    if (sort === 'best') filtered.sort((a,b) => (comparisonFor(b)?.ahorro_porcentaje || 0) - (comparisonFor(a)?.ahorro_porcentaje || 0));
     if (sort === 'az') filtered.sort((a,b) => String(a.titulo || '').localeCompare(String(b.titulo || ''),'es'));
     const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
     state.page = Math.min(state.page, pages);
@@ -224,8 +248,21 @@
         coverage.push('Vea y Más Online: datos adicionales no disponibles en este momento.');
       }
       const names = new Set(state.products.map(p => p.origen));
+      try {
+        const response = await fetch(`${MARKET_SOURCE}?timestamp=${Date.now()}`, {cache:'no-store'});
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const market = await response.json();
+        if (market.version !== 1 || !Array.isArray(market.productos) || !market.comparaciones || typeof market.comparaciones !== 'object') throw new Error('Formato inválido');
+        const items = market.productos.filter(p => p && typeof p.codigo === 'string' && typeof p.titulo === 'string' && typeof p.origen === 'string');
+        state.products.push(...items);
+        Object.assign(state.comparisons, market.comparaciones);
+        coverage.push(`SoloPrecio: ${number.format(items.length)} ofertas de celulares de tiendas externas; cobertura parcial.`);
+      } catch (error) {
+        console.warn('Ofertas de SoloPrecio no disponibles:', error);
+        coverage.push('SoloPrecio: ofertas adicionales no disponibles en este momento.');
+      }
       const pending = ['Coto','XTR','FullH4rd','Compra Gamer','Mercado Libre'].filter(name => !names.has(name));
-      if (pending.length) coverage.push(`${pending.join(', ')}: sin catálogo disponible por ahora.`);
+      if (pending.length) coverage.push(`${pending.join(', ')}: sin catálogo directo disponible por ahora; pueden existir ofertas a través de SoloPrecio.`);
       coverage.push('Vea: precios tachados y descuentos porcentuales ocultos por inconsistencias en la fuente.');
       const comparisons = await Promise.allSettled(COMPARISON_SOURCES.map(async url => {
         const response = await fetch(`${url}?timestamp=${Date.now()}`, {cache:'no-store'});
