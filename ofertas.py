@@ -14,6 +14,7 @@ from monitor import clean, get_json
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / 'ofertas_estado.json'
 LIST = ROOT / 'OFERTAS.md'
+COMPARISONS = ROOT / 'comparaciones_side.json'
 SOURCE = 'https://soloprecio.com.ar/data/comparador/celulares.json'
 WATCH = {
     '22487-YB2EES': {'sku': 'phone_samsung_s26ultra_256gb_5g', 'ram': 12, 'capacity': 256},
@@ -90,6 +91,7 @@ def save_json(path, data):
 def run(current, api, token):
     state = json.loads(STATE.read_text(encoding='utf-8')) if STATE.exists() else {}
     rows, notices = [], []
+    comparisons = {}
     try:
         catalog = fetch_market()
         market_error = None
@@ -113,6 +115,15 @@ def run(current, api, token):
             rows.append(f'- {clean(p["titulo"])}: comparación temporalmente no disponible.')
             continue
         cheaper = side <= market * Decimal('0.80')
+        if cheaper:
+            # Conservamos tanto el precio en Side como la fecha de la referencia,
+            # para que el tablero descarte datos vencidos o precios que cambiaron.
+            comparisons[code] = {
+                'tipo': 'modelo', 'precio_centavos': int(side * 100),
+                'referencia_centavos': int(market * 100), 'referencia_tienda': seller,
+                'referencia_url': market_url, 'ahorro_porcentaje': float(round((1 - side / market) * 100, 1)),
+                'observado': captured + '-03:00', 'fuente': 'SoloPrecio',
+            }
         episode = previous['episode'] + (1 if cheaper and not previous['active'] else 0)
         event_id = hashlib.sha256(f'{code}:{episode}:{side}'.encode()).hexdigest()[:20]
         side_url = 'https://sidecompras.com.ar/#/producto/' + quote(code, safe='')
@@ -136,6 +147,8 @@ def run(current, api, token):
             result = get_json(api + '/issues', token=token, payload={'title': 'Sidecompras: posibles ofertas frente a otros comercios', 'body': '\n'.join(lines), 'assignees': ['gabyboan']})
             print('Ofertas avisadas:', result.get('html_url'), flush=True)
     save_json(STATE, state)
+    save_json(COMPARISONS, {'version': 1, 'actualizado': datetime.now(timezone(timedelta(hours=-3))).isoformat(timespec='seconds'),
+                            'comparaciones': comparisons})
     content = ('# Comparaciones de precios de Sidecompras\n\n'
                'Se revisan los modelos de esta lista cada hora. Una posible oferta requiere que el precio anunciado en Sidecompras sea al menos 20% menor que el precio de un comercio relevado por SoloPrecio en las últimas 48 horas. '
                'La comparación cubre únicamente los modelos de abajo, no todo el catálogo; se usan fichas verificadas del mismo modelo y capacidad.\n\n'

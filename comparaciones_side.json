@@ -1,0 +1,56 @@
+{
+  "actualizado": "2026-11-27T08:28:10-03:00",
+  "comparaciones": {
+    "22487-J6KYC2": {
+      "ahorro_porcentaje": 45.7,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T02:39-03:00",
+      "precio_centavos": 18995000,
+      "referencia_centavos": 34999900,
+      "referencia_tienda": "Rodo",
+      "referencia_url": "https://www.rodo.com.ar/celular-motorola-moto-g17-pbbj0012ar-4g-4-128gb-pantone-evening-blue.html",
+      "tipo": "modelo"
+    },
+    "22487-QABC42": {
+      "ahorro_porcentaje": 48.1,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T03:51-03:00",
+      "precio_centavos": 14995000,
+      "referencia_centavos": 28888800,
+      "referencia_tienda": "Electro Misiones",
+      "referencia_url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/24811-celular_motorola_g15_4gb_ram_128gb_verde_con_cargador.html",
+      "tipo": "modelo"
+    },
+    "22487-YB2EES": {
+      "ahorro_porcentaje": 40.3,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T01:28-03:00",
+      "precio_centavos": 129950000,
+      "referencia_centavos": 217499900,
+      "referencia_tienda": "Cordoba Digital",
+      "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-s26-ultra-5g-256gb-12gb",
+      "tipo": "modelo"
+    },
+    "22489-4S7VTY": {
+      "ahorro_porcentaje": 48.4,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T01:28-03:00",
+      "precio_centavos": 36500000,
+      "referencia_centavos": 70699900,
+      "referencia_tienda": "Cordoba Digital",
+      "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-a36-5g-8gb-256gb",
+      "tipo": "modelo"
+    },
+    "22489-PERMWQ": {
+      "ahorro_porcentaje": 45.8,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T02:41-03:00",
+      "precio_centavos": 19950000,
+      "referencia_centavos": 36799900,
+      "referencia_tienda": "Fravega",
+      "referencia_url": "https://www.fravega.com/p/celular-samsung-galaxy-a17-128-4gb-light-blue-990285197/",
+      "tipo": "modelo"
+    }
+  },
+  "version": 1
+}

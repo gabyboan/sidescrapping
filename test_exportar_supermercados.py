@@ -28,6 +28,28 @@ class SupermarketExportTests(unittest.TestCase):
         self.assertFalse(unavailable['disponible'])
         self.assertIsNone(unavailable['precio_vigente_centavos'])
 
+    def test_only_explicit_no_interest_plans_matching_current_price(self):
+        item = product('123', 120, 150)
+        offer = item['items'][0]['sellers'][0]['commertialOffer']
+        good = {'count': 4, 'hasInterestRate': False, 'interestRate': 0, 'value': 3000, 'total': 12000}
+        option = {'paymentName': 'Visa', 'paymentGroupName': 'creditCardPaymentGroup', 'bin': None, 'installments': [good]}
+        offer['PaymentOptions'] = {'installmentOptions': [option]}
+        result = export.variants(export.STORES[0], item)[0]
+        self.assertEqual(result['precio_vigente_centavos'], 12000)
+        self.assertEqual(result['promociones'][0]['cantidad_cuotas'], 4)
+        self.assertEqual(result['promociones'][0]['total_centavos'], 12000)
+        for change in ({'hasInterestRate': None}, {'interestRate': None}, {'interestRate': 4},
+                       {'total': 15000}, {'value': 5000}, {'count': 1}, {'count': True}):
+            with self.subTest(change=change):
+                option['installments'] = [{**good, **change}]
+                self.assertEqual(export.variants(export.STORES[0], item)[0]['promociones'], [])
+        option['installments'] = [good]
+        option['bin'] = '123456'
+        self.assertEqual(export.variants(export.STORES[0], item)[0]['promociones'], [])
+        option['bin'] = None
+        offer['AvailableQuantity'] = 0
+        self.assertEqual(export.variants(export.STORES[0], item)[0]['promociones'], [])
+
     def test_complete_requires_verified_total(self):
         pages = [('0-1/3', [product('1'), product('2')]), ('2-2/3', [product('3')])]
         with patch.object(export, 'fetch_page', side_effect=pages), patch.object(export.time, 'sleep'):

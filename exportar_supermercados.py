@@ -55,6 +55,44 @@ def fetch_page(store, start, size):
     return resource, data
 
 
+def installments(offer, price):
+    """Sólo cuotas explícitamente sin interés y coherentes con el precio vigente."""
+    if not price:
+        return []
+    payment_options = offer.get('PaymentOptions') or {}
+    if not isinstance(payment_options, dict):
+        return []
+    choices = payment_options.get('installmentOptions') or []
+    if not isinstance(choices, list):
+        return []
+    best = {}
+    for option in choices:
+        if not isinstance(option, dict) or option.get('paymentGroupName') != 'creditCardPaymentGroup' or option.get('bin'):
+            continue
+        medium = option.get('paymentName')
+        plans = option.get('installments')
+        if not isinstance(medium, str) or not medium.strip() or not isinstance(plans, list):
+            continue
+        medium = medium.strip()[:80]
+        for plan in plans:
+            if not isinstance(plan, dict):
+                continue
+            count, value, total = plan.get('count'), plan.get('value'), plan.get('total')
+            rate = plan.get('interestRate')
+            if (plan.get('hasInterestRate') is not False or isinstance(rate, bool)
+                    or not isinstance(rate, (int, float, Decimal)) or rate != 0
+                    or type(count) is not int or not 2 <= count <= 36
+                    or type(value) is not int or value <= 0
+                    or type(total) is not int or total != price or abs(value * count - total) > count):
+                continue
+            candidate = {'tipo': 'cuotas', 'medio': medium, 'cantidad_cuotas': count,
+                         'monto_cuota_centavos': value, 'total_centavos': total, 'sin_interes': True,
+                         'condiciones': 'Según datos publicados por la tienda; sujeto a tarjeta, ubicación y confirmación en checkout.'}
+            if medium not in best or count > best[medium]['cantidad_cuotas']:
+                best[medium] = candidate
+    return list(best.values())[:15]
+
+
 def variants(store, product):
     pid = str(product.get('productId') or '')
     name = product.get('productName') or ''
@@ -78,7 +116,7 @@ def variants(store, product):
                         'foto': photo, 'url': url(product.get('link'), store['host']),
                         'precio_centavos': listed or price, 'precio_vigente_centavos': price,
                         'ean': str(item.get('ean') or ''), 'sku': sku, 'producto_id': pid,
-                        'disponible': available})
+                        'disponible': available, 'promociones': installments(offer, price)})
     return results
 
 
@@ -164,6 +202,10 @@ def run(max_pages=10, page_size=50, delay=0.4, output=OUTPUT):
         os.replace(temp, output)
     finally:
         temp.unlink(missing_ok=True)
+    # La comparación se recalcula incluso si una tienda falló: nunca se publican
+    # como actuales referencias conservadas de una lectura anterior.
+    import comparar_supermercados
+    comparar_supermercados.write(result, output=output.with_name('comparaciones.json'))
     for store in stores:
         c = store['cobertura']
         print(f"{store['nombre']}: {c['productos_consultados']}/{c['total_publicado']} productos; error: {store['error'] or 'ninguno'}", flush=True)

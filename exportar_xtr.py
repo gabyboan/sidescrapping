@@ -5,7 +5,7 @@ from decimal import Decimal, InvalidOperation
 from html.parser import HTMLParser
 import json
 import time
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 
@@ -15,17 +15,62 @@ class ProductParser(HTMLParser):
         self.reading = False
         self.text = []
         self.products = []
+        self.cards = []
+        self.card = None
+        self.div_depth = 0
+        self.payment_depth = 0
+        self.reading_medium = False
 
     def handle_starttag(self, tag, attrs):
-        if tag == 'script' and dict(attrs).get('type', '').lower() == 'application/ld+json':
+        attrs = dict(attrs)
+        classes = (attrs.get('class') or '').split()
+        if tag == 'div' and 'js-item-product' in classes and self.card is None:
+            self.card = {'urls': set(), 'prices': [], 'discounts': [], 'media': [], 'variants': []}
+            self.div_depth = 0
+        if self.card is not None:
+            if tag == 'div':
+                self.div_depth += 1
+                if 'data-variants' in attrs:
+                    try:
+                        self.card['variants'].append(json.loads(attrs['data-variants']))
+                    except (ValueError, TypeError):
+                        self.card['variants'].append(None)
+                if ('js-payment-discount-price-product-container' in classes
+                        and 'display:none' not in (attrs.get('style') or '').replace(' ', '').lower()
+                        and 'd-none' not in classes):
+                    self.payment_depth = self.div_depth
+            if tag == 'a':
+                target = _https(urljoin('https://www.xtr.com.ar/', attrs.get('href') or ''), 'www.xtr.com.ar')
+                if target and urlsplit(target).path.startswith('/productos/'):
+                    self.card['urls'].add(_canonical(target))
+            if tag == 'span' and 'js-price-display' in classes:
+                self.card['prices'].append(attrs.get('data-product-price'))
+            if self.payment_depth and tag == 'span':
+                if 'js-payment-discount-price-product' in classes:
+                    self.card['discounts'].append(attrs.get('data-priceraw-without-shipping'))
+                if 'js-payment-discount-name-product' in classes:
+                    self.reading_medium = True
+                    self.card['media'].append('')
+        if tag == 'script' and attrs.get('type', '').lower() == 'application/ld+json':
             self.reading = True
             self.text = []
 
     def handle_data(self, data):
         if self.reading:
             self.text.append(data)
+        if self.reading_medium and self.card is not None:
+            self.card['media'][-1] += data
 
     def handle_endtag(self, tag):
+        if tag == 'span':
+            self.reading_medium = False
+        if tag == 'div' and self.card is not None:
+            if self.div_depth == self.payment_depth:
+                self.payment_depth = 0
+            self.div_depth -= 1
+            if self.div_depth == 0:
+                self.cards.append(self.card)
+                self.card = None
         if tag != 'script' or not self.reading:
             return
         self.reading = False
@@ -46,6 +91,11 @@ def _https(value, host=None):
     return value
 
 
+def _canonical(value):
+    parts = urlsplit(value)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, '', ''))
+
+
 def _cents(value):
     if value is None or isinstance(value, bool):
         return None
@@ -58,7 +108,7 @@ def _cents(value):
     return None
 
 
-def _product(data):
+def _product(data, cards=()):
     offer = data.get('offers')
     if not isinstance(offer, dict) or offer.get('priceCurrency') != 'ARS':
         raise ValueError('Oferta de XTR sin precio en pesos verificable')
@@ -72,13 +122,28 @@ def _product(data):
     photo = data.get('image')
     if isinstance(photo, list):
         photo = photo[0] if photo else ''
-    # JSON-LD publica el precio de la oferta, no el precio tachado. No se
-    # descuentan promociones de transferencia, cuotas ni beneficios bancarios.
+    promotions = []
+    matching = [card for card in cards if _canonical(target) in card['urls']]
+    if available and price and len(matching) == 1:
+        card = matching[0]
+        variants = card['variants']
+        if (len(card['urls']) == 1 and len(variants) == 1 and isinstance(variants[0], list)
+                and len(variants[0]) == 1 and isinstance(variants[0][0], dict)
+                and str(variants[0][0].get('sku') or '').strip() == sku
+                and variants[0][0].get('price_number_raw') == price
+                and card['prices'] == [str(price)] and len(card['discounts']) == 1
+                and len(card['media']) == 1 and card['media'][0].strip().casefold() == 'transferencia'):
+            raw = card['discounts'][0]
+            if isinstance(raw, str) and raw.isascii() and raw.isdigit() and 0 < int(raw) < price:
+                promotions.append({'tipo': 'transferencia', 'medio': 'Transferencia',
+                                   'precio_centavos': int(raw),
+                                   'condiciones': 'Precio por transferencia sin envío; sujeto a confirmación en checkout.'})
+    # El precio por transferencia se informa aparte del precio publicado en JSON-LD.
     return {'codigo': f'xtr:{sku}', 'titulo': title, 'rubro': 'Tecnología',
             'comercio': 'XTR', 'localidad': '', 'foto': _https(photo), 'url': target,
             'precio_centavos': price, 'precio_vigente_centavos': price,
             'ean': str(data.get('gtin13') or data.get('gtin') or ''), 'sku': sku,
-            'producto_id': sku, 'disponible': available}
+            'producto_id': sku, 'disponible': available, 'promociones': promotions}
 
 
 def collect(max_pages=10, delay=0.4):
@@ -103,7 +168,7 @@ def collect(max_pages=10, delay=0.4):
                 raise ValueError('Página de XTR demasiado grande')
             parser = ProductParser()
             parser.feed(html.decode('utf-8', errors='replace'))
-            items = [_product(data) for data in parser.products]
+            items = [_product(data, parser.cards) for data in parser.products]
             if not items:
                 raise ValueError('XTR no devolvió productos verificables en la página')
             fingerprint = tuple(x['codigo'] for x in items)

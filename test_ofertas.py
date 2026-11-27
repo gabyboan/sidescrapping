@@ -21,7 +21,7 @@ class Comparisons(unittest.TestCase):
         self.assertEqual(ofertas.market_price(config,catalog)[0],20)
 
     def test_retry_and_new_episode(self):
-        with tempfile.TemporaryDirectory() as tmp, patch.object(ofertas,'STATE',Path(tmp)/'state.json'), patch.object(ofertas,'LIST',Path(tmp)/'list.md'), patch.object(ofertas,'WATCH',{'x':{'sku':'m'}}), patch.object(ofertas,'fetch_market',return_value=[]), patch.object(ofertas,'market_price',return_value=(100,'https://example.com','Shop','2026-01-01T12:00')):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(ofertas,'STATE',Path(tmp)/'state.json'), patch.object(ofertas,'LIST',Path(tmp)/'list.md'), patch.object(ofertas,'COMPARISONS',Path(tmp)/'comparaciones.json'), patch.object(ofertas,'WATCH',{'x':{'sku':'m'}}), patch.object(ofertas,'fetch_market',return_value=[]), patch.object(ofertas,'market_price',return_value=(100,'https://example.com','Shop','2026-01-01T12:00')):
             calls=[]
             def api(url, token=None, payload=None):
                 if payload is None: return []
