@@ -4,7 +4,10 @@
   const SOURCE = 'https://raw.githubusercontent.com/gabyboan/sidescrapping/main/catalogo.json';
   const OTHER_SOURCE = 'https://raw.githubusercontent.com/gabyboan/sidescrapping/main/supermercados.json';
   const PAGE_SIZE = 24;
+  // Plan 7: expire at midnight in Argentina after the published end date.
+  const installmentPromoActive = Date.now() >= Date.parse('2026-01-01T03:00:00Z') && Date.now() < Date.parse('2027-01-01T03:00:00Z');
   const $ = id => document.getElementById(id);
+  $('installmentPromo').hidden = !installmentPromoActive;
   const els = Object.fromEntries(['search','origin','category','merchant','sort','products','status','pagination','resultCount','totalMetric','discountMetric','updatedMetric','updatedDetail','sourceCoverage'].map(id => [id, $(id)]));
   const state = {products: [], filter: 'all', page: 1};
   const number = new Intl.NumberFormat('es-AR');
@@ -56,6 +59,12 @@
     if (hasDiscount(p)) prices.append(textNode('span', 'old-price', money(p.precio_centavos)));
     body.append(prices);
     body.append(textNode('div', 'price-condition', p.reintegro ? 'Bonificación sujeta a condiciones' : 'Precio publicado'));
+    if (installmentPromoActive && p.origen === 'Sidecompras') {
+      const installment = textNode('a', 'installment-card', '24 cuotas sin interés · Blanca o Black');
+      installment.href = '#installmentPromo';
+      installment.title = 'Ver condiciones de la promoción Sidecompras';
+      body.append(installment);
+    }
     const link = document.createElement('a');
     link.className = 'card-link';
     const origin = p.origen || 'Sidecompras';
