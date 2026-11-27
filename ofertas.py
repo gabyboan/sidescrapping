@@ -129,7 +129,7 @@ def run(current, api, token):
         already = ids_in_issues(api, token)
         pending = [(event_id, description) for event_id, description in notices if event_id not in already]
         if pending:
-            lines = ['Hola @gabyboan, encontró posibles ofertas comparando precios de productos equivalentes:', '']
+            lines = ['Hola @gabyboan, encontré posibles ofertas comparando precios de productos equivalentes:', '']
             lines += ['- ' + description for _, description in pending]
             lines += ['', 'Los precios, stock, envío y condiciones pueden cambiar. Sidecompras puede requerir una tarjeta o promoción y la bonificación puede aplicarse después.', '']
             lines += [f'<!-- sidecompras-oferta:{event_id} -->' for event_id, _ in pending]
