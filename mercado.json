@@ -1,30 +1,30 @@
 {
-  "actualizado": "2026-11-27T09:11:30-03:00",
+  "actualizado": "2026-11-27T18:14:06-03:00",
   "comparaciones": {
     "soloprecio:017118d73718c55aae6d": {
       "ahorro_porcentaje": 28.5,
       "cantidad_referencias": 3,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:05-03:00",
+      "observado": "2026-11-27T12:50:40-03:00",
       "precio_centavos": 217499900,
       "referencia_centavos": 304333233,
       "referencia_tienda": "Promedio de 3 tiendas",
       "referencia_url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-ultra-12gb-256gb/",
       "referencias": [
         {
-          "observado": "2026-11-26T21:47:52-03:00",
+          "observado": "2026-11-27T13:41:36-03:00",
           "precio_centavos": 279999900,
           "tienda": "Riiing",
           "url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-ultra-12gb-256gb/"
         },
         {
-          "observado": "2026-11-26T12:32:05-03:00",
+          "observado": "2026-11-27T12:50:40-03:00",
           "precio_centavos": 292999900,
           "tienda": "Alegio",
           "url": "https://www.alegio.com.ar/productos/samsung-galaxy-s26-ultra-s948-256gb-violet-gqjhr/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 339999900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-samsung-galaxy-s26-ultra-5g-12-gb-256-gb-nfc-dual-sim-negro-157368/p"
@@ -36,78 +36,35 @@
       "ahorro_porcentaje": 32.7,
       "cantidad_referencias": 4,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:00-03:00",
+      "observado": "2026-11-27T12:50:35-03:00",
       "precio_centavos": 34799900,
       "referencia_centavos": 51679150,
       "referencia_tienda": "Promedio de 4 tiendas",
       "referencia_url": "https://smarts.com.ar/producto/celular-motorola-g15-4gb-256gb-gray/",
       "referencias": [
         {
-          "observado": "2026-11-27T01:29:38-03:00",
+          "observado": "2026-11-27T13:41:49-03:00",
           "precio_centavos": 39304100,
           "tienda": "Smarts",
           "url": "https://smarts.com.ar/producto/celular-motorola-g15-4gb-256gb-gray/"
         },
         {
-          "observado": "2026-11-26T12:32:00-03:00",
+          "observado": "2026-11-27T12:50:35-03:00",
           "precio_centavos": 43499900,
           "tienda": "Alegio",
           "url": "https://www.alegio.com.ar/productos/celular-motorola-moto-g15-256gb-4gb-xt2521-naranja-ubysq/"
         },
         {
-          "observado": "2026-11-26T12:32:53-03:00",
+          "observado": "2026-11-27T12:51:29-03:00",
           "precio_centavos": 43999900,
           "tienda": "Tienda MStore",
           "url": "https://www.tiendamstore.com/productos/motorola-moto-g15-256gb-4gb-ram-android-smartphone-194ut/"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
           "precio_centavos": 79912700,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-motorola-g15-6-7--fhd--256gb-4gb-helio-g81-orange-edicion-especial-304710/p"
-        }
-      ],
-      "tipo": "modelo"
-    },
-    "soloprecio:14c0e0f7d72876ac5444": {
-      "ahorro_porcentaje": 28.0,
-      "cantidad_referencias": 5,
-      "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:58-03:00",
-      "precio_centavos": 74999900,
-      "referencia_centavos": 104150140,
-      "referencia_tienda": "Promedio de 5 tiendas",
-      "referencia_url": "https://jcelularesargentina.com.ar/productos/samsung-a37-8-256gb-5g/",
-      "referencias": [
-        {
-          "observado": "2026-11-26T12:32:58-03:00",
-          "precio_centavos": 92000000,
-          "tienda": "J Celulares Argentina",
-          "url": "https://jcelularesargentina.com.ar/productos/samsung-a37-8-256gb-5g/"
-        },
-        {
-          "observado": "2026-11-27T02:39:28-03:00",
-          "precio_centavos": 98999900,
-          "tienda": "Rodo",
-          "url": "https://www.rodo.com.ar/celular-samsung-galaxy-a37-sm-a376bzafaro-5g-8-256gb-awesome-charcoal.html"
-        },
-        {
-          "observado": "2026-11-27T02:40:58-03:00",
-          "precio_centavos": 103639900,
-          "tienda": "Provincia Compras",
-          "url": "https://www.provinciacompras.com.ar/celular-samsung-a37-5g-8-256gb-charcoal-336752/p"
-        },
-        {
-          "observado": "2026-11-27T03:52:43-03:00",
-          "precio_centavos": 111111000,
-          "tienda": "Electro Misiones",
-          "url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/27772-celular_samsung_galaxy_a37_5g_8gb_ram_256gb_gris.html"
-        },
-        {
-          "observado": "2026-11-27T02:39:11-03:00",
-          "precio_centavos": 114999900,
-          "tienda": "Oscar Barbieri",
-          "url": "https://www.oscarbarbieri.com/celular-samsung-a37-lavand-octa-8gb-256gb"
         }
       ],
       "tipo": "modelo"
@@ -116,20 +73,20 @@
       "ahorro_porcentaje": 24.5,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:52-03:00",
+      "observado": "2026-11-27T12:51:28-03:00",
       "precio_centavos": 252976900,
       "referencia_centavos": 334999900,
       "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://www.tiendamstore.com/productos/samsung-galaxy-s25-ultra-5g-512gb-12gb/",
       "referencias": [
         {
-          "observado": "2026-11-26T12:32:52-03:00",
+          "observado": "2026-11-27T12:51:28-03:00",
           "precio_centavos": 299999900,
           "tienda": "Tienda MStore",
           "url": "https://www.tiendamstore.com/productos/samsung-galaxy-s25-ultra-5g-512gb-12gb/"
         },
         {
-          "observado": "2026-11-27T02:36:34-03:00",
+          "observado": "2026-11-27T14:36:46-03:00",
           "precio_centavos": 369999900,
           "tienda": "Coppel",
           "url": "https://www.coppel.com.ar/celular-samsung-s25-ultra-12gb-512gb-titanium-black-733891/p"
@@ -141,26 +98,26 @@
       "ahorro_porcentaje": 22.3,
       "cantidad_referencias": 3,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T21:47:52-03:00",
+      "observado": "2026-11-27T13:41:15-03:00",
       "precio_centavos": 247099900,
       "referencia_centavos": 317879900,
       "referencia_tienda": "Promedio de 3 tiendas",
       "referencia_url": "https://www.fravega.com/p/samsung-galaxy-s26-ultra-512-gb-12-gb-camara-cuadruple-negra-black-22923977/",
       "referencias": [
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 283639900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/samsung-galaxy-s26-ultra-512-gb-12-gb-camara-cuadruple-negra-black-22923977/"
         },
         {
-          "observado": "2026-11-26T21:47:52-03:00",
+          "observado": "2026-11-27T13:41:36-03:00",
           "precio_centavos": 299999900,
           "tienda": "Riiing",
           "url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-ultra-12gb-512gb/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 369999900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-samsung-galaxy-s26-ultra-5g-12-gb-512-gb-nfc-dual-sim-negro-157365/p"
@@ -172,23 +129,48 @@
       "ahorro_porcentaje": 34.9,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:41-03:00",
+      "observado": "2026-11-27T13:41:22-03:00",
       "precio_centavos": 29499900,
       "referencia_centavos": 45343850,
       "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://smarts.com.ar/producto/celular-motorola-g04s-4gb-256gb-aurora-green/",
       "referencias": [
         {
-          "observado": "2026-11-27T01:29:38-03:00",
+          "observado": "2026-11-27T13:41:49-03:00",
           "precio_centavos": 33887800,
           "tienda": "Smarts",
           "url": "https://smarts.com.ar/producto/celular-motorola-g04s-4gb-256gb-aurora-green/"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
           "precio_centavos": 56799900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g04s-256gb-4gb-296943/p"
+        }
+      ],
+      "tipo": "modelo"
+    },
+    "soloprecio:21fb5c398e2ec5710e4a": {
+      "ahorro_porcentaje": 37.2,
+      "cantidad_referencias": 2,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T13:41:15-03:00",
+      "precio_centavos": 37799900,
+      "referencia_centavos": 60154900,
+      "referencia_tienda": "Promedio de 2 tiendas",
+      "referencia_url": "https://www.fravega.com/p/celular-motorola-moto-g35-5g-256gb-4gb-ram-verde-23233205/",
+      "referencias": [
+        {
+          "observado": "2026-11-27T14:09:40-03:00",
+          "precio_centavos": 43869900,
+          "tienda": "Fravega",
+          "url": "https://www.fravega.com/p/celular-motorola-moto-g35-5g-256gb-4gb-ram-verde-23233205/"
+        },
+        {
+          "observado": "2026-11-27T14:05:50-03:00",
+          "precio_centavos": 76439900,
+          "tienda": "Provincia Compras",
+          "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g35-4gb-256gb-naranja-pb3g0065ar-326477/p"
         }
       ],
       "tipo": "modelo"
@@ -197,20 +179,20 @@
       "ahorro_porcentaje": 36.5,
       "cantidad_referencias": 7,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:44-03:00",
+      "observado": "2026-11-27T03:51:53-03:00",
       "precio_centavos": 70699900,
       "referencia_centavos": 111350986,
       "referencia_tienda": "Promedio de 7 tiendas",
       "referencia_url": "https://www.casamandrile.com.ar/productos/celular-libre-samsung-a36-5g-8gb-256gb-awesome-white-mdyse/",
       "referencias": [
         {
-          "observado": "2026-11-26T12:31:44-03:00",
+          "observado": "2026-11-27T12:50:15-03:00",
           "precio_centavos": 89999900,
           "tienda": "Casa Mandrile",
           "url": "https://www.casamandrile.com.ar/productos/celular-libre-samsung-a36-5g-8gb-256gb-awesome-white-mdyse/"
         },
         {
-          "observado": "2026-11-27T02:41:42-03:00",
+          "observado": "2026-11-27T14:06:38-03:00",
           "precio_centavos": 99999000,
           "tienda": "Yuhmak Hogar",
           "url": "https://www.yuhmakhogar.com/celular-samsung-a36-6-7-256gb-8gb-awesome-black-sm-a366ezkfaro-dh2/p"
@@ -222,25 +204,25 @@
           "url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/25415-celular_samsung_galaxy_a36_5g_8gb_ram_256gb_negro.html"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 111999900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-samsung-a36-5g-lavander-octa-8gb-256gb-pantalla-6-8"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 113639900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-galaxy-a36-awesome-black-5g-8gb-ram-256gb-rom---samsung-sm-a366ezkfaro/p"
         },
         {
-          "observado": "2026-11-27T02:38:15-03:00",
+          "observado": "2026-11-27T14:02:52-03:00",
           "precio_centavos": 114527300,
           "tienda": "Pardo",
           "url": "https://www.pardo.com.ar/celular-smartphone-samsung-galaxy-a36-5g-256gb-8gb-ram-pantalla-6-7-pulgadas-camara-50mp-112977/p"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
           "precio_centavos": 138179900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-libre-a36-8-gb-ram-almacenamiento-256-gb-samsung-sm-a366ezafaro-5g-awesome-white-296548/p"
@@ -248,97 +230,36 @@
       ],
       "tipo": "modelo"
     },
-    "soloprecio:2d63c2d6a25ff5defe5d": {
-      "ahorro_porcentaje": 29.0,
-      "cantidad_referencias": 9,
-      "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:43-03:00",
-      "precio_centavos": 79199900,
-      "referencia_centavos": 111475456,
-      "referencia_tienda": "Promedio de 9 tiendas",
-      "referencia_url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-moto-edge-70-fusion-8gb-256gb-65-camara-50mp",
-      "referencias": [
-        {
-          "observado": "2026-11-27T02:37:15-03:00",
-          "precio_centavos": 89999900,
-          "tienda": "Novogar",
-          "url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-moto-edge-70-fusion-8gb-256gb-65-camara-50mp"
-        },
-        {
-          "observado": "2026-11-27T02:36:34-03:00",
-          "precio_centavos": 94999900,
-          "tienda": "Coppel",
-          "url": "https://www.coppel.com.ar/celular-motorola-edge-70-fusion-5g-256gb-8gb-ram-pantalla-6-8--poled-country-air-737771/p"
-        },
-        {
-          "observado": "2026-11-26T12:32:07-03:00",
-          "precio_centavos": 108499900,
-          "tienda": "Alegio",
-          "url": "https://www.alegio.com.ar/productos/motorola-moto-edge-70-fusion-5g-256gb-xt2603-azul-otxuj/"
-        },
-        {
-          "observado": "2026-11-26T12:31:43-03:00",
-          "precio_centavos": 109999900,
-          "tienda": "Casa Mandrile",
-          "url": "https://www.casamandrile.com.ar/productos/celular-libre-motorola-edge-70-fusion-8gb-256gb-country-air-wt510/"
-        },
-        {
-          "observado": "2026-11-27T02:41:16-03:00",
-          "precio_centavos": 119779900,
-          "tienda": "Fravega",
-          "url": "https://www.fravega.com/p/celular-motorola-edge-70-fusion-8-256gb-verde-23194708/"
-        },
-        {
-          "observado": "2026-11-27T02:38:36-03:00",
-          "precio_centavos": 119999900,
-          "tienda": "OnCity",
-          "url": "https://www.oncity.com/celular-motorola-edge-70-fusion-5g-8-gb-256-gb-country-air-157542/p"
-        },
-        {
-          "observado": "2026-11-27T02:35:53-03:00",
-          "precio_centavos": 119999900,
-          "tienda": "Hendel",
-          "url": "https://www.hendel.com/moto-edge-70-fusion-azul-8-256gb.html"
-        },
-        {
-          "observado": "2026-11-27T02:39:11-03:00",
-          "precio_centavos": 119999900,
-          "tienda": "Oscar Barbieri",
-          "url": "https://www.oscarbarbieri.com/celular-moto-edge-70-fusion-256gb-8gb-azul"
-        },
-        {
-          "observado": "2026-11-26T21:47:52-03:00",
-          "precio_centavos": 119999900,
-          "tienda": "Riiing",
-          "url": "https://riiing.com.ar/p/celular-motorola-edge-70-fusion-fifa-8-256gb/"
-        }
-      ],
-      "tipo": "modelo"
-    },
     "soloprecio:40bd41c19908f16487a0": {
-      "ahorro_porcentaje": 23.2,
-      "cantidad_referencias": 3,
+      "ahorro_porcentaje": 22.2,
+      "cantidad_referencias": 4,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:30:42-03:00",
+      "observado": "2026-11-27T13:42:52-03:00",
       "precio_centavos": 70999900,
-      "referencia_centavos": 92413267,
-      "referencia_tienda": "Promedio de 3 tiendas",
+      "referencia_centavos": 91314950,
+      "referencia_tienda": "Promedio de 4 tiendas",
       "referencia_url": "https://www.masonline.com.ar/celular-samsung-galaxy-a26-5g-6-7-8gb-256gb-blanco/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:34:57-03:00",
+          "observado": "2026-11-27T14:34:57-03:00",
           "precio_centavos": 79999900,
           "tienda": "Changomas",
           "url": "https://www.masonline.com.ar/celular-samsung-galaxy-a26-5g-6-7-8gb-256gb-blanco/p"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
+          "precio_centavos": 88020000,
+          "tienda": "Fravega",
+          "url": "https://www.fravega.com/p/celular-samsung-galaxy-a26-256gb-rom-8gb-ram-rosa-23004715/"
+        },
+        {
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 88239900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-samsung-galaxy-a26-black-5g-8gb-ram-256gb-rom-sm-a266mzkfaro--1001061/p"
         },
         {
-          "observado": "2026-11-27T01:30:42-03:00",
+          "observado": "2026-11-27T13:42:52-03:00",
           "precio_centavos": 109000000,
           "tienda": "Centrogar",
           "url": "https://centrogar.com.ar/product/celular-samsung-a26-a266emzwfaro-5g-8gb-256gb-blanco/"
@@ -350,20 +271,20 @@
       "ahorro_porcentaje": 22.7,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:10-03:00",
+      "observado": "2026-11-27T12:50:46-03:00",
       "precio_centavos": 48899900,
       "referencia_centavos": 63229950,
       "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://www.alegio.com.ar/productos/motorola-moto-g17-power-256gb-8gb-xt2623-azul-1vjg9/",
       "referencias": [
         {
-          "observado": "2026-11-26T12:32:10-03:00",
+          "observado": "2026-11-27T12:50:46-03:00",
           "precio_centavos": 62499900,
           "tienda": "Alegio",
           "url": "https://www.alegio.com.ar/productos/motorola-moto-g17-power-256gb-8gb-xt2623-azul-1vjg9/"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 63960000,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/motorola-moto-g17-power-8-256gb-azul-celeste-23087599/"
@@ -372,23 +293,23 @@
       "tipo": "modelo"
     },
     "soloprecio:502ffadf6b10f2c8e628": {
-      "ahorro_porcentaje": 22.7,
+      "ahorro_porcentaje": 21.6,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:30:42-03:00",
-      "precio_centavos": 28999900,
-      "referencia_centavos": 37539950,
+      "observado": "2026-11-27T13:42:52-03:00",
+      "precio_centavos": 29499900,
+      "referencia_centavos": 37639950,
       "referencia_tienda": "Promedio de 2 tiendas",
-      "referencia_url": "https://www.fravega.com/p/celular-motorola-moto-g13-4gb-128gb-rosa-suave-pawu0064ar-990295588/",
+      "referencia_url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g13-4gb-128gb-rosa-suave-pawu0064ar-322675/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:41:16-03:00",
-          "precio_centavos": 29499900,
-          "tienda": "Fravega",
-          "url": "https://www.fravega.com/p/celular-motorola-moto-g13-4gb-128gb-rosa-suave-pawu0064ar-990295588/"
+          "observado": "2026-11-27T14:05:50-03:00",
+          "precio_centavos": 29699900,
+          "tienda": "Provincia Compras",
+          "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g13-4gb-128gb-rosa-suave-pawu0064ar-322675/p"
         },
         {
-          "observado": "2026-11-27T01:30:42-03:00",
+          "observado": "2026-11-27T13:42:52-03:00",
           "precio_centavos": 45580000,
           "tienda": "Centrogar",
           "url": "https://centrogar.com.ar/product/celular-motorola-g13-xt2331-1-4gb-128gb-gris/"
@@ -397,38 +318,38 @@
       "tipo": "modelo"
     },
     "soloprecio:55c1eafac1eeb0a63a47": {
-      "ahorro_porcentaje": 24.1,
+      "ahorro_porcentaje": 22.1,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:34:38-03:00",
-      "precio_centavos": 183499900,
+      "observado": "2026-11-27T12:53:35-03:00",
+      "precio_centavos": 188199900,
       "referencia_centavos": 241629900,
       "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://www.fravega.com/p/celular-motorola-razr-50-ultra-5g-12gb-512gb-hot-pink-pb1t0098ar-990295727/",
       "referencias": [
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 193599900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-motorola-razr-50-ultra-5g-12gb-512gb-hot-pink-pb1t0098ar-990295727/"
         },
         {
-          "observado": "2026-11-26T12:34:38-03:00",
+          "observado": "2026-11-27T12:53:35-03:00",
           "precio_centavos": 289659900,
           "tienda": "Tienda Delta",
-          "url": "https://delta.com.ar/productos/celular-motorola-razr-50-ultra-12gb-512gb-midnight-blue-hb0x2/"
+          "url": "https://delta.com.ar/productos/celular-motorola-razr-50-ultra-12gb-512gb-midnight-blue-fcob9/"
         }
       ],
       "tipo": "modelo"
     },
     "soloprecio:59a64fc60e86bf0a7a38": {
-      "ahorro_porcentaje": 26.6,
-      "cantidad_referencias": 9,
+      "ahorro_porcentaje": 25.5,
+      "cantidad_referencias": 8,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:43-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 88699900,
-      "referencia_centavos": 120782522,
-      "referencia_tienda": "Promedio de 9 tiendas",
+      "referencia_centavos": 119005350,
+      "referencia_tienda": "Promedio de 8 tiendas",
       "referencia_url": "https://www.mgmstore.com.ar/Samsung-Galaxy-A57-5G-256GB-8GB",
       "referencias": [
         {
@@ -438,49 +359,43 @@
           "url": "https://www.mgmstore.com.ar/Samsung-Galaxy-A57-5G-256GB-8GB"
         },
         {
-          "observado": "2026-11-26T12:32:58-03:00",
+          "observado": "2026-11-27T12:51:36-03:00",
           "precio_centavos": 104000000,
           "tienda": "J Celulares Argentina",
           "url": "https://jcelularesargentina.com.ar/productos/samsung-a57-8-256gb-5g-0h45n/"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
           "precio_centavos": 114999900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-samsung-galaxy-a57-5g-256gb-8gb-305572/p"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 116863400,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/samsung-galaxy-a57-5g-dual-sim-256gb-8gb-ram-awesome-icyblue-23146892/"
         },
         {
-          "observado": "2026-11-27T02:35:44-03:00",
+          "observado": "2026-11-27T14:35:56-03:00",
           "precio_centavos": 119999900,
           "tienda": "Cetrogar",
           "url": "https://www.cetrogar.com.ar/celular-samsung-galaxy-a57-5g-6-7--256gb-8gb-awesome-navy-te3506/p"
         },
         {
-          "observado": "2026-11-26T12:31:43-03:00",
+          "observado": "2026-11-27T12:50:14-03:00",
           "precio_centavos": 119999900,
           "tienda": "Casa Mandrile",
           "url": "https://www.casamandrile.com.ar/productos/celular-libre-samsung-a57-5g-8gb-256gb-gris-82uqv/"
         },
         {
-          "observado": "2026-11-27T02:34:32-03:00",
-          "precio_centavos": 134999900,
-          "tienda": "Coto Digital",
-          "url": "https://www.coto.com.ar/productos/celular-libre-samsung-a57-5g-6-7-8-gb-ram-256-gb-gris/_/R-00630254-00630254-200"
-        },
-        {
-          "observado": "2026-11-27T02:35:32-03:00",
+          "observado": "2026-11-27T14:35:05-03:00",
           "precio_centavos": 142179900,
           "tienda": "D'Ricco",
           "url": "https://www.dricco.com.ar/celular-samsung-a57-8gb-256gb-azul-/p"
         },
         {
-          "observado": "2026-11-27T02:37:20-03:00",
+          "observado": "2026-11-27T14:36:42-03:00",
           "precio_centavos": 143999900,
           "tienda": "Naldo",
           "url": "https://www.naldo.com.ar/galaxy-a57-5g-navy-8-256gb-6-7--407084/p"
@@ -489,47 +404,53 @@
       "tipo": "modelo"
     },
     "soloprecio:62bf1aedb8a81e1e1ec3": {
-      "ahorro_porcentaje": 23.7,
-      "cantidad_referencias": 6,
+      "ahorro_porcentaje": 22.2,
+      "cantidad_referencias": 7,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:32-03:00",
+      "observado": "2026-11-27T12:51:08-03:00",
       "precio_centavos": 27599900,
-      "referencia_centavos": 36162317,
-      "referencia_tienda": "Promedio de 6 tiendas",
+      "referencia_centavos": 35496257,
+      "referencia_tienda": "Promedio de 7 tiendas",
       "referencia_url": "https://selexhogar.com.ar/shop/celular-samsung-a06-light-blue-128gb-4gb-sasma065mzkear-libre/",
       "referencias": [
         {
-          "observado": "2026-11-27T01:29:35-03:00",
+          "observado": "2026-11-27T13:41:46-03:00",
           "precio_centavos": 30940000,
           "tienda": "Selex Hogar",
           "url": "https://selexhogar.com.ar/shop/celular-samsung-a06-light-blue-128gb-4gb-sasma065mzkear-libre/"
         },
         {
-          "observado": "2026-11-26T12:32:32-03:00",
+          "observado": "2026-11-27T13:41:23-03:00",
+          "precio_centavos": 31499900,
+          "tienda": "Cordoba Digital",
+          "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a06-128gb-4gb"
+        },
+        {
+          "observado": "2026-11-27T12:51:08-03:00",
           "precio_centavos": 33999900,
           "tienda": "Sciocco",
           "url": "https://sciocco.com.ar/productos/celular-samsung-a06-octacore128gb-4gb-50mpx-8mpx-1j3rb/"
         },
         {
-          "observado": "2026-11-26T21:47:52-03:00",
+          "observado": "2026-11-27T13:41:36-03:00",
           "precio_centavos": 33999900,
           "tienda": "Riiing",
           "url": "https://riiing.com.ar/p/celular-samsung-galaxy-a06-128gb/"
         },
         {
-          "observado": "2026-11-27T02:35:32-03:00",
+          "observado": "2026-11-27T14:35:05-03:00",
           "precio_centavos": 34749900,
           "tienda": "D'Ricco",
           "url": "https://www.dricco.com.ar/celular-samsung-a06-6-7-4gb-128gb-5/p"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 37499900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-samsung-galaxy-a06-light-blue-4gb-ram-128gb-rom---sm-a065mlbearo---999858/p"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
           "precio_centavos": 45784300,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-samsung-a06-4gb-128gb-241523/p"
@@ -538,84 +459,78 @@
       "tipo": "modelo"
     },
     "soloprecio:669aced5d00434bc2bcf": {
-      "ahorro_porcentaje": 32.8,
-      "cantidad_referencias": 5,
+      "ahorro_porcentaje": 37.0,
+      "cantidad_referencias": 6,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T21:47:52-03:00",
+      "observado": "2026-11-27T13:41:19-03:00",
       "precio_centavos": 181799900,
-      "referencia_centavos": 270613020,
-      "referencia_tienda": "Promedio de 5 tiendas",
+      "referencia_centavos": 288556650,
+      "referencia_tienda": "Promedio de 6 tiendas",
       "referencia_url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-12gb-512gb/",
       "referencias": [
         {
-          "observado": "2026-11-26T21:47:52-03:00",
+          "observado": "2026-11-27T13:41:36-03:00",
           "precio_centavos": 229999900,
           "tienda": "Riiing",
           "url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-12gb-512gb/"
         },
         {
-          "observado": "2026-11-27T02:39:28-03:00",
+          "observado": "2026-11-27T14:04:13-03:00",
           "precio_centavos": 262999900,
           "tienda": "Rodo",
           "url": "https://www.rodo.com.ar/celular-samsung-galaxy-s26-5g-12-512gb-black.html"
         },
         {
-          "observado": "2026-11-27T02:35:44-03:00",
+          "observado": "2026-11-27T14:35:56-03:00",
           "precio_centavos": 269999900,
           "tienda": "Cetrogar",
           "url": "https://www.cetrogar.com.ar/celular-samsung-galaxy-s26-6-3-12gb-512gb-white-te3491/p"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 269999900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-samsung-s26-negro-octa-12gb-512gb-6-3-an16"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 320065500,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-samsung-galaxy-s26-512gb-12gb-ram-22940088/"
+        },
+        {
+          "observado": "2026-11-27T14:02:52-03:00",
+          "precio_centavos": 378274800,
+          "tienda": "Pardo",
+          "url": "https://www.pardo.com.ar/celular-smartphone-samsung-galaxy-s26-512gb-12gb-ram-pantalla-6-3-pulgadas-110418/p"
         }
       ],
       "tipo": "modelo"
     },
     "soloprecio:6fdb841805b848643bee": {
-      "ahorro_porcentaje": 25.5,
-      "cantidad_referencias": 7,
+      "ahorro_porcentaje": 21.1,
+      "cantidad_referencias": 6,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:33-03:00",
-      "precio_centavos": 135099900,
-      "referencia_centavos": 181428443,
-      "referencia_tienda": "Promedio de 7 tiendas",
-      "referencia_url": "https://www.fravega.com/p/celular-samsung-galaxy-s26-fe-graphite-8gb-256gb-990311304/",
+      "observado": "2026-11-27T03:53:30-03:00",
+      "precio_centavos": 149999900,
+      "referencia_centavos": 189999867,
+      "referencia_tienda": "Promedio de 6 tiendas",
+      "referencia_url": "https://www.cetrogar.com.ar/celular-lib-samsung-s26-fe-8-256gb-graphite-te3557/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:41:16-03:00",
-          "precio_centavos": 149999900,
-          "tienda": "Fravega",
-          "url": "https://www.fravega.com/p/celular-samsung-galaxy-s26-fe-graphite-8gb-256gb-990311304/"
-        },
-        {
-          "observado": "2026-11-27T02:35:44-03:00",
+          "observado": "2026-11-27T14:35:56-03:00",
           "precio_centavos": 179999900,
           "tienda": "Cetrogar",
           "url": "https://www.cetrogar.com.ar/celular-lib-samsung-s26-fe-8-256gb-graphite-te3557/p"
         },
         {
-          "observado": "2026-11-27T02:37:20-03:00",
+          "observado": "2026-11-27T14:36:42-03:00",
           "precio_centavos": 179999900,
           "tienda": "Naldo",
           "url": "https://www.naldo.com.ar/galaxy-s26-fe-blueberry-8-256gb-6-7--407177/p"
         },
         {
-          "observado": "2026-11-27T02:36:34-03:00",
-          "precio_centavos": 179999900,
-          "tienda": "Coppel",
-          "url": "https://www.coppel.com.ar/celular-samsung-galaxy-s26-fe-256gb-8gb-ram-pantalla-6-7--dynamic-amoled-2x-5g-graphite-737691/p"
-        },
-        {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 179999900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-samsung-galaxy-s26-fe-5g-8-gb-256-gb-nfc-dual-sim-graphite-158976/p"
@@ -627,99 +542,105 @@
           "url": "https://www.electromisiones.com.ar/telefonos_celulares_libres/28362-celular_samsung_galaxy_s26_fe_5g_8gb_ram_256gb_azul.html"
         },
         {
-          "observado": "2026-11-27T02:33:57-03:00",
+          "observado": "2026-11-27T14:34:01-03:00",
           "precio_centavos": 199999900,
           "tienda": "Bringeri",
           "url": "https://www.bringeri.com.ar/celular-samsung-galaxys26-fe-8-256-gb-blueberry-/p"
+        },
+        {
+          "observado": "2026-11-27T13:41:36-03:00",
+          "precio_centavos": 199999900,
+          "tienda": "Riiing",
+          "url": "https://riiing.com.ar/p/celular-samsung-galaxy-s26-fe-8gb-256gb/"
         }
       ],
       "tipo": "modelo"
     },
     "soloprecio:7d430cda397b06656bd3": {
-      "ahorro_porcentaje": 21.3,
-      "cantidad_referencias": 7,
+      "ahorro_porcentaje": 22.4,
+      "cantidad_referencias": 8,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:58-03:00",
+      "observado": "2026-11-27T12:51:36-03:00",
       "precio_centavos": 63499900,
-      "referencia_centavos": 80645629,
-      "referencia_tienda": "Promedio de 7 tiendas",
+      "referencia_centavos": 81814912,
+      "referencia_tienda": "Promedio de 8 tiendas",
       "referencia_url": "https://www.rodo.com.ar/celular-samsung-galaxy-a17-sm-a176bzbzaro-5g-8-256gb-blue.html",
       "referencias": [
         {
-          "observado": "2026-11-27T02:39:28-03:00",
+          "observado": "2026-11-27T14:04:13-03:00",
           "precio_centavos": 71999900,
           "tienda": "Rodo",
           "url": "https://www.rodo.com.ar/celular-samsung-galaxy-a17-sm-a176bzbzaro-5g-8-256gb-blue.html"
         },
         {
-          "observado": "2026-11-26T21:47:52-03:00",
+          "observado": "2026-11-27T13:41:36-03:00",
           "precio_centavos": 76999900,
           "tienda": "Riiing",
           "url": "https://riiing.com.ar/p/celular-samsung-galaxy-a17-8-256-gb/"
         },
         {
-          "observado": "2026-11-26T12:32:58-03:00",
+          "observado": "2026-11-27T12:51:36-03:00",
           "precio_centavos": 77000000,
           "tienda": "J Celulares Argentina",
           "url": "https://jcelularesargentina.com.ar/productos/samsung-a17-8-256gb-5g/"
         },
         {
-          "observado": "2026-11-27T02:37:15-03:00",
+          "observado": "2026-11-27T14:01:58-03:00",
           "precio_centavos": 77999900,
           "tienda": "Novogar",
           "url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-samsung-galaxy-a17-8gb-256gb-5g-pantalla-67-negro"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 80519900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-galaxy-a17-5g-8gb-ram-256gb-rom-gray---samsung-sm-a176bzataro/p"
         },
         {
-          "observado": "2026-11-27T02:35:44-03:00",
+          "observado": "2026-11-27T14:35:56-03:00",
           "precio_centavos": 89999900,
           "tienda": "Cetrogar",
           "url": "https://www.cetrogar.com.ar/celular-samsung-galaxy-a17-5g-6-7-8gb-256gb-black-te3448/p"
         },
         {
-          "observado": "2026-11-27T02:37:20-03:00",
+          "observado": "2026-11-27T14:36:42-03:00",
           "precio_centavos": 89999900,
           "tienda": "Naldo",
           "url": "https://www.naldo.com.ar/galaxy-a17-5g-blue-8-256gb-6-7--407180/p"
+        },
+        {
+          "observado": "2026-11-27T14:36:46-03:00",
+          "precio_centavos": 89999900,
+          "tienda": "Coppel",
+          "url": "https://www.coppel.com.ar/celular-samsung-galaxy-a17-5g-256gb-8gb-ram-pantalla-6-7--super-amoled-90hz-737682/p"
         }
       ],
       "tipo": "modelo"
     },
     "soloprecio:8097e7a9db08ea9360df": {
-      "ahorro_porcentaje": 24.0,
-      "cantidad_referencias": 4,
+      "ahorro_porcentaje": 26.6,
+      "cantidad_referencias": 3,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:53-03:00",
+      "observado": "2026-11-27T12:51:31-03:00",
       "precio_centavos": 232431000,
-      "referencia_centavos": 305749900,
-      "referencia_tienda": "Promedio de 4 tiendas",
+      "referencia_centavos": 316666567,
+      "referencia_tienda": "Promedio de 3 tiendas",
       "referencia_url": "https://www.tiendamstore.com/productos/samsung-galaxy-s25-ultra-5g-256gb-12gb-version-global-99ubm/",
       "referencias": [
         {
-          "observado": "2026-11-26T12:32:53-03:00",
+          "observado": "2026-11-27T12:51:31-03:00",
           "precio_centavos": 269999900,
           "tienda": "Tienda MStore",
           "url": "https://www.tiendamstore.com/productos/samsung-galaxy-s25-ultra-5g-256gb-12gb-version-global-99ubm/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
-          "precio_centavos": 272999900,
-          "tienda": "OnCity",
-          "url": "https://www.oncity.com/samsung-galaxy-s25-ultra-6-9-5g-256gb-12gb-ram-155639/p"
-        },
-        {
-          "observado": "2026-11-27T02:36:34-03:00",
+          "observado": "2026-11-27T14:36:46-03:00",
           "precio_centavos": 339999900,
           "tienda": "Coppel",
           "url": "https://www.coppel.com.ar/celular-samsung-s25-ultra-12gb-256gb-titanium-silverblue-734748/p"
         },
         {
-          "observado": "2026-11-27T02:33:57-03:00",
+          "observado": "2026-11-27T14:34:01-03:00",
           "precio_centavos": 339999900,
           "tienda": "Bringeri",
           "url": "https://www.bringeri.com.ar/celular-samsung-s25-ultra-12-256gb-silverblue/p"
@@ -731,20 +652,20 @@
       "ahorro_porcentaje": 23.6,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:04-03:00",
+      "observado": "2026-11-27T12:50:41-03:00",
       "precio_centavos": 39057900,
       "referencia_centavos": 51099900,
       "referencia_tienda": "Promedio de 2 tiendas",
-      "referencia_url": "https://www.alegio.com.ar/productos/motorola-moto-g06-256gb-xt2535-4gb-verde-15max/",
+      "referencia_url": "https://www.alegio.com.ar/productos/motorola-moto-g06-256gb-xt2535-4gb-naranja-1p58i/",
       "referencias": [
         {
-          "observado": "2026-11-26T12:32:04-03:00",
+          "observado": "2026-11-27T12:50:41-03:00",
           "precio_centavos": 42499900,
           "tienda": "Alegio",
-          "url": "https://www.alegio.com.ar/productos/motorola-moto-g06-256gb-xt2535-4gb-verde-15max/"
+          "url": "https://www.alegio.com.ar/productos/motorola-moto-g06-256gb-xt2535-4gb-naranja-1p58i/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 59699900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-motorola-g06-256gb-4gb-ram-161710/p"
@@ -756,26 +677,26 @@
       "ahorro_porcentaje": 27.0,
       "cantidad_referencias": 3,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:39-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 54999900,
       "referencia_centavos": 75356567,
       "referencia_tienda": "Promedio de 3 tiendas",
       "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-a17-256gb-8gb",
       "referencias": [
         {
-          "observado": "2026-11-27T01:28:39-03:00",
+          "observado": "2026-11-27T13:41:21-03:00",
           "precio_centavos": 59099900,
           "tienda": "Cordoba Digital",
           "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a17-256gb-8gb"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 76969900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-samsung-a17-azul-octa-core-8gb-ram-256gb"
         },
         {
-          "observado": "2026-11-27T02:36:34-03:00",
+          "observado": "2026-11-27T14:36:46-03:00",
           "precio_centavos": 89999900,
           "tienda": "Coppel",
           "url": "https://www.coppel.com.ar/celular-galaxy-a17-samsung-8gb-256gb-azul-734713/p"
@@ -787,20 +708,20 @@
       "ahorro_porcentaje": 21.5,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:41-03:00",
+      "observado": "2026-11-27T12:50:11-03:00",
       "precio_centavos": 35999900,
       "referencia_centavos": 45869950,
       "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://www.castillo.com.ar/celular--libre--motorola-g24-6-6--oc-4gb-128gb-50/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:34:41-03:00",
+          "observado": "2026-11-27T14:34:40-03:00",
           "precio_centavos": 40839900,
           "tienda": "Castillo",
           "url": "https://www.castillo.com.ar/celular--libre--motorola-g24-6-6--oc-4gb-128gb-50/p"
         },
         {
-          "observado": "2026-11-27T01:30:42-03:00",
+          "observado": "2026-11-27T13:42:52-03:00",
           "precio_centavos": 50900000,
           "tienda": "Centrogar",
           "url": "https://centrogar.com.ar/product/celular-motorola-g24-xt24231-4gb128gb-pink-lavender/"
@@ -809,29 +730,29 @@
       "tipo": "modelo"
     },
     "soloprecio:ba615044be810b171907": {
-      "ahorro_porcentaje": 20.2,
+      "ahorro_porcentaje": 20.7,
       "cantidad_referencias": 3,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T21:47:54-03:00",
+      "observado": "2026-11-27T13:41:37-03:00",
       "precio_centavos": 69999900,
-      "referencia_centavos": 87666567,
+      "referencia_centavos": 88299900,
       "referencia_tienda": "Promedio de 3 tiendas",
       "referencia_url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g85-5g-8gb-256gb-325056/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:40:58-03:00",
-          "precio_centavos": 82399900,
+          "observado": "2026-11-27T14:05:50-03:00",
+          "precio_centavos": 84299900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g85-5g-8gb-256gb-325056/p"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 85999900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-motorola-moto-g85-5g-8gb-256gb-urban-grey-pb290028ar-990295717/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 94599900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-motorola-moto-g85-5g-8gb-256gb-cobalt-blue-pb290030ar-163541/p"
@@ -839,24 +760,79 @@
       ],
       "tipo": "modelo"
     },
+    "soloprecio:bc92ec37382c6b40edb9": {
+      "ahorro_porcentaje": 20.2,
+      "cantidad_referencias": 7,
+      "fuente": "SoloPrecio",
+      "observado": "2026-11-27T12:50:12-03:00",
+      "precio_centavos": 25999900,
+      "referencia_centavos": 32588030,
+      "referencia_tienda": "Promedio de 7 tiendas",
+      "referencia_url": "https://selexhogar.com.ar/shop/celular-motorola-g06-128gb-4gb-ram-verde-xt2535-16/",
+      "referencias": [
+        {
+          "observado": "2026-11-27T13:41:46-03:00",
+          "precio_centavos": 26500100,
+          "tienda": "Selex Hogar",
+          "url": "https://selexhogar.com.ar/shop/celular-motorola-g06-128gb-4gb-ram-verde-xt2535-16/"
+        },
+        {
+          "observado": "2026-11-27T14:02:52-03:00",
+          "precio_centavos": 31499910,
+          "tienda": "Pardo",
+          "url": "https://www.pardo.com.ar/celular-motorola-moto-g06-128gb-4gb-ram-verde/p"
+        },
+        {
+          "observado": "2026-11-27T14:01:58-03:00",
+          "precio_centavos": 31999900,
+          "tienda": "Novogar",
+          "url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-moto-g06-69-4gb-128gb-nfc-android-15-azul"
+        },
+        {
+          "observado": "2026-11-27T12:50:12-03:00",
+          "precio_centavos": 33999900,
+          "tienda": "Casa Mandrile",
+          "url": "https://www.casamandrile.com.ar/productos/celular-libre-motorola-g06-4gb-128gb-tapestry-azul-nfc-1lsdw/"
+        },
+        {
+          "observado": "2026-11-27T12:50:59-03:00",
+          "precio_centavos": 34117500,
+          "tienda": "LH Confort",
+          "url": "https://www.lhconfort.com.ar/productos/celular-libre-motorola-moto-g06-128gb-4-gb-ram-nfc-tendril-lh/"
+        },
+        {
+          "observado": "2026-11-27T14:06:38-03:00",
+          "precio_centavos": 34999000,
+          "tienda": "Yuhmak Hogar",
+          "url": "https://www.yuhmakhogar.com/celular-motorola-g06-nfc-tapestry-azul-4-128-gb-pbcl0003ar-dh2/p"
+        },
+        {
+          "observado": "2026-11-27T14:03:28-03:00",
+          "precio_centavos": 34999900,
+          "tienda": "Oscar Barbieri",
+          "url": "https://www.oscarbarbieri.com/celular-motorola-moto-g06-ed-128gb-4gb-octa-core-azul"
+        }
+      ],
+      "tipo": "modelo"
+    },
     "soloprecio:cb455d4343d54efe1b78": {
-      "ahorro_porcentaje": 21.2,
+      "ahorro_porcentaje": 22.2,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:44-03:00",
+      "observado": "2026-11-27T12:50:14-03:00",
       "precio_centavos": 74999900,
-      "referencia_centavos": 95199900,
+      "referencia_centavos": 96349900,
       "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://www.provinciacompras.com.ar/celular-motorola-edge-50-fusion-5g-8gb-256gb-hot-pink-pb1w0038ar-322461/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:40:58-03:00",
-          "precio_centavos": 92999900,
+          "observado": "2026-11-27T14:05:50-03:00",
+          "precio_centavos": 95299900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-motorola-edge-50-fusion-5g-8gb-256gb-hot-pink-pb1w0038ar-322461/p"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 97399900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-motorola-edge-50-fusion-5g-8gb-256gb-hot-pink-pb1w0038ar-990295662/"
@@ -865,68 +841,68 @@
       "tipo": "modelo"
     },
     "soloprecio:cc87f96b333416119404": {
-      "ahorro_porcentaje": 21.6,
+      "ahorro_porcentaje": 21.0,
       "cantidad_referencias": 9,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T21:47:52-03:00",
+      "observado": "2026-11-27T13:41:16-03:00",
       "precio_centavos": 46781900,
-      "referencia_centavos": 59655456,
+      "referencia_centavos": 59211011,
       "referencia_tienda": "Promedio de 9 tiendas",
       "referencia_url": "https://www.cordobadigital.net/producto/motorola-moto-g67-256gb-4gb",
       "referencias": [
         {
-          "observado": "2026-11-27T01:28:36-03:00",
+          "observado": "2026-11-27T13:41:16-03:00",
           "precio_centavos": 55899900,
           "tienda": "Cordoba Digital",
           "url": "https://www.cordobadigital.net/producto/motorola-moto-g67-256gb-4gb"
         },
         {
-          "observado": "2026-11-27T02:35:44-03:00",
+          "observado": "2026-11-27T14:01:58-03:00",
+          "precio_centavos": 56999900,
+          "tienda": "Novogar",
+          "url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-moto-g67-4gb-256gb-67-gris"
+        },
+        {
+          "observado": "2026-11-27T14:35:56-03:00",
           "precio_centavos": 59999900,
           "tienda": "Cetrogar",
           "url": "https://www.cetrogar.com.ar/celular-motorola-g67-nile-6-78-5g-256gb-4gb-te3469/p"
         },
         {
-          "observado": "2026-11-27T02:37:20-03:00",
+          "observado": "2026-11-27T14:36:42-03:00",
           "precio_centavos": 59999900,
           "tienda": "Naldo",
           "url": "https://www.naldo.com.ar/moto-g67-5g-verde-4-256gb-6-78--406978/p"
         },
         {
-          "observado": "2026-11-27T02:36:34-03:00",
+          "observado": "2026-11-27T14:36:46-03:00",
           "precio_centavos": 59999900,
           "tienda": "Coppel",
           "url": "https://www.coppel.com.ar/celular-motorola-g67-4gb-256gb-artic-seal-734993/p"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 59999900,
           "tienda": "OnCity",
-          "url": "https://www.oncity.com/celular-motorola-moto-g67-5g-4-gb-256-gb-nfc-dual-sim-artic-seal-157349/p"
+          "url": "https://www.oncity.com/celular-motorola-moto-g67-5g-4-gb-256-gb-nfc-dual-sim-neal-157350/p"
         },
         {
-          "observado": "2026-11-27T02:35:53-03:00",
+          "observado": "2026-11-27T14:35:28-03:00",
           "precio_centavos": 59999900,
           "tienda": "Hendel",
           "url": "https://www.hendel.com/moto-g67-4-256gb-xt-2621-1-gris.html"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 59999900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-moto-g67-6-8-octa-core-5g-4gb-256gb-gris"
         },
         {
-          "observado": "2026-11-26T21:47:52-03:00",
+          "observado": "2026-11-27T13:41:36-03:00",
           "precio_centavos": 59999900,
           "tienda": "Riiing",
           "url": "https://riiing.com.ar/p/celular-motorola-moto-g67-4-256gb/"
-        },
-        {
-          "observado": "2026-11-27T02:37:15-03:00",
-          "precio_centavos": 60999900,
-          "tienda": "Novogar",
-          "url": "https://www.novogar.com.ar/tienda/telefonia/celulares/android/celular-moto-g67-4gb-256gb-67-gris"
         }
       ],
       "tipo": "modelo"
@@ -935,32 +911,32 @@
       "ahorro_porcentaje": 26.1,
       "cantidad_referencias": 4,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:32:53-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 89999900,
       "referencia_centavos": 121744900,
       "referencia_tienda": "Promedio de 4 tiendas",
       "referencia_url": "https://www.cordobadigital.net/producto/samsung-galaxy-a56-5g-256gb-12gb",
       "referencias": [
         {
-          "observado": "2026-11-27T01:28:35-03:00",
+          "observado": "2026-11-27T13:41:16-03:00",
           "precio_centavos": 92899900,
           "tienda": "Cordoba Digital",
           "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a56-5g-256gb-12gb"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 109079900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-samsung-galaxy-a56-5g-256gb-12gb-verde-22489905/"
         },
         {
-          "observado": "2026-11-26T12:32:53-03:00",
+          "observado": "2026-11-27T12:51:31-03:00",
           "precio_centavos": 119999900,
           "tienda": "Tienda MStore",
           "url": "https://www.tiendamstore.com/productos/samsung-galaxy-a56-5g-dual-sim-256gb-12gb-ram-1j00m/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 164999900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/samsung-galaxy-a56-5g-256-gb-12-gb-ram-153204/p"
@@ -969,12 +945,12 @@
       "tipo": "modelo"
     },
     "soloprecio:e184196a2d8d98349ef7": {
-      "ahorro_porcentaje": 21.4,
+      "ahorro_porcentaje": 21.8,
       "cantidad_referencias": 5,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:40-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 62099900,
-      "referencia_centavos": 79028460,
+      "referencia_centavos": 79448460,
       "referencia_tienda": "Promedio de 5 tiendas",
       "referencia_url": "https://www.mgmstore.com.ar/Motorola-Moto-G86-5G-256GB-8GB",
       "referencias": [
@@ -985,25 +961,25 @@
           "url": "https://www.mgmstore.com.ar/Motorola-Moto-G86-5G-256GB-8GB"
         },
         {
-          "observado": "2026-11-27T01:29:35-03:00",
+          "observado": "2026-11-27T13:41:46-03:00",
           "precio_centavos": 75272700,
           "tienda": "Selex Hogar",
           "url": "https://selexhogar.com.ar/shop/celular-motorola-g86-256gb-8gb-ram-lila/"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 77999900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-motorola-g86-5g-cere-octa-8gb-256gb"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
-          "precio_centavos": 85499900,
+          "observado": "2026-11-27T14:05:50-03:00",
+          "precio_centavos": 87599900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g86-5g-8gb-256gb-chrysanthemum-xt2527-1-pb7m0044ar-324106/p"
         },
         {
-          "observado": "2026-11-27T02:34:41-03:00",
+          "observado": "2026-11-27T14:34:40-03:00",
           "precio_centavos": 91369900,
           "tienda": "Castillo",
           "url": "https://www.castillo.com.ar/celular-motorola-moto-g86-5g-oc-6-67-8gb-256gbcerez/p"
@@ -1015,7 +991,7 @@
       "ahorro_porcentaje": 28.2,
       "cantidad_referencias": 4,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:34-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 68599900,
       "referencia_centavos": 95557425,
       "referencia_tienda": "Promedio de 4 tiendas",
@@ -1028,19 +1004,19 @@
           "url": "https://www.mgmstore.com.ar/Motorola-Edge-60-Fusion-256GB-12GB"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 93230000,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/motorola-edge-60-fusion-12-256gb-pantone-zephyr-23087574/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 105999900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-motorola-edge-60-fusion-slim-256gb-12gb-ram-libre-5g-156792/p"
         },
         {
-          "observado": "2026-11-27T02:40:58-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
           "precio_centavos": 112999900,
           "tienda": "Provincia Compras",
           "url": "https://www.provinciacompras.com.ar/celular-motorola-edge-60-fusion-slim-256gb-12gb-ram-libre-5g-296942/p"
@@ -1048,58 +1024,27 @@
       ],
       "tipo": "modelo"
     },
-    "soloprecio:e9334e91116d893c9a97": {
-      "ahorro_porcentaje": 21.6,
+    "soloprecio:f0d12d35b0d1352b6c5e": {
+      "ahorro_porcentaje": 21.2,
       "cantidad_referencias": 2,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:35-03:00",
-      "precio_centavos": 104999900,
-      "referencia_centavos": 133899900,
-      "referencia_tienda": "Promedio de 2 tiendas",
-      "referencia_url": "https://www.cordobadigital.net/producto/moto-edge-60-pro-5g-512gb-12gb",
-      "referencias": [
-        {
-          "observado": "2026-11-27T01:28:35-03:00",
-          "precio_centavos": 105599900,
-          "tienda": "Cordoba Digital",
-          "url": "https://www.cordobadigital.net/producto/moto-edge-60-pro-5g-512gb-12gb"
-        },
-        {
-          "observado": "2026-11-27T02:40:58-03:00",
-          "precio_centavos": 162199900,
-          "tienda": "Provincia Compras",
-          "url": "https://www.provinciacompras.com.ar/celular-motorola-edge-60-pro-512gb-12gb-sparking-grape-pb7x0020ar-326421/p"
-        }
-      ],
-      "tipo": "modelo"
-    },
-    "soloprecio:f0d12d35b0d1352b6c5e": {
-      "ahorro_porcentaje": 23.5,
-      "cantidad_referencias": 3,
-      "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:44-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 64999900,
-      "referencia_centavos": 84999900,
-      "referencia_tienda": "Promedio de 3 tiendas",
+      "referencia_centavos": 82499900,
+      "referencia_tienda": "Promedio de 2 tiendas",
       "referencia_url": "https://www.fravega.com/p/motorola-edge-60-fusion-5g-8-256gb-amazonite-22970641/",
       "referencias": [
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 81999900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/motorola-edge-60-fusion-5g-8-256gb-amazonite-22970641/"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 82999900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-moto-edge-60-fusion-5g-8gb-ram-256gb-rom-zephyr-rosa---motorola-pb7d0006ar/p"
-        },
-        {
-          "observado": "2026-11-26T12:31:44-03:00",
-          "precio_centavos": 89999900,
-          "tienda": "Casa Mandrile",
-          "url": "https://www.casamandrile.com.ar/productos/celular-libre-motorola-edge-60-fusion-8gb-256gb-azul-1jej6/"
         }
       ],
       "tipo": "modelo"
@@ -1108,7 +1053,7 @@
       "ahorro_porcentaje": 21.1,
       "cantidad_referencias": 7,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-26T12:31:59-03:00",
+      "observado": "2026-11-27T03:53:54-03:00",
       "precio_centavos": 52599900,
       "referencia_centavos": 66694600,
       "referencia_tienda": "Promedio de 7 tiendas",
@@ -1121,37 +1066,37 @@
           "url": "https://www.mgmstore.com.ar/Motorola-Moto-G56-5G-256GB-8GB"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 59999900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-motorola-g56-5g-gris-octa-core-8gb-ram-256gb"
         },
         {
-          "observado": "2026-11-27T01:29:35-03:00",
+          "observado": "2026-11-27T13:41:46-03:00",
           "precio_centavos": 61376200,
           "tienda": "Selex Hogar",
           "url": "https://selexhogar.com.ar/shop/celular-motorola-g56-256gb-8gb-ram-misty-grey-xt2529-1/"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 66176400,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-moto-g56-5g-8gb-ram-256gb-rom-gray-mist---motorola-pb800002ar/p"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 66610000,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/motorola-moto-g56-8-256gb-azul-oscuro-22927201/"
         },
         {
-          "observado": "2026-11-26T12:31:59-03:00",
+          "observado": "2026-11-27T12:50:38-03:00",
           "precio_centavos": 68999900,
           "tienda": "Alegio",
-          "url": "https://www.alegio.com.ar/productos/celular-motorola-moto-g56-5g-256gb-xt2529-2-black-oyster-1arn7/"
+          "url": "https://www.alegio.com.ar/productos/motorola-moto-g56-5g-256gb-8gb-xt2529-2-mist-gray-zdyrn/"
         },
         {
-          "observado": "2026-11-27T02:38:36-03:00",
+          "observado": "2026-11-27T14:03:19-03:00",
           "precio_centavos": 88699900,
           "tienda": "OnCity",
           "url": "https://www.oncity.com/celular-motorola-moto-g56-256gb-8gb-ram-libre-5g-156793/p"
@@ -1163,44 +1108,44 @@
       "ahorro_porcentaje": 30.9,
       "cantidad_referencias": 6,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:28:35-03:00",
+      "observado": "2026-11-27T13:41:15-03:00",
       "precio_centavos": 81999900,
       "referencia_centavos": 118682617,
       "referencia_tienda": "Promedio de 6 tiendas",
       "referencia_url": "https://www.naldo.com.ar/galaxy-a56-5g-graphite-8-256gb-6-6--406687-1/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:37:20-03:00",
+          "observado": "2026-11-27T14:36:42-03:00",
           "precio_centavos": 93999900,
           "tienda": "Naldo",
           "url": "https://www.naldo.com.ar/galaxy-a56-5g-graphite-8-256gb-6-6--406687-1/p"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 111727100,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-samsung-galaxy-a56-5g-256gb-8gb-ram-rosa-22489788/"
         },
         {
-          "observado": "2026-11-27T02:41:42-03:00",
+          "observado": "2026-11-27T14:06:38-03:00",
           "precio_centavos": 119999000,
           "tienda": "Yuhmak Hogar",
           "url": "https://www.yuhmakhogar.com/celular-samsung-a56-256gb-8gb-ram-awesome-light-dh2/p"
         },
         {
-          "observado": "2026-11-27T02:34:32-03:00",
+          "observado": "2026-11-27T14:34:14-03:00",
           "precio_centavos": 119999900,
           "tienda": "Coto Digital",
           "url": "https://www.coto.com.ar/productos/celular-libre-samsung-a56-5g-6-7-8-gb-ram-256-gb-grafito/_/R-00604613-00604613-200"
         },
         {
-          "observado": "2026-11-27T02:39:11-03:00",
+          "observado": "2026-11-27T14:03:28-03:00",
           "precio_centavos": 129999900,
           "tienda": "Oscar Barbieri",
           "url": "https://www.oscarbarbieri.com/celular-samsung-a56-5g-octa-core-8gb-256gb-dual-sim-graphite"
         },
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 136369900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-galaxy-a56-awesome-pink-5g-8gb-ram-256gb-rom---samsung-sm-a566elifaro/p"
@@ -1209,29 +1154,35 @@
       "tipo": "modelo"
     },
     "soloprecio:fc5c24799b27b71ed74f": {
-      "ahorro_porcentaje": 38.7,
-      "cantidad_referencias": 3,
+      "ahorro_porcentaje": 39.7,
+      "cantidad_referencias": 4,
       "fuente": "SoloPrecio",
-      "observado": "2026-11-27T01:29:35-03:00",
+      "observado": "2026-11-27T13:41:46-03:00",
       "precio_centavos": 34741200,
-      "referencia_centavos": 56696600,
-      "referencia_tienda": "Promedio de 3 tiendas",
+      "referencia_centavos": 57597425,
+      "referencia_tienda": "Promedio de 4 tiendas",
       "referencia_url": "https://tienda.previsoradelparana.com/celular-motorola-moto-g35-5g-naranja-4gb-ram-128gb-rom-pb3g0031ar--1001382/p",
       "referencias": [
         {
-          "observado": "2026-11-27T02:39:43-03:00",
+          "observado": "2026-11-27T14:04:49-03:00",
           "precio_centavos": 49999900,
           "tienda": "Previsora del Paraná",
           "url": "https://tienda.previsoradelparana.com/celular-motorola-moto-g35-5g-naranja-4gb-ram-128gb-rom-pb3g0031ar--1001382/p"
         },
         {
-          "observado": "2026-11-27T01:29:43-03:00",
+          "observado": "2026-11-27T13:41:53-03:00",
           "precio_centavos": 58990000,
           "tienda": "Pixel Store",
           "url": "https://pixelstore.com.ar/producto/telefono-celular-moto-g35-5g-128gb-4gb-xt2433-2/?utm_source=soloprecio&utm_medium=comparador"
         },
         {
-          "observado": "2026-11-27T02:41:16-03:00",
+          "observado": "2026-11-27T14:05:50-03:00",
+          "precio_centavos": 60299900,
+          "tienda": "Provincia Compras",
+          "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g35-4gb-128gb-dual-sim-guava-red-pb3g0031ar-326476/p"
+        },
+        {
+          "observado": "2026-11-27T14:09:40-03:00",
           "precio_centavos": 61099900,
           "tienda": "Fravega",
           "url": "https://www.fravega.com/p/celular-motorola-moto-g35-5g-4gb-128gb-leaf-green-pb3g0030ar-990295741/"
@@ -1242,11 +1193,24 @@
   },
   "productos": [
     {
+      "codigo": "soloprecio:bc92ec37382c6b40edb9",
+      "comercio": "Naldo",
+      "disponible": true,
+      "foto": "https://naldoar.vteximg.com.br/arquivos/ids/216993/i.jpg",
+      "observado_tienda": "2026-11-27T14:36:42-03:00",
+      "origen": "Naldo",
+      "precio_centavos": 25999900,
+      "precio_vigente_centavos": 25999900,
+      "rubro": "Celulares",
+      "titulo": "Celular Motorola Moto G06 4/128gb 6.88'' · 4 GB RAM / 128 GB",
+      "url": "https://www.naldo.com.ar/moto-g06-azul-4-128gb-6-88--407041/p"
+    },
+    {
       "codigo": "soloprecio:1ed9de26686df57f82e8",
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g04s-256-gb-4-gb-ram-544be1c5ec2285e387ed800a.webp",
-      "observado_tienda": "2026-11-27T01:28:41-03:00",
+      "observado_tienda": "2026-11-27T13:41:22-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 29499900,
       "precio_vigente_centavos": 29499900,
@@ -1259,7 +1223,7 @@
       "comercio": "Naldo",
       "disponible": true,
       "foto": "https://naldoar.vteximg.com.br/arquivos/ids/191145/i.jpg",
-      "observado_tienda": "2026-11-27T02:37:20-03:00",
+      "observado_tienda": "2026-11-27T14:36:42-03:00",
       "origen": "Naldo",
       "precio_centavos": 27599900,
       "precio_vigente_centavos": 27599900,
@@ -1268,24 +1232,11 @@
       "url": "https://www.naldo.com.ar/galaxy-a06-light-green-4-128gb-6-7--406555-1/p"
     },
     {
-      "codigo": "soloprecio:502ffadf6b10f2c8e628",
-      "comercio": "Provincia Compras",
-      "disponible": true,
-      "foto": "https://baproar.vteximg.com.br/arquivos/ids/2829949/i.jpg",
-      "observado_tienda": "2026-11-27T02:40:58-03:00",
-      "origen": "Provincia Compras",
-      "precio_centavos": 28999900,
-      "precio_vigente_centavos": 28999900,
-      "rubro": "Celulares",
-      "titulo": "Celular Motorola Moto G13 4GB 128GB Suave PAWU0064AR · 4 GB RAM / 128 GB",
-      "url": "https://www.provinciacompras.com.ar/celular-motorola-moto-g13-4gb-128gb-rosa-suave-pawu0064ar-322675/p"
-    },
-    {
       "codigo": "soloprecio:8cd92ec58a400228091a",
       "comercio": "Smarts",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g06-256-gb-4-gb-ram-f0f8c2cdd6fa26cb617a2159.webp",
-      "observado_tienda": "2026-11-27T01:29:38-03:00",
+      "observado_tienda": "2026-11-27T13:41:49-03:00",
       "origen": "Smarts",
       "precio_centavos": 39057900,
       "precio_vigente_centavos": 39057900,
@@ -1294,11 +1245,24 @@
       "url": "https://smarts.com.ar/producto/celular-moto-g06-4gb-256gb-pantone-tapestry/"
     },
     {
+      "codigo": "soloprecio:502ffadf6b10f2c8e628",
+      "comercio": "Fravega",
+      "disponible": true,
+      "foto": "https://images.fravega.com/f500/253b6d2cba71ac2cbd5fc91f7ed9ec97.jpg",
+      "observado_tienda": "2026-11-27T14:09:40-03:00",
+      "origen": "Fravega",
+      "precio_centavos": 29499900,
+      "precio_vigente_centavos": 29499900,
+      "rubro": "Celulares",
+      "titulo": "Celular Motorola Moto G13 4GB 128GB Suave PAWU0064AR · 4 GB RAM / 128 GB",
+      "url": "https://www.fravega.com/p/celular-motorola-moto-g13-4gb-128gb-rosa-suave-pawu0064ar-990295588/"
+    },
+    {
       "codigo": "soloprecio:09457d8e697ebce2b4bb",
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g15-256-gb-4-gb-ram-6af84c55667c4b782e89fefa.webp",
-      "observado_tienda": "2026-11-27T01:28:41-03:00",
+      "observado_tienda": "2026-11-27T13:41:22-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 34799900,
       "precio_vigente_centavos": 34799900,
@@ -1311,7 +1275,7 @@
       "comercio": "Casa Mandrile",
       "disponible": true,
       "foto": "https://armoto.vteximg.com.br/arquivos/ids/165941/i.png",
-      "observado_tienda": "2026-11-26T12:31:41-03:00",
+      "observado_tienda": "2026-11-27T12:50:11-03:00",
       "origen": "Casa Mandrile",
       "precio_centavos": 35999900,
       "precio_vigente_centavos": 35999900,
@@ -1324,7 +1288,7 @@
       "comercio": "Selex Hogar",
       "disponible": true,
       "foto": "https://selexhogar.com.ar/wp-content/uploads/2026/07/36348.jpg",
-      "observado_tienda": "2026-11-27T01:29:35-03:00",
+      "observado_tienda": "2026-11-27T13:41:46-03:00",
       "origen": "Selex Hogar",
       "precio_centavos": 34741200,
       "precio_vigente_centavos": 34741200,
@@ -1333,11 +1297,24 @@
       "url": "https://selexhogar.com.ar/shop/celular-motorola-g35-128gb-4gb-ram-5g-leaf-green-xt2433-2/"
     },
     {
+      "codigo": "soloprecio:21fb5c398e2ec5710e4a",
+      "comercio": "Cordoba Digital",
+      "disponible": true,
+      "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g35-5g-256-gb-8-gb-ram-sin-cargador-4aae9c8f56d3da8d8715526d.webp",
+      "observado_tienda": "2026-11-27T13:41:15-03:00",
+      "origen": "Cordoba Digital",
+      "precio_centavos": 37799900,
+      "precio_vigente_centavos": 37799900,
+      "rubro": "Celulares",
+      "titulo": "Motorola Moto G35 5G 256 GB 4 GB RAM · 4 GB RAM / 256 GB",
+      "url": "https://www.cordobadigital.net/producto/motorola-moto-g35-5g-256gb-4gb-slim"
+    },
+    {
       "codigo": "soloprecio:4c595bafba6749830e22",
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g17-power-256-gb-8-gb-ram-6ccdaff5dfc3e01651cab38e.webp",
-      "observado_tienda": "2026-11-27T01:28:38-03:00",
+      "observado_tienda": "2026-11-27T13:41:19-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 48899900,
       "precio_vigente_centavos": 48899900,
@@ -1350,7 +1327,7 @@
       "comercio": "Fravega",
       "disponible": true,
       "foto": "https://images.fravega.com/f500/2f9e10f209eac96bb90031222746f739.jpg",
-      "observado_tienda": "2026-11-27T02:41:16-03:00",
+      "observado_tienda": "2026-11-27T14:09:40-03:00",
       "origen": "Fravega",
       "precio_centavos": 46781900,
       "precio_vigente_centavos": 46781900,
@@ -1375,8 +1352,8 @@
       "codigo": "soloprecio:f69689067937cf12b479",
       "comercio": "Cordoba Digital",
       "disponible": true,
-      "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g56-5g-256-gb-8-gb-ram-128e24a312d9eecb6645a369.webp",
-      "observado_tienda": "2026-11-27T01:28:40-03:00",
+      "foto": "https://http2.mlstatic.com/D_Q_NP_2X_676225-MLA99503683810_112025-E.webp",
+      "observado_tienda": "2026-11-27T13:41:21-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 52599900,
       "precio_vigente_centavos": 52599900,
@@ -1389,7 +1366,7 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://www.mgmstore.com.ar/3044-home_default/Samsung-Galaxy-A36-5G-256GB.jpg",
-      "observado_tienda": "2026-11-27T01:28:42-03:00",
+      "observado_tienda": "2026-11-27T13:41:23-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 70699900,
       "precio_vigente_centavos": 70699900,
@@ -1415,7 +1392,7 @@
       "comercio": "Riiing",
       "disponible": true,
       "foto": "https://riiing.com.ar/wp-content/uploads/2026/08/1200x1200_g85-2-1080x1080-1.png",
-      "observado_tienda": "2026-11-26T21:47:54-03:00",
+      "observado_tienda": "2026-11-27T13:41:37-03:00",
       "origen": "Riiing",
       "precio_centavos": 69999900,
       "precio_vigente_centavos": 69999900,
@@ -1428,7 +1405,7 @@
       "comercio": "Hendel",
       "disponible": true,
       "foto": "https://static.hendel.com/media/catalog/product/cache/ab24d029cc9f966c2786182ee79c35cb/5/5/55431_ne_min.jpg",
-      "observado_tienda": "2026-11-27T02:35:53-03:00",
+      "observado_tienda": "2026-11-27T14:35:28-03:00",
       "origen": "Hendel",
       "precio_centavos": 70999900,
       "precio_vigente_centavos": 70999900,
@@ -1441,7 +1418,7 @@
       "comercio": "Casa Mandrile",
       "disponible": true,
       "foto": "https://selexhogar.com.ar/wp-content/uploads/2026/07/36347.jpg",
-      "observado_tienda": "2026-11-26T12:31:44-03:00",
+      "observado_tienda": "2026-11-27T12:50:14-03:00",
       "origen": "Casa Mandrile",
       "precio_centavos": 74999900,
       "precio_vigente_centavos": 74999900,
@@ -1454,7 +1431,7 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-g86-5g-256-gb-8-gb-ram-5b0b17a7ad1d52c9aaa15f1a.webp",
-      "observado_tienda": "2026-11-27T01:28:40-03:00",
+      "observado_tienda": "2026-11-27T13:41:22-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 62099900,
       "precio_vigente_centavos": 62099900,
@@ -1467,7 +1444,7 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://images.fravega.com/f500/3a227299b8cb997088f5b045ad800523.jpg",
-      "observado_tienda": "2026-11-27T01:28:40-03:00",
+      "observado_tienda": "2026-11-27T13:41:21-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 63499900,
       "precio_vigente_centavos": 63499900,
@@ -1480,26 +1457,13 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-edge-60-fusion-5g-256-gb-12-gb-ram-70ea0195464911fa93b56f1a.webp",
-      "observado_tienda": "2026-11-27T01:28:34-03:00",
+      "observado_tienda": "2026-11-27T13:41:15-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 68599900,
       "precio_vigente_centavos": 68599900,
       "rubro": "Celulares",
       "titulo": "Motorola Moto Edge 60 Fusion 5G 256 GB 12 GB RAM · 12 GB RAM / 256 GB",
       "url": "https://www.cordobadigital.net/producto/motorola-moto-edge-60-fusion-5g-256gb-12gb"
-    },
-    {
-      "codigo": "soloprecio:2d63c2d6a25ff5defe5d",
-      "comercio": "Cordoba Digital",
-      "disponible": true,
-      "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/motorola-moto-edge-70-fusion-5g-256-gb-8-gb-ram-999b3972eeef5882282e47a0.webp",
-      "observado_tienda": "2026-11-27T01:28:33-03:00",
-      "origen": "Cordoba Digital",
-      "precio_centavos": 79199900,
-      "precio_vigente_centavos": 79199900,
-      "rubro": "Celulares",
-      "titulo": "Motorola Moto Edge 70 Fusion 5G 256 GB 8 GB RAM · 8 GB RAM / 256 GB",
-      "url": "https://www.cordobadigital.net/producto/motorola-moto-edge-70-fusion-5g-256gb-12gb"
     },
     {
       "codigo": "soloprecio:cd3176a1b6e47d5a0749",
@@ -1518,8 +1482,8 @@
       "codigo": "soloprecio:59a64fc60e86bf0a7a38",
       "comercio": "Cordoba Digital",
       "disponible": true,
-      "foto": "https://http2.mlstatic.com/D_Q_NP_2X_730551-MLA115896499061_082026-E.webp",
-      "observado_tienda": "2026-11-27T01:28:34-03:00",
+      "foto": "https://http2.mlstatic.com/D_Q_NP_2X_644524-MLA116102403153_082026-E.webp",
+      "observado_tienda": "2026-11-27T13:41:15-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 88699900,
       "precio_vigente_centavos": 88699900,
@@ -1528,24 +1492,11 @@
       "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a57-5g-256gb-8gb"
     },
     {
-      "codigo": "soloprecio:14c0e0f7d72876ac5444",
-      "comercio": "MGM Store",
-      "disponible": true,
-      "foto": "https://www.mgmstore.com.ar/2950-home_default/Samsung-Galaxy-A37-5G-256GB-8GB.jpg",
-      "observado_tienda": "2026-11-27T03:53:54-03:00",
-      "origen": "MGM Store",
-      "precio_centavos": 74999900,
-      "precio_vigente_centavos": 74999900,
-      "rubro": "Celulares",
-      "titulo": "Samsung Galaxy A37 5G 256GB 8GB RAM · 8 GB RAM / 256 GB",
-      "url": "https://www.mgmstore.com.ar/Samsung-Galaxy-A37-5G-256GB-8GB"
-    },
-    {
       "codigo": "soloprecio:fbd8c4ae279c7345620c",
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://www.mgmstore.com.ar/3331-home_default/Samsung-Galaxy-A56-5G-256GB.jpg",
-      "observado_tienda": "2026-11-27T01:28:35-03:00",
+      "observado_tienda": "2026-11-27T13:41:15-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 81999900,
       "precio_vigente_centavos": 81999900,
@@ -1554,37 +1505,24 @@
       "url": "https://www.cordobadigital.net/producto/samsung-galaxy-a56-5g-256gb-8gb-2"
     },
     {
-      "codigo": "soloprecio:e9334e91116d893c9a97",
-      "comercio": "MGM Store",
-      "disponible": true,
-      "foto": "https://www.mgmstore.com.ar/3132-home_default/Motorola-Edge-60-Pro-512GB-12GB.jpg",
-      "observado_tienda": "2026-11-27T03:53:54-03:00",
-      "origen": "MGM Store",
-      "precio_centavos": 104999900,
-      "precio_vigente_centavos": 104999900,
-      "rubro": "Celulares",
-      "titulo": "Motorola Edge 60 Pro 512GB 12GB RAM · 12 GB RAM / 512 GB",
-      "url": "https://www.mgmstore.com.ar/Motorola-Edge-60-Pro-512GB-12GB"
-    },
-    {
       "codigo": "soloprecio:6fdb841805b848643bee",
-      "comercio": "Cordoba Digital",
+      "comercio": "Fravega",
       "disponible": true,
       "foto": "https://www.mgmstore.com.ar/3182-home_default/Samsung-Galaxy-S26-FE-5G-256GB.jpg",
-      "observado_tienda": "2026-11-27T01:28:33-03:00",
-      "origen": "Cordoba Digital",
-      "precio_centavos": 135099900,
-      "precio_vigente_centavos": 135099900,
+      "observado_tienda": "2026-11-27T14:09:40-03:00",
+      "origen": "Fravega",
+      "precio_centavos": 149999900,
+      "precio_vigente_centavos": 149999900,
       "rubro": "Celulares",
       "titulo": "Samsung Galaxy S26 FE 5G 256GB · 8 GB RAM / 256 GB",
-      "url": "https://www.cordobadigital.net/producto/samsung-galaxy-s26-fe-5g-256gb-8gb"
+      "url": "https://www.fravega.com/p/celular-samsung-galaxy-s26-fe-graphite-8gb-256gb-990311304/"
     },
     {
       "codigo": "soloprecio:17ef1491b8b9aaf624be",
       "comercio": "Fravega",
       "disponible": true,
-      "foto": "https://aremsaprod.vteximg.com.br/arquivos/ids/1413481/i.jpg",
-      "observado_tienda": "2026-11-27T02:41:16-03:00",
+      "foto": "https://http2.mlstatic.com/D_Q_NP_2X_770169-MLA97479274059_112025-E.webp",
+      "observado_tienda": "2026-11-27T14:09:40-03:00",
       "origen": "Fravega",
       "precio_centavos": 252976900,
       "precio_vigente_centavos": 252976900,
@@ -1597,7 +1535,7 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://www.mgmstore.com.ar/2675-home_default/Samsung-S26-5G-512GB.jpg",
-      "observado_tienda": "2026-11-27T01:28:38-03:00",
+      "observado_tienda": "2026-11-27T13:41:19-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 181799900,
       "precio_vigente_centavos": 181799900,
@@ -1610,7 +1548,7 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://www.mgmstore.com.ar/2667-home_default/Samsung-S26-Ultra-5G-512GB.jpg",
-      "observado_tienda": "2026-11-27T01:28:34-03:00",
+      "observado_tienda": "2026-11-27T13:41:15-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 247099900,
       "precio_vigente_centavos": 247099900,
@@ -1623,10 +1561,10 @@
       "comercio": "Provincia Compras",
       "disponible": true,
       "foto": "https://baproar.vteximg.com.br/arquivos/ids/2853325/i.jpg",
-      "observado_tienda": "2026-11-27T02:40:58-03:00",
+      "observado_tienda": "2026-11-27T14:05:50-03:00",
       "origen": "Provincia Compras",
-      "precio_centavos": 183499900,
-      "precio_vigente_centavos": 183499900,
+      "precio_centavos": 188199900,
+      "precio_vigente_centavos": 188199900,
       "rubro": "Celulares",
       "titulo": "Celular Motorola Razr 50 Ultra 5G 12GB 512GB Hot PB1T0098AR · 12 GB RAM / 512 GB",
       "url": "https://www.provinciacompras.com.ar/celular-motorola-razr-50-ultra-5g-12gb-512gb-hot-pink-pb1t0098ar-325069/p"
@@ -1636,7 +1574,7 @@
       "comercio": "Cordoba Digital",
       "disponible": true,
       "foto": "https://6weoa5xmoylnh9pt.public.blob.vercel-storage.com/productos/samsung-galaxy-s26-ultra-5g-256-gb-12-gb-ram-cebe1db0bb1264b519582657.webp",
-      "observado_tienda": "2026-11-27T01:28:39-03:00",
+      "observado_tienda": "2026-11-27T13:41:20-03:00",
       "origen": "Cordoba Digital",
       "precio_centavos": 217499900,
       "precio_vigente_centavos": 217499900,
@@ -1649,7 +1587,7 @@
       "comercio": "Fravega",
       "disponible": true,
       "foto": "https://images.fravega.com/f500/ea17dc425eec6074b7ee2ed245afee09.png",
-      "observado_tienda": "2026-11-27T02:41:16-03:00",
+      "observado_tienda": "2026-11-27T14:09:40-03:00",
       "origen": "Fravega",
       "precio_centavos": 232431000,
       "precio_vigente_centavos": 232431000,
