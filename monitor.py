@@ -129,6 +129,12 @@ def main():
         create_issue(api, token, [], test=True)
         return
     current = fetch_catalog()
+    # Export before saving the state so newly detected products are marked.
+    try:
+        from exportar_catalogo import run as export_catalog
+        export_catalog(current)
+    except Exception as exc:
+        print(f'Error al exportar el catálogo visual: {exc}', file=sys.stderr, flush=True)
     seen = load_state()
     fresh = [p for code, p in current.items() if code not in seen]
     if fresh:
