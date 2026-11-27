@@ -292,8 +292,11 @@
         comparisons: '',
       };
       const directNames = new Set(['Sidecompras']);
+      // Keep the same priority regardless of which parallel request finishes first.
+      const comparisonsBySource = [{}, {}, {}];
       let remaining = requests.length - 1;
       function updateView() {
+        state.comparisons = Object.assign({}, ...comparisonsBySource);
         invalidateData();
         $('dealCount').textContent = number.format(state.products.filter(comparisonFor).length);
         els.totalMetric.textContent = number.format(state.products.length);
@@ -336,11 +339,11 @@
             if (value.version !== 1 || !Array.isArray(value.productos) || !value.comparaciones || typeof value.comparaciones !== 'object') throw new Error('Formato inválido');
             const items = value.productos.filter(p => p && typeof p.codigo === 'string' && typeof p.titulo === 'string' && typeof p.origen === 'string');
             state.products.push(...items);
-            Object.assign(state.comparisons, value.comparaciones);
+            comparisonsBySource[index - 1] = value.comparaciones;
             coverage.market = `SoloPrecio: ${number.format(items.length)} ofertas de celulares de tiendas externas; cobertura parcial.`;
           } else {
             if (value.version !== 1 || !value.comparaciones || typeof value.comparaciones !== 'object' || Array.isArray(value.comparaciones)) throw new Error('Formato inválido');
-            Object.assign(state.comparisons, value.comparaciones);
+            comparisonsBySource[index - 1] = value.comparaciones;
           }
         } catch (error) {
           console.warn('Fuente adicional no disponible:', error);
