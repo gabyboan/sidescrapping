@@ -107,16 +107,17 @@
     if (installmentPromoActive && p.origen === 'Sidecompras') {
       const currentCents = p.precio_vigente_centavos;
       const listedCents = p.precio_centavos;
-      let installmentText = '24 cuotas sin interés · Blanca o Black';
       const otherBenefit = p.reintegro || Number(p.descuento) > 0 || (Number.isSafeInteger(listedCents) && Number.isSafeInteger(currentCents) && listedCents > currentCents);
+      const base = otherBenefit ? listedCents : currentCents;
+      const validBase = Number.isSafeInteger(base) && base > 0;
+      const installment = textNode('a', 'installment-card', '');
+      installment.append(textNode('span', '', validBase ? `24 cuotas de ${money(Math.round(base / 24))} aprox. · Black o Blanca` : '24 cuotas sin interés · Black o Blanca'));
+      installment.append(document.createElement('br'));
+      installment.append(textNode('span', '', validBase ? `18 cuotas de ${money(Math.round(base / 18))} aprox. · Platinum, Black o Blanca` : '18 cuotas sin interés · Platinum, Black o Blanca'));
       if (otherBenefit) {
-        installmentText = Number.isSafeInteger(listedCents) && listedCents > 0
-          ? `24 cuotas de ${money(Math.round(listedCents / 24))} aprox. sobre precio sin descuento · confirmar condiciones`
-          : '24 cuotas sin interés · monto a confirmar en Sidecompras';
-      } else if (Number.isSafeInteger(currentCents) && currentCents > 0) {
-        installmentText = `24 cuotas de ${money(Math.round(currentCents / 24))} aprox. sin interés · Blanca o Black`;
+        installment.append(document.createElement('br'));
+        installment.append(textNode('span', '', validBase ? 'Estimado sobre precio sin descuento · confirmar condiciones' : 'Monto a confirmar en Sidecompras'));
       }
-      const installment = textNode('a', 'installment-card', installmentText);
       installment.href = '#installmentPromo';
       installment.title = 'Ver condiciones de la promoción Sidecompras';
       body.append(installment);
