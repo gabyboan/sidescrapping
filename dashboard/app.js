@@ -60,7 +60,18 @@
     body.append(prices);
     body.append(textNode('div', 'price-condition', p.reintegro ? 'Bonificación sujeta a condiciones' : 'Precio publicado'));
     if (installmentPromoActive && p.origen === 'Sidecompras') {
-      const installment = textNode('a', 'installment-card', '24 cuotas sin interés · Blanca o Black');
+      const currentCents = p.precio_vigente_centavos;
+      const listedCents = p.precio_centavos;
+      let installmentText = '24 cuotas sin interés · Blanca o Black';
+      const otherBenefit = p.reintegro || Number(p.descuento) > 0 || (Number.isSafeInteger(listedCents) && Number.isSafeInteger(currentCents) && listedCents > currentCents);
+      if (otherBenefit) {
+        installmentText = Number.isSafeInteger(listedCents) && listedCents > 0
+          ? `24 cuotas de ${money(Math.round(listedCents / 24))} aprox. sobre precio sin descuento · confirmar condiciones`
+          : '24 cuotas sin interés · monto a confirmar en Sidecompras';
+      } else if (Number.isSafeInteger(currentCents) && currentCents > 0) {
+        installmentText = `24 cuotas de ${money(Math.round(currentCents / 24))} aprox. sin interés · Blanca o Black`;
+      }
+      const installment = textNode('a', 'installment-card', installmentText);
       installment.href = '#installmentPromo';
       installment.title = 'Ver condiciones de la promoción Sidecompras';
       body.append(installment);
